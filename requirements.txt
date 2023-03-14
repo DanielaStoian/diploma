@@ -1,3 +1,5 @@
 scrapy
 requests
 django
+psycopg2-binary 
+scrapy-djangoitem

@@ -1,5 +1,5 @@
 import scrapy
-
+from stations_scrapper.items import StationItem
 class ChargeSpot(scrapy.Spider): 
     name = "ChargeSpot"
 
@@ -11,16 +11,23 @@ class ChargeSpot(scrapy.Spider):
 
 
     def parse(self, response):
+        items = StationItem()
         stations = response.css('.col-lg-3')
         for station in stations:
             info = station.css('::text').extract()
             coords = station.css('a::attr(href)').extract()
+            coords = coords[0].split("/")[-1]
             # coords are inside a link
             # print(coords) 
             name = info[0]
             address = info[1]
-            # could be missing?
-            type = info[3] 
+            if len(info) < 4:
+              type = info[2]
+            else:  
+              type = info[3] 
+
+            print(coords)  
+            # print(name,address,coords,type)
            
 class Fortisis(scrapy.Spider): 
     name = "Fortisis"

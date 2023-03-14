@@ -10,4 +10,6 @@ from itemadapter import ItemAdapter
 
 class StationsScrapperPipeline:
     def process_item(self, item, spider):
+        item.save()
         return item
+

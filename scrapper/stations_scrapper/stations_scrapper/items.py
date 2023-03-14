@@ -1,16 +1,12 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
+from scrapy_djangoitem import DjangoItem
 import scrapy
+# from backend.charging_stations.models import Station
 
-
-class StationsScrapperItem(scrapy.Item):
+class StationItem(DjangoItem):
     name = scrapy.Field() 
     long = scrapy.Field() 
     lat  = scrapy.Field() 
     address = scrapy.Field()
     type = scrapy.Field()
     origin = scrapy.Field()
-    
+    # djando_model = Station
