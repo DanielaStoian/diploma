@@ -27,4 +27,4 @@ def getPlugShare():
     data = json.loads(response.content.decode('utf8'))
 
     return data
-getPlugShare()
+

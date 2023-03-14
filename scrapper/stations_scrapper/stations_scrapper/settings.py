@@ -8,17 +8,6 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 
-import sys
-import pathlib
-sys.path.append((pathlib.Path(__file__)/'..'/'..'/'..').resolve)
-
-# C:\Users\Daniela\OneDrive\Desktop\git\diploma\backend\backend
-import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'backend.settings'
-
-import django
-django.setup()
-
 BOT_NAME = 'stations_scrapper'
 
 SPIDER_MODULES = ['stations_scrapper.spiders']

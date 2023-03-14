@@ -43,5 +43,24 @@ def getProtergiaCharge():
     data = json.loads(response.content.decode('utf8'))
 
     return data
+
+# items = StationItem()    
+def protergiaCharge():
+    data_list = []
+    data = getProtergiaCharge()
+    for station in data:
+        name = station['label']
+        lat = station['latitude']
+        long = station['longitude']
+        url = 'https://stationmapper.htb.services/map/protergia/stations/en/'+station['uuid']
+        data_dict = {
+            "name": name,
+            "lat": lat,
+            "long": long,
+            "url": url,
+        }
+        data_list.append(data_dict)
+    return data_list
+     
+
     
-getProtergiaCharge()

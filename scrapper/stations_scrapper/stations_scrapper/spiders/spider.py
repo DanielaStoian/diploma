@@ -1,5 +1,22 @@
 import scrapy
 from stations_scrapper.items import StationItem
+import googlemaps
+from .protergiaCharge import protergiaCharge
+
+API_KEY = 'AIzaSyAoNP6N8mFdG3M3vanWtRKty5sPghWPqQ4'
+
+def address_to_coords(address):
+  gmaps = googlemaps.Client(key=API_KEY)
+
+# Geocoding an address
+  geocode_result = gmaps.geocode(address)
+  try:
+    lat = geocode_result[0]['geometry']['location']['lat']
+    long = geocode_result[0]['geometry']['location']['lng']
+    return lat,long
+  except:
+    return None, None
+
 class ChargeSpot(scrapy.Spider): 
     name = "ChargeSpot"
 
@@ -17,8 +34,8 @@ class ChargeSpot(scrapy.Spider):
             info = station.css('::text').extract()
             coords = station.css('a::attr(href)').extract()
             coords = coords[0].split("/")[-1]
-            # coords are inside a link
-            # print(coords) 
+            lat = coords.split(",")[0]
+            long = coords.split(",")[1]
             name = info[0]
             address = info[1]
             if len(info) < 4:
@@ -26,8 +43,14 @@ class ChargeSpot(scrapy.Spider):
             else:  
               type = info[3] 
 
-            print(coords)  
-            # print(name,address,coords,type)
+            items['name'] = name
+            items['address'] = address
+            items['lat'] = lat
+            items['long'] = long
+            items['type'] = type
+            items['origin'] = "ChargeSpot"
+            yield items
+
            
 class Fortisis(scrapy.Spider): 
     name = "Fortisis"
@@ -40,11 +63,62 @@ class Fortisis(scrapy.Spider):
 
 
     def parse(self, response):
+
+        items = StationItem()
         stations = response.css('.point-list-item')
         for station in stations:
             name = station.css('.point-list-item-title::text').extract()
-            # needs address_to_coords
             address = station.css('.point-list-item-address::text').extract()
             connectors = station.css('.point-list-item-connectors::text').extract()
+            origin = "Fortisis"
+            if len(address) < 1:
+              continue
+            else:
+              lat,long = address_to_coords(address[0])
+              items["name"] = name[0]
+              items["address"] = address[0]
+              if len(connectors) >=1:
+                items["type"] = connectors[0]
+              items["lat"] = str(lat)
+              items["long"] = str(long)
+              items["origin"] = origin
+              yield items
+
+class ProtergiaCharge(scrapy.Spider): 
+    name = "ProtergiaCharge"
+
+    download_delay = 0.1
+
+    # this is only needed for the spider to start
+    start_urls = [ 
+          "https://protergiacharge.gr/charge-map/"
+        ] 
+
+    def parse(self, response):
+
+        data = protergiaCharge()
+        for station in data:
+            name = station["name"]
+            lat = station["lat"]
+            long = station["long"]
+            yield scrapy.Request(station["url"], callback=self.parse_page,cb_kwargs={'name':name,'lat':lat,'long':long})
+            
+
+    def parse_page(self, response,name,lat,long):
+        items = StationItem()
+        address = response.css('.sidebar-address::text').extract()
+        address = address[0].replace('\n',"")
+        address = address.replace('  ',"")
+        type = response.css('.connector-label::text').extract()
+        origin = "ProtergiaCharge"
+
+        items["name"] = name
+        items["address"] = address
+        items["type"] = type[0]
+        items["lat"] = str(lat)
+        items["long"] = str(long)
+        items["origin"] = origin
+        yield items
+            
           
         
