@@ -20,7 +20,7 @@ def getPlugShare():
     }
 
     response = requests.get(
-        'https://api.plugshare.com/v3/locations/region?access=1&cost=true&count=500&include_coming_soon=true&latitude=38.072884734128635&longitude=23.824059464598005&minimal=0&outlets=%5B%7B%22connector%22:6,%22power%22:1%7D,%7B%22connector%22:13,%22power%22:0%7D,%7B%22connector%22:3,%22power%22:0%7D,%7B%22connector%22:2,%22power%22:0%7D,%7B%22connector%22:6,%22power%22:0%7D,%7B%22connector%22:4,%22power%22:0%7D,%7B%22connector%22:7,%22power%22:0%7D,%7B%22connector%22:8,%22power%22:0%7D,%7B%22connector%22:14,%22power%22:0%7D,%7B%22connector%22:15,%22power%22:0%7D,%7B%22connector%22:10,%22power%22:0%7D,%7B%22connector%22:24,%22power%22:0%7D%5D&spanLat=8.441991587816389&spanLng=12.206298828125',
+        'https://api.plugshare.com/v3/locations/region?access=1&cost=true&count=500&include_coming_soon=true&latitude=38.072884734128635&longitude=23.824059464598005&minimal=0&outlets=%5B%7B%22connector%22:6,%22power%22:1%7D,%7B%22connector%22:13,%22power%22:0%7D,%7B%22connector%22:3,%22power%22:0%7D,%7B%22connector%22:2,%22power%22:0%7D,%7B%22connector%22:6,%22power%22:0%7D,%7B%22connector%22:4,%22power%22:0%7D,%7B%22connector%22:7,%22power%22:0%7D,%7B%22connector%22:8,%22power%22:0%7D,%7B%22connector%22:14,%22power%22:0%7D,%7B%22connector%22:15,%22power%22:0%7D,%7B%22connector%22:10,%22power%22:0%7D,%7B%22connector%22:24,%22power%22:0%7D%5D&spanLat=7.441991587816389&spanLng=11.206298828125',
         headers=headers,
     )
 
@@ -28,3 +28,23 @@ def getPlugShare():
 
     return data
 
+def plugShare():
+    data = getPlugShare()
+    data_list = []
+    for station in data:
+        name = station['name']
+        lat = station['latitude']
+        long = station['longitude']
+        address = station['address']
+        type = 'type 2'
+        origin = 'PlugShare'
+        data_dict = {
+            "name": name,
+            "lat": str(lat),
+            "long": str(long),
+            "address": address,
+            "type": type,
+            "origin": origin,
+        }
+        data_list.append(data_dict)
+    return data_list

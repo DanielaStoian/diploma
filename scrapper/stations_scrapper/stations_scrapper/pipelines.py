@@ -47,7 +47,7 @@ class StationsScrapperPipeline:
         """)
 
     def process_item(self, item, spider):
-
+        print(item["lat"], item["long"])
         ## Check to see if text is already in database 
         self.cur.execute("select * from stations where lat = %s AND long = %s", (item['lat'],item['long']))
         result = self.cur.fetchone()

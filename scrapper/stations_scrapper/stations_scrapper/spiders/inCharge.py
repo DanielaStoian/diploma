@@ -28,4 +28,23 @@ def getInCharge():
 
     return data
 
-getInCharge()
+def inCharge():
+    data = getInCharge()
+    data_list = []
+    for station in data:
+        name = station['name']
+        lat = station['coords']['lat']
+        long = station['coords']['lng']
+        address = station['address']
+        type = station['type']
+        origin = 'InCharge'
+        data_dict = {
+            "name": name,
+            "lat": str(lat),
+            "long": str(long),
+            "address": address,
+            "type": type,
+            "origin": origin,
+        }
+        data_list.append(data_dict)
+    return data_list

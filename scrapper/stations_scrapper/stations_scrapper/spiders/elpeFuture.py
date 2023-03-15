@@ -27,4 +27,26 @@ def getElpeFuture():
 
     return data
 
-getElpeFuture()
+def elpeFuture():
+    data = getElpeFuture()
+    data_list = []
+    for station in data['Data']['ChargingPoints']:
+        name = station['Title']
+        lat = station['X']
+        long = station['Y']
+        address = station['Address']
+        type = ""
+        for types in station["AvailableChargerTypeDetails"]:
+            type += ', ' + types["Description"]
+        type = type[2:]  
+        origin = 'ElpeFuture'
+        data_dict = {
+            "name": name,
+            "lat": str(lat),
+            "long": str(long),
+            "address": address,
+            "type": type,
+            "origin": origin,
+        }
+        data_list.append(data_dict)
+    return data_list

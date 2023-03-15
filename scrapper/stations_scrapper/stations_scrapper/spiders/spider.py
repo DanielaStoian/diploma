@@ -1,7 +1,11 @@
 import scrapy
+from scrapy.spiders import SitemapSpider
 from stations_scrapper.items import StationItem
 import googlemaps
 from .protergiaCharge import protergiaCharge
+from .plugShare import plugShare
+from .inCharge import inCharge
+from .elpeFuture import elpeFuture
 
 API_KEY = 'AIzaSyAoNP6N8mFdG3M3vanWtRKty5sPghWPqQ4'
 
@@ -120,5 +124,90 @@ class ProtergiaCharge(scrapy.Spider):
         items["origin"] = origin
         yield items
             
-          
+class PlugShare(scrapy.Spider): 
+    name = "PlugShare"
+
+    download_delay = 0.1
+
+    # this is only needed for the spider to start
+    start_urls = [ 
+          "https://www.plugshare.com/"
+        ] 
+
+    def parse(self, response):
+        items = StationItem()
+        data = plugShare()
+        for station in data:
+            items["name"] = station["name"]
+            items["address"] = station["address"]
+            items["type"] = station["type"]
+            items["lat"] = station["lat"]
+            items["long"] = station["long"]
+            items["origin"] = station["origin"]
+            yield items
+
+class InCharge(scrapy.Spider): 
+    name = "InCharge"
+
+    download_delay = 0.1
+
+    # this is only needed for the spider to start
+    start_urls = [ 
+          "https://www.nrgincharge.gr/el/xartis-fortiston"
+        ] 
+
+    def parse(self, response):
+        items = StationItem()
+        data = inCharge()
+        for station in data:
+            items["name"] = station["name"]
+            items["address"] = station["address"]
+            items["type"] = station["type"]
+            items["lat"] = station["lat"]
+            items["long"] = station["long"]
+            items["origin"] = station["origin"]
+            yield items
+   
+class ElpeFuture(scrapy.Spider): 
+    name = "ElpeFuture"
+
+    download_delay = 0.1
+
+    # this is only needed for the spider to start
+    start_urls = [ 
+          "https://elpefuture.gr/location"
+        ] 
+
+    def parse(self, response):
+        items = StationItem()
+        data = elpeFuture()
+        for station in data:
+            items["name"] = station["name"]
+            items["address"] = station["address"]
+            items["type"] = station["type"]
+            items["lat"] = station["lat"]
+            items["long"] = station["long"]
+            items["origin"] = station["origin"]
+            yield items          
+
+
+class BlinkCharging(SitemapSpider):
+  
+    name = "BlinkCharging"
+    download_delay = 0.1
+    sitemap_urls = ["https://blinkcharging.gr/portfolio-sitemap.xml"] 
+
+    def parse(self, response):
+        items = StationItem()
+        name = response.css("#gdlr-core-wrapper-1 .gdlr-core-skin-title::text").extract()
+        type = response.css(".gdlr-core-port-info:nth-child(1) .gdlr-core-port-info-value::text").extract()
+        address = response.css(".gdlr-core-port-info+ .gdlr-core-port-info .gdlr-core-port-info-value").css("::text").extract()
+        lat,long = address_to_coords(address[0])
+        items["name"] = name[0]
+        items["address"] = address[0]
+        items["type"] = type[0]
+        items["lat"] = str(lat)
+        items["long"] = str(long)
+        items["origin"] = "BlinkCharging"
+        yield items   
         

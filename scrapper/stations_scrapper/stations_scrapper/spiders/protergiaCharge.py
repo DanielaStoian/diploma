@@ -44,7 +44,7 @@ def getProtergiaCharge():
 
     return data
 
-# items = StationItem()    
+   
 def protergiaCharge():
     data_list = []
     data = getProtergiaCharge()
