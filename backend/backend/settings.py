@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'charging_stations'
+    'charging_stations',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'Charging_Stations',
+       'NAME': 'ChargingStations',
        'USER': 'postgres',
        'PASSWORD': 'pitarda12',
        'HOST': '127.0.0.1',
