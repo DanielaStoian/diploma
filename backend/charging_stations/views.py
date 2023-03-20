@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render
 from rest_framework import viewsets
 
@@ -6,18 +7,33 @@ from charging_stations.models import Station
 from rest_framework import viewsets, status, serializers, generics, filters, exceptions
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes, action
-
+from django.db import DataError
+from django.core.exceptions import ObjectDoesNotExist
 # Create your views here.
 
 
-class Stations(viewsets.ViewSet):
+class StationsView(viewsets.ViewSet):
 
     @action(methods=['get'], detail=False)
-    def get_unknown_products(self, request, *args, **kwargs):
+    def get_dhm_geojson(self, request, *args, **kwargs):
         try:
-            products = Station.objects.get(id = request.query_params['id'])
-            ser = UnknownProductSerializer(products).data
-            return Response({'data': ser}, status=status.HTTP_200_OK)
+            shp_path = "C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\charging_stations\\dhmoi.geojson"
+            myshp = open(shp_path,'rb')
+            data = json.load(myshp)
+            return Response(data, status=status.HTTP_200_OK)
+    
+        except Exception as e:
+            print(e)
+            return Response('An unexpected error occured.',
+                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    @action(methods=['get'], detail=False)
+    def get_stations(self, request, *args, **kwargs):
+        try:
+            stations = Station.objects.all()
+            ser = StationSerializer(stations, many=True).data
+            return Response(ser,
+                            status=status.HTTP_200_OK)
         except DataError as e:
             return Response(str(e)[:15], status=status.HTTP_403_FORBIDDEN)
         except ObjectDoesNotExist as e:
@@ -27,3 +43,5 @@ class Stations(viewsets.ViewSet):
             print(e)
             return Response('An unexpected error occured.',
                             status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+

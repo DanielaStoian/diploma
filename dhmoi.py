@@ -9,6 +9,7 @@ sns.set(style="whitegrid", palette="pastel", color_codes=True)
 sns.mpl.rc("figure", figsize= (10,6))
 
 shp_path = "C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.shp"
+another_path = 'C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\mgp.shp'
 myshp = open("C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.shp",'rb')
 mydbf = open("C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.dbf",'rb')
 # sf = shp.Reader(shp_path)
@@ -61,11 +62,13 @@ def plot_map(sf, x_lim = None, y_lim = None, figsize = (11,9)):
         plt.ylim(y_lim)
     plt.show()
 
-# dhm = 'ΔΗΜΟΣ ΓΟΡΤΥΝΑΣ'    
-# dhm_id = df[df.LEKTIKO == dhm].index[0]
-# print(dhm_id)
-# plot_shape(dhm_id, dhm)
-# plot_map(sf)
+
+
+# myshpfile = geopandas.read_file(another_path, encoding = 'iso8859_7')
+# myshpfile = myshpfile.to_crs(epsg=4326)
+
+# myshpfile.to_file('mgp.geojson', driver='GeoJSON')
 
 myshpfile = geopandas.read_file(shp_path, encoding = 'iso8859_7')
+myshpfile = myshpfile.to_crs(epsg=4326)
 myshpfile.to_file('dhmoi.geojson', driver='GeoJSON')

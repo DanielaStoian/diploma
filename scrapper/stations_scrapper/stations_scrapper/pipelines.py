@@ -35,7 +35,7 @@ class StationsScrapperPipeline:
         
         ## Create quotes table if none exists
         self.cur.execute("""
-        CREATE TABLE IF NOT EXISTS stations(
+        CREATE TABLE IF NOT EXISTS charging_stations_station(
             id serial PRIMARY KEY, 
             name Char(200),
             address Char(200),
@@ -49,7 +49,7 @@ class StationsScrapperPipeline:
     def process_item(self, item, spider):
         print(item["lat"], item["long"])
         ## Check to see if text is already in database 
-        self.cur.execute("select * from stations where lat = %s AND long = %s", (item['lat'],item['long']))
+        self.cur.execute("select * from charging_stations_station where (lat = %s AND long = %s) OR address = %s", (item['lat'],item['long'],item["address"]))
         result = self.cur.fetchone()
 
         ## If it is in DB, create log message
@@ -61,7 +61,7 @@ class StationsScrapperPipeline:
         else:
 
             ## Define insert statement
-            self.cur.execute(""" insert into stations (name, address, lat, long, type, origin) values (%s,%s,%s,%s,%s,%s)""", (
+            self.cur.execute(""" insert into charging_stations_station (name, address, lat, long, type, origin) values (%s,%s,%s,%s,%s,%s)""", (
                 item["name"],
                 item["address"],
                 item["lat"],
