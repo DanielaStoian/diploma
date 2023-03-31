@@ -55,8 +55,6 @@ class StationsScrapperPipeline:
         ## If it is in DB, create log message
         if result:
             spider.logger.warn("Item already in database")
-
-
         ## If text isn't in the DB, insert data
         else:
 

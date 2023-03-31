@@ -72,3 +72,4 @@ def plot_map(sf, x_lim = None, y_lim = None, figsize = (11,9)):
 myshpfile = geopandas.read_file(shp_path, encoding = 'iso8859_7')
 myshpfile = myshpfile.to_crs(epsg=4326)
 myshpfile.to_file('dhmoi.geojson', driver='GeoJSON')
+

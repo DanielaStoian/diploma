@@ -21,6 +21,9 @@ def address_to_coords(address):
   except:
     return None, None
 
+def add_dhm(point):
+  
+
 class ChargeSpot(scrapy.Spider): 
     name = "ChargeSpot"
 

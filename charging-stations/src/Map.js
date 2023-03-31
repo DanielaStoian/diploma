@@ -60,9 +60,9 @@ const Map = () => {
       center={position}
       zoom={7}
       style={{ height: "100vh" }}
-      maxZoom={14}
+      maxZoom={15}
       >
-      <MyData />
+      {/* <MyData /> */}
 
       <MarkerClusterGroup>
       {markers?markers.map((coord,index) => {return <Marker position={[parseFloat(coord['lat']),parseFloat(coord['long'])]} key={index}>

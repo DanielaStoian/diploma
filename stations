@@ -1,0 +1,1214 @@
+id;name;address;lat;long;type;origin
+1282;Chargespot - WATT+VOLT Store Acharnai;L. Thrakomakedonon 10;38.0977030291195;23.739663362503055;1x22kW Type 2 socket;ChargeSpot
+1283;Chargespot - WATT+VOLT Headquarters DC;Leof. Kifisias 217Α, Marousi;38.05989321673026;23.808553218841553;1x25kW CCS Type 2 socket;ChargeSpot
+1284;Chargespot - WATT+VOLT Store Akrata;Krathi;38.15733805696086;22.342940568923954;1x22kW Type 2 socket;ChargeSpot
+1285;Mitera - Hospital (1);Erythrou Stavrou, Marousi;38.0292645182168;23.789069652557377;2x22kW Type 2 socket;ChargeSpot
+1286;Mitera - Hospital (2);Erythrou Stavrou;38.02988989423409;23.789155483245853;2x22kW Type 2 socket;ChargeSpot
+1287;Chargespot - Viologiko Chorio N. Irakleio;L. Irakleiou 408, Neo Irakleio;38.052416771864856;23.76725792884827;1x22kW Type 2 socket;ChargeSpot
+1288;Chargespot - Viologiko Xorio Vrilissia;Leof. Pentelis 6, Vrilissia;38.034825106834525;23.824056386947635;1x22kW Type 2 socket;ChargeSpot
+1289;Chargespot - Viologiko Chorio Psychiko;Olimpionikon 336, Psichiko;38.00815072045855;23.778587579727176;1x22kW Type 2 socket;ChargeSpot
+1290;Chargespot - Viologiko Chorio Peristeri;Thivon 71;38.00570761870154;23.68755340576172;1x22kW Type 2 socket;ChargeSpot
+1291;Chargespot - Viologiko Chorio Alimos;Leof. Vouliagmenis 548, Alimos;37.91970767136974;23.74405145645142;1x22kW Type 2 socket;ChargeSpot
+1292;Chargespot - Viologiko Chorio Galatsi;Leof. Veikou 127, Galatsi;38.02283297672886;23.758406639099125;1x22kW Type 2 socket;ChargeSpot
+1293;Chargespot - Viologiko Chorio Ag. Paraskevi;Chalandriou 22, Ag. Paraskevi;38.01543727397776;23.817458152770996;1x22kW Type 2 socket;ChargeSpot
+1294;Chargespot - Parex;Smyrnis 17;37.96699600025053;23.693411350250248;2x22kW Type 2 socket;ChargeSpot
+1295;Chargespot - GearTech Engineering;Moschonision 3, Moschato;37.95732759357514;23.678680658340458;1x22kW Type 2 socket;ChargeSpot
+1296;Chargespot - Elastika Oikonomou Argiroupoli;Alexioupoleos 16, Argiroupoli;37.90580052011348;23.74703407287598;1x22kW Type 2 socket;ChargeSpot
+1297;Chargespot - Elastika Oikonomou Chaidari;Favierou 62, Chaidari;38.013974949521995;23.67285490036011;1x22kW Type 2 socket;ChargeSpot
+1298;Chargespot - Elastika Oikonomou Peristeri;Thivon 50, Peristeri;38.004380363205904;23.68732810020447;1x22kW Type 2 socket;ChargeSpot
+1299;Chargespot - Elastika Oikonomou Egaleo;Iera Odos 309, Egaleo;37.99588366813916;23.670451641082764;1x22kW Type 2 socket;ChargeSpot
+1300;Chargespot - Elastika Oikonomou Keratsini;Gr. Labraki 668, Keratsini;37.96586258712215;23.6151659488678;1x22kW Type 2 socket;ChargeSpot
+1301;Chargespot - Speedy Car Wash;Sorou 31B, Marousi;38.044525548615255;23.810763359069828;1x22kW Type 2 socket;ChargeSpot
+1302;Chargespot - Porto Kalyves;Kalyves, Chania;35.45789096936692;24.16575908660889;1x22kW Type 2 socket;ChargeSpot
+1303;Chargespot - Parking Manthos Balis;Agiou Meletiou 41, Athens;37.999874278374094;23.735103607177734;1x22kW Type 2 socket;ChargeSpot
+1304;Chargespot - Gregory's Cafe Kiato;Petmeza 50, Kiato;38.01154049496653;22.743308544158936;1x22kW Type 2 socket;ChargeSpot
+1305;Chargespot - Glykeria Hotel;Elafonissi, Chrissoskalitissa;35.313059085723275;23.541909456253055;1x22kW Type 2 socket;ChargeSpot
+1306;Chargespot - Parking Ipiresies Ochimaton;Patision 276;38.01214066314737;23.73554348945618;1x22kW Type 2 socket;ChargeSpot
+1307;Chargespot - Melisokomiki Rodou;E.O. Kalithies - Pastidas;36.37362115314584;28.144783973693848;1x22kW Type 2 socket;ChargeSpot
+1308;Chargespot - My Car Wash;L. Dimokratias 266, Acharnai;38.057418048934835;23.730908632278442;1x22kW Type 2 socket;ChargeSpot
+1309;Chargespot - Fashion City Outlet;4th km Palaias E.O. K. Karamanli, Larisa;39.60627506405475;22.441323995590214;2x22kW Type 2 socket;ChargeSpot
+1310;Chargespot - Zafirakis;Demesticha 9, Thessaloniki;40.64779198054751;22.917555570602417;1x22kW Type 2 socket;ChargeSpot
+1311;Chargespot - Contra Market Kozani;Larisis 18, Kozani;40.29956781771863;21.801520586013794;1x22kW Type 2 socket;ChargeSpot
+1312;Chargespot - Contra Market Naousa;Sidirodromikos Stathmos Naousas-Kopanou;40.61960441353817;22.127312421798706;1x22kW Type 2 socket;ChargeSpot
+1313;Chargespot - Tararas Home Appliances;L. Iasonidi 150;40.27246162525283;22.537883520126346;1x22kW Type 2 socket;ChargeSpot
+1314;Chargespot - SMK Chrysopoulos;G. Papandreou 5, Nea Moudania;40.240103298879234;23.280200958251953;1x22kW Type 2 socket;ChargeSpot
+1315;Chargespot - Sakis Car Wash;St. Kazantzidi 45, Pilea;40.57274538357409;22.991863489151;1x22kW Type 2 socket;ChargeSpot
+1316;Chargespot - Oniropetra Hotel;Location Amplas;38.907573631752605;21.845015287399296;1x22kW Type 2 socket;ChargeSpot
+1317;Chargespot - Aigai Hotel;Proastio;40.78115073328378;22.061158418655396;1x22kW Type 2 socket;ChargeSpot
+1318;Chargespot - IKTEO PIERIAS;1st km Katerinis - N. Efessou, Katerini;40.252583393404535;22.508754730224613;1x22kW Type 2 socket;ChargeSpot
+1319;Chargespot - Stal (Pavlou-Liotsos);Leof. Dimokratias 212, Acharnes;38.062495009344204;23.73169183731079;1x22kW Type 2 socket;ChargeSpot
+1320;Chargespot - Smart Parking Pasxalidis;Aminta 48, Drama;41.15033631295082;24.145052433013916;1x22kW Type 2 socket;ChargeSpot
+1321;Chargespot - Super Market Kotsonis Dimitris;28is Oktovriou 8, Paralia;38.19880738544524;21.70231103897095;1x22kW Type 2 socket;ChargeSpot
+1322;Chargespot - Gialino Music Theater;L. Andrea Syngrou 143;37.95481512207352;23.714160919189453;2x22kW Type 2 socket;ChargeSpot
+1323;Chargespot - Istikbal Agias Paraskevis;Mesogion 393;38.011996961354285;23.81367087364197;1x22kW Type 2 socket;ChargeSpot
+1324;Chargespot - Istikbal Peristeriou;Kifisou Av. 154, Peristeri;37.998335551843525;23.696651458740238;2x22kW Type 2 socket;ChargeSpot
+1325;Chargespot - Istikbal Lamias;Papapostolou 61, Lamia;38.90035159350444;22.446570396423343;2x22kW Type 2 socket;ChargeSpot
+1326;Chargespot - Istikbal Larisas;3rd km Larisas-Athinon;39.60963096298432;22.436721324920658;2x22kW Type 2 socket;ChargeSpot
+1327;Chargespot - Istikbal Alimou;Leof. Poseidonos 33, Alimos;37.91207303005724;23.71037364006043;2x22kW Type 2 socket;ChargeSpot
+1328;Chargespot - Simantro Beach Hotel;Sani, Kallithea Chalkidikis;40.07184844778361;23.33702087402344;2x22kW Type 2 socket;ChargeSpot
+1329;Chargespot - Mia Fora & Enan Kairo;Panagias Grigorousis, Avlona;38.25621988844517;23.684924840927124;2x22kW Type 2 socket;ChargeSpot
+1330;Chargespot - EPIRUS LX PALACE;7th Km Ε.Ο. Ιωαννίνων - Athinas;39.58797180756998;20.861513614654545;2x22kW Type 2 socket;ChargeSpot
+1331;Chargespot - Mercedes Georgiadis;Evosmou, Oraiokastro;40.70129279525961;22.909197807312015;2x22kW Type 2 socket;ChargeSpot
+1332;Chargespot - Atrina Center;28th Oktovriou 38, Thessaloniki;40.64047347601146;22.9225766658783;2x22kW Type 2 socket;ChargeSpot
+1333;Chargespot - Lymberia Hotel;Asklipiou, Faliraki;36.3313068989333;28.201797008514408;2x22kW Type 2 socket;ChargeSpot
+1334;Chargespot - Nakal Beach Bar;Avlakiou 100, Porto Rafti;37.86970415551112;24.027582406997684;1x22kW Type 2 socket;ChargeSpot
+1335;Chargespot -  Panorama Hotel Monemvasia;Monemvasia;36.686875829137314;23.032815456390384;1x22kW Type 2 socket;ChargeSpot
+1336;Chargespot - Athineon Hotel;17th Vironos Street, Rhodes;36.4401178187004;28.232889175415043;1x22kW Type 2 socket;ChargeSpot
+1337;Chargespot - Kolokotronis Ioannis;1st Iouliou 20, Drama;41.14376803437928;24.149633646011356;1x22kW Type 2 socket;ChargeSpot
+1338;Chargespot - EKETA;Thermi;40.566551539480976;22.998890876770023;1x22kW Type 2 socket;ChargeSpot
+1339;Chargespot - Mylonas Service;Sofias Vempo 1, Glyfada;37.88501530712817;23.752119541168216;1x22kW Type 2 socket;ChargeSpot
+1340;Chargespot - Latsis S.A;Monis Maritsis 3,;38.21159679876146;21.727416515350345;1x22kW Type 2 socket;ChargeSpot
+1341;Chargespot - Caffeine Roastery Superfoods DC;Leof. Amfitheas 105, Palaio Faliro;37.92964336793641;23.70288491249085;1x25kW CCS Type 2 socket;ChargeSpot
+1342;Chargespot- Protypo Fanopoiia;Achilleos 107, Palaio Faliro;37.929186389201725;23.708710670471195;1x22kW Type 2 socket;ChargeSpot
+1343;Chargespot - VIP Luxury Car Care;Γλαύκου 86;38.20921107342443;21.74220085144043;1x22kW Type 2 socket;ChargeSpot
+1344;Chargespot - Apollo Resort Art Hotel;Farmaka, Kiparissia;37.25937550642768;21.67560696601868;1x22kW Type 2 socket;ChargeSpot
+1345;Chargespot - Domino's Pizza Melissia;L. Pigis 24, Melissia;38.057426496748874;23.838518857955936;1x22kW Type 2 socket;ChargeSpot
+1346;Chargespot - Tzouvaras Nissan;9th km Naousa - Veria;40.5983133693247;22.15175271034241;1x22kW Type 2 socket;ChargeSpot
+1347;Chargespot - Pratirio KAOIL;1st km Rd N. Moudanion - Sithonias;40.245172591144744;23.304544687271118;1x22kW Type 2 socket;ChargeSpot
+1348;Chargespot - Mr France Nea Smyrni;L. Andrea Syngrou 241, Nea Smyrni;37.945475080618536;23.702777624130253;1x22kW Type 2 socket;ChargeSpot
+1349;Chargespot - Stamatis Cars;L. Mesogeion 340, Agia Paraskevi;38.01046694244368;23.809175491333008;1x22kW Type 2 socket;ChargeSpot
+1350;Chargespot - Kalogritsas;L. Mesogeion 571, Agia Paraskevi;38.01099104091504;23.840718269348148;1x22kW Type 2 socket;ChargeSpot
+1351;Chargespot - Emily's DC;Leof. Mesogeion 438, Ag. Paraskevi;38.013526948330494;23.82730722427368;1x25kW CCS Type 2 socket;ChargeSpot
+1352;Chargespot - Replace Smoke;Agias Paraskevis 104, Chalandri;38.01844635852506;23.80822062492371;1x22kW Type 2 socket;ChargeSpot
+1353;Chargespot - Egnatia City Hotel & Spa;7th Merarchias 139;40.941697285469;24.3886399269104;1x22kW Type 2 socket;ChargeSpot
+1354;Chargespot - Desport Health Clubs Pallini;L. Marathonos 294, Pallini;38.00217385344856;23.905563354492188;1x22kW Type 2 socket;ChargeSpot
+1355;Chargespot - Total Fitness Club;L. Marathonos 47, Nea Makri;38.07913415695746;23.98047208786011;1x22kW Type 2 socket;ChargeSpot
+1356;Chargespot - Latsis VW - Audi;Glaykou 44;38.21230491419949;21.725893020629883;1x22kW Type 2 socket;ChargeSpot
+1357;Chargespot - Biokarpet Ioanninon;4th Km Ioanninon - Athinon Rd, Ioannina;39.6230198762631;20.860333442687992;1x22kW Type 2 socket;ChargeSpot
+1358;Chargespot - Philoxenia Hotel;Main Road Moudania-Sithonia, Psakoudia;40.26088580349814;23.493071794509888;2x22kW Type 2 socket;ChargeSpot
+1359;Chargespot - Suzuki Soulanis;Patron - Athinon Avenue 151, Patra;38.27730414162464;21.763347387313846;1x22kW Type 2 socket;ChargeSpot
+1360;Chargespot - The Lake Hotel;Aherontos 4;39.680471860261854;20.839562416076664;2x22kW Type 2 socket;ChargeSpot
+1361;Aggeli Park Cafe - Kinderland;Koskinou 46, Tsairi;36.3881843071742;28.200906515121464;2x22kW Type 2 socket;ChargeSpot
+1362;Chargespot - Flamingo Retail Park;4th km Xanthis - P. Lagos;41.10984974027334;24.926122426986694;2x22kW Type 2 socket;ChargeSpot
+1363;Chargespot - Apollo Beach Hotel (1);Kallitheas Avenue, Faliraki;36.343112616244426;28.202859163284305;2x22kW Type 2 socket;ChargeSpot
+1364;Chargespot - Έπιπλα GAND;L. Kifisias 129, Marousi;38.04839522690295;23.80772709846497;1x22kW Type 2 socket;ChargeSpot
+1365;Chargespot - Hotel Natassa (1) DC;1st Km Kavalas Rd;41.12314599051931;24.880750179290775;1x25kW CCS Type 2 socket;ChargeSpot
+1366;Chargespot - Maleme Imperial;Maleme;35.52537209500487;23.844076395034794;2x22kW Type 2 socket;ChargeSpot
+1367;Chargespot - Parking Korovinis;Kifissias 292 - 294, Neo Psychiko;38.00673051896368;23.777375221252445;1x22kW Type 2 socket;ChargeSpot
+1368;Chargespot - F1 Power Service;Ifigeneias 16, Irakleio Attikis;38.047998129596785;23.75600337982178;2x22kW Type 2 socket;ChargeSpot
+1369;Chargespot - IKTEO AFOI Spyridopouloi;7th km, EO Serron - Dramas;41.136132492585766;24.07202124595642;2x22kW Type 2 socket;ChargeSpot
+1370;Chargespot - Stavropoulos Elastika;Ioanninon 199;38.971120908961275;20.74824929237366;1x22kW Type 2 socket;ChargeSpot
+1371;Chargespot - Ramada Plaza Thraki;4th klm, EO1 Alexandroupolis-Komotinis;40.85201899461618;25.812174081802368;2x22kW Type 2 socket;ChargeSpot
+1372;Chargespot - Xionodromiko Kentro Kalavriton;Efseviou Kipourgou 6;38.00545400485856;22.197779417037964;2x22kW Type 2 socket;ChargeSpot
+1373;Chargspot - Sky Clean;Thivon 176, Agios Ioannis Renti;37.96540583360206;23.65993738174439;1x22kW Type 2 socket;ChargeSpot
+1374;Chargespot - Glyfada Riviera Hotel;Leoforos Poseidonos 40 & Nafsikas, Glyfada;37.86964486942519;23.738976716995243;2x22kW Type 2 socket;ChargeSpot
+1375;Chargespot - Levanta Hotel Megalo Chorio;Megalo Chorio;38.83273776092523;21.74221158027649;1x22kW Type 2 socket;ChargeSpot
+1376;Chargespot - Aegli Arachova;Provincial Road, Arachovas - Eptalofou;38.484425424433255;22.575316429138187;2x22kW Type 2 socket;ChargeSpot
+1377;Chargespot - White Rocks Hotel Kefalonia;Platis Gialos Beach;38.151356497894426;20.485500097274784;2x22kW Type 2 socket;ChargeSpot
+1378;Chargespot - Spartan Security;Ag. Anargiron 40, Koropi;37.89863007310638;23.884427547454838;2x22kW Type 2 socket;ChargeSpot
+1379;Chargespot - The Ranch;Sofiko;37.80246004886268;23.052974939346317;1x22kW Type 2 socket;ChargeSpot
+1380;Chargespot - Sira Oil;Them. Sofouli 12;40.59626861602474;22.954666614532474;1x22kW Type 2 socket;ChargeSpot
+1381;Chargespot - IKTEO EKHBOLOS;Periferiakos, Istiaia;38.94338074394072;23.148354291915897;2x22kW Type 2 socket;ChargeSpot
+1382;Chargespot - Xanthis Theodoros;Vrisi Kaili;39.77926330578497;21.1767590045929;2x22kW Type 2 socket;ChargeSpot
+1383;Chargespot - Fly View Flats;Geor. Seferi 118, Rhodes;36.4174233037409;28.19798827171326;2x22kW Type 2 socket;ChargeSpot
+1384;Chargespot -Oikosistima Kataskevastiki (1);Agias Anastasias & Laertou;40.56090323195374;22.99038290977478;2x22kW Type 2 socket;ChargeSpot
+1385;Chargespot - Parking Arvanitaki (1);Aristogeitonos 20-22, Kallithea;37.96179399737314;23.712723255157474;2x22kW Type 2 socket;ChargeSpot
+1386;Chargespot - Tsiakalos Elastika;Leoforos Kifissou 59, Egaleo;37.98841760026276;23.68598699569702;2x22kW Type 2 socket;ChargeSpot
+1387;Chargespot - Aar Hotel & Spa Ioannina;14 km. Ioanninon - Athinon, Ioannina;39.54429397301993;20.877156257629398;2x22kW Type 2 socket;ChargeSpot
+1388;Chargespot - Deimezis Luxury Cars;L. Konstantinoupoleos 47, Peristeri;38.01156585428486;23.708034753799442;2x22kW Type 2 socket;ChargeSpot
+1389;Chargespot - Pitstop Park (1);Doukissis Plakentias 68, Chalandri;38.02123556813032;23.81915330886841;2x22kW Type 2 socket;ChargeSpot
+1390;Chargespot - King Toys;Thivon 522, Ilion;38.03350682916691;23.70287418365479;1x22kW Type 2 socket;ChargeSpot
+1391;Chargespot - Parking Kritikos;Vlachou Ioanni 5, Patra;38.24229233396312;21.734197139739994;2x22kW Type 2 socket;ChargeSpot
+1392;Chargespot - G4S Porto Rafti;L. Porto Rafti & Ipsilantou;37.88435482534936;24.010319709777836;2x22kW Type 2 socket;ChargeSpot
+1393;Chargespot - Hotel Platon;Dilou & Psihari, Metamorfosi;38.06518117867919;23.75529527664185;2x22kW Type 2 socket;ChargeSpot
+1394;Chargespot - Kouverta Apartments (2);Ermioni;37.349392193209006;23.249505758285522;2x22kW Type 2 socket;ChargeSpot
+1395;Chargespot - G.Tousis Auto Service;3rd km National Rd, Ioanninon-Igoumenitsas;39.69639796353627;20.81618428230286;2x22kW Type 2 socket;ChargeSpot
+1396;Chargespot - Zebelis Outlet;Leof. Athinon 356, Peristeri;38.005090490153805;23.677275180816654;2x22kW Type 2 socket;ChargeSpot
+1397;Chargespot - Gontes Nikolaos;Pirgos Monofatsiou;35.008170708624554;25.154474973678592;1x22kW Type 2 socket;ChargeSpot
+1398;Chargespot - GreyStone Suites;Paralia Dionisiou, Mouries;40.25419646602377;23.23567628860474;2x22kW Type 2 socket;ChargeSpot
+1399;Chargespot - Smart Dart;Nik. Ventoura 16;39.62443299932748;19.898375272750858;2x22kW Type 2 socket;ChargeSpot
+1400;Chargespot - VILLAGE Shopping & More (1);Thivon 228, Ag. Ioannis Rentis;37.975445297421565;23.66756558418274;2x22kW Type 2 socket;ChargeSpot
+1401;Chargespot - Mont D' Olives Luxury Villas;Mithimna, Molyvos;39.36936569410589;26.194163560867313;2x22kW Type 2 socket;ChargeSpot
+1402;Chargespot - Akrata Beach Camping;Paralia Porovitsas;38.17258923362085;22.33675003051758;2x22kW Type 2 socket;ChargeSpot
+1403;Chargespot - Autopark Melkonian;Sismanoglou 51;41.110803603515116;25.413554906845093;2x22kW Type 2 socket;ChargeSpot
+1404;Chargespot - Aphrodite Hotel;Mithimna;39.376033889733286;26.18625640869141;2x22kW Type 2 socket;ChargeSpot
+1405;Chargespot - Gklantzounis;2nd km Lamia-Athens Rd;38.87589975098523;22.45401620864868;2x22kW Type 2 socket;ChargeSpot
+1406;Chargespot - Kolymbia Beach Hotel (1);Kolymbia;36.24599508232652;28.162218332290653;2x22kW Type 2 socket;ChargeSpot
+1407;Chargespot - Atlantica Dreams Resort (1);Gennadi;36.033466132190405;27.93680548667908;2x22kW Type 2 socket;ChargeSpot
+1408;Chargespot - Alpha Tehniki;Giannarou 20;37.91765943074892;23.707605600357056;2x22kW Type 2 socket;ChargeSpot
+1409;Chargespot - iQ Auto Parts;Armenochoriou 81B;40.46263781803914;21.259199380874637;2x22kW Type 2 socket;ChargeSpot
+1410;Chargespot - Atlantica Belvedere Resort (1);Kardamena;36.76002311931168;27.10788488388062;2x22kW Type 2 socket;ChargeSpot
+1411;Chargespot - Atlantica Beach Resort Kos (1);Gourniati Area, Iraklidis;36.759455820966004;27.112498283386234;2x22kW Type 2 socket;ChargeSpot
+1412;Chargespot - DELMOCCA;Ifaistou 1;37.88575199135434;23.87910604476929;2x22kW Type 2 socket;ChargeSpot
+1413;Chargespot - Pantopoleio Kapiniari;Kato Verga & Evaggelistrias;37.00745349129033;22.158898115158085;1x22kW Type 2 socket;ChargeSpot
+1414;Chargespot - Shell Petras;Kopanos Naousas;40.6246370354436;22.130005359649658;1x22kW Type 2 socket;ChargeSpot
+1415;Chargespot - General Market Corfu;Messonghi;39.477313692639235;19.933898448944095;2x22kW Type 2 socket;ChargeSpot
+1416;Chargespot - Mr Farmer's;L. Mesogeion 280, Ag. Paraskevi;38.00730536573998;23.802158832550052;1x22kW Type 2 socket;ChargeSpot
+1417;Chargespot - Gric Group;L. Mesogeion 507, Ag. Paraskevi;38.01354385408553;23.832768201828006;1x22kW Type 2 socket;ChargeSpot
+1418;Chargespot - Glassdrive - Darmis Pantelis;E.O Aleksandroupolhs Khpon 126;40.85502159042724;25.916157960891724;2x22kW Type 2 socket;ChargeSpot
+1419;Chargespot - Callista Suites;Neos oikismos;40.25664466013672;23.224325180053714;2x22kW Type 2 socket;ChargeSpot
+1420;Chargespot -  Atlantica Caldera Palace (1);Analipsi Odos Aegeou;35.33385779907284;25.348634719848636;2x22kW Type 2 socket;ChargeSpot
+1421;Chargespot - Gozadinos Ioannis;Orologio;38.51466971516111;24.109411239624027;2x22kW Type 2 socket;ChargeSpot
+1422;Chargespot - Nousias Premium;3rd km Ioannina-Athens;39.658041943725856;20.845484733581547;2x22kW Type 2 socket;ChargeSpot
+1423;Chargespot - Best Hellenic;Leoforos Ikarou 93;35.337691321224135;25.164721012115482;2x22kW Type 2 socket;ChargeSpot
+1424;Chargespot - Atlantica Kalliston Resort (1);Glaros;35.51060534385504;23.974174261093143;2x22kW Type 2 socket;ChargeSpot
+1425;Chargespot - Kalimera Frouta Argrotiki-Emporiki;Kombos Kasteliou;35.3257350326489;25.364331007003788;2x22kW Type 2 socket;ChargeSpot
+1426;Chargespot - Evita Resort Hotel;Eparchiaki Odos Apollona, Profitis Ilias;36.32747786700224;28.207300901412967;2x22kW Type 2 socket;ChargeSpot
+1427;Chargespot - Anavathmisi Aytokiniton;Aleksandrou Fleming 6-8;40.611321749182;22.954806089401245;2x22kW Type 2 socket;ChargeSpot
+1428;Chargespot - Matina Pefkos Aparthotel;Pefkos;36.071926677783786;28.052634000778202;2x22kW Type 2 socket;ChargeSpot
+1429;Chargespot - Akrathos Beach Hotel;Periferiaki Odos Ouranoupolhs;40.3462006903525;23.96688938140869;2x22kW Type 2 socket;ChargeSpot
+1430;Chargespot - Hotel Elizabeth;Arkadias 46;37.98725915017618;23.767375946044922;1x22kW Type 2 socket;ChargeSpot
+1431;Chargespot - 3M Theodorou;Kleisthenous 136;38.02141305969422;23.847327232360843;2x22kW Type 2 socket;ChargeSpot
+1432;Chargespot - Spot 4 You;12o km Thessalonikis-Neas Mihanionas;40.526563007312625;22.994019985198978;2x22kW Type 2 socket;ChargeSpot
+1433;Chargespot - Escape Center (1);L. Dimokratias 67;38.0428356686108;23.72482538223267;2x22kW Type 2 socket;ChargeSpot
+1434;Chargespot - Crossfit Metcon 039;N.E.O Athinon Patron 39;38.26476214917841;21.752221584320072;2x22kW Type 2 socket;ChargeSpot
+1435;Chargespot - Green Motion Car & Van Rental;Corfu Ioannis Kapodistrias Airport (Arrival Hall);39.60776292108941;19.91455435752869;1x22kW Type 2 socket;ChargeSpot
+1436;Chargespot  - Auto Sell;28th Oktovriou 216;38.01235198880189;23.43443870544434;2x22kW Type 2 socket;ChargeSpot
+1437;Chargespot - Panorama Hotel Lesvos;Petra;39.33647155990038;26.18443250656128;2x22kW Type 2 socket;ChargeSpot
+1438;Chargespot - CarPService;Ethnikis antistasis & papamantzari;40.538207392260006;21.259177923202518;2x22kW Type 2 socket;ChargeSpot
+1439;Chargespot - Kalamatas & SIA EE;2o km Lamias-Athinon;38.88457744402236;22.452063560485843;2x22kW Type 2 socket;ChargeSpot
+1440;Chargespot - Panagrotriki S.A.;1o km Lamias-Athinon;38.89487404346211;22.451741695404053;2x22kW Type 2 socket;ChargeSpot
+1441;Chargespot - I.KTEO Arkadias;Terma Tertseti;37.49675448683776;22.398333549499515;2x22kW Type 2 socket;ChargeSpot
+1442;Chargespot - AKS Hinitsa Bay Hotel (1);Xinitsa-Porto Xeli;37.304969095195936;23.145092725753788;2x22kW Type 2 socket;ChargeSpot
+1443;Chargespot - Chalet Likouresi Village;2nd km, Kallithea;38.896644273524686;21.8084728717804;2x22kW Type 2 socket;ChargeSpot
+1444;Chargespot - Danai Hotel & Spa;Thaleias k Estias;40.240062349900306;22.58164644241333;2x22kW Type 2 socket;ChargeSpot
+1445;Chargespot - Blue Sea Boutique Rooms;Dios 14 , Olympiaki Akti;40.23997226205942;22.586871385574344;2x22kW Type 2 socket;ChargeSpot
+1446;Chargespot - Athlitikos Omilos Leontes;Messologiou, Enanti Papageorgiou;40.67744039724759;22.954870462417603;2x22kW Type 2 socket;ChargeSpot
+1447;Chargespot - Dirent A Car;Thessalonikis - Peraias 14;40.5296047680932;22.996101379394535;2x22kW Type 2 socket;ChargeSpot
+1448;Chargespot - Hotel Cokkinis;50km Old National Road;37.975529870054814;23.28437447547913;1x22kW Type 2 socket;ChargeSpot
+1449;Chargespot - Aktaion Seaside Bar;Paralia Kriopigis;40.04164496662872;23.482686281204227;2x22kW Type 2 socket;ChargeSpot
+1450;Chargespot -  Vardas Christos;Kontolianika;36.19859878085166;22.979117631912235;2x22kW Type 2 socket;ChargeSpot
+1451;Chargespot - Akalli Luxury Studios;Apolloniou Rodou 44;36.4132704132598;28.174599409103397;2x22kW Type 2 socket;ChargeSpot
+1452;Chargespot - Virginia Family Resort;Reni Koskinou;36.40107810913378;28.228147029876713;2x22kW Type 2 socket;ChargeSpot
+1453;Chargespot -Odeon Veso Mare (1);Akti Dimaion 17;38.23789360440714;21.72597885131836;2x22kW Type 2 socket;ChargeSpot
+1454;Chargespot - Mplias Ioannis Synergeio;Eparx. Odos Mirina-Moudrou;39.91259185300416;25.20216464996338;1x22kW Type 2 socket;ChargeSpot
+1455;Chargespot - Dimos Kifisias;Adrianou 1, Kifisia;38.07307862102036;23.811149597167972;2x22kW Type 2 socket;ChargeSpot
+1456;Chargespot - Likidis Hyundai - Kia;26 Oktovriou 46;40.64056302874726;22.920881509780887;1x22kW Type 2 socket;ChargeSpot
+1457;Chargespot - Camping Akti Retzika;Potamos;40.38243934804513;22.927114963531498;2x22kW Type 2 socket;ChargeSpot
+1458;Chargespot - Lecadin Hotel;EO Karpenisiou - Agriniou;38.91363456731042;21.783603429794315;2x22kW Type 2 socket;ChargeSpot
+1459;Chargespot - Kyparissia Beach;Kyparissia;37.25537909589494;21.66752815246582;2x22kW Type 2 socket;ChargeSpot
+1460;Chargespot - Hotel Cavos Fokidos;Paralia Hiliadou;38.400570174951845;21.924494504928592;1x22kW Type 2 socket;ChargeSpot
+1461;Chargespot - Coco Suites;Eparhiaki Odos Lefkadas - Vasilikis;38.62821992283254;20.60866713523865;2x22kW Type 2 socket;ChargeSpot
+1462;Chargespot - Casa Bloo 360;Elia Beach;40.14436254796919;23.739953041076664;1x22kW Type 2 socket;ChargeSpot
+1463;Chargespot - EMAR NOUSIAS EE;7th km Ioannina-Kozani;39.68475716064255;20.833328962326053;2x22kW Type 2 socket;ChargeSpot
+1464;Chargespot - Ptolemais EPE;3o km Ptolemaidas-Florinas;40.53501924993918;21.688213348388672;2x22kW Type 2 socket;ChargeSpot
+1465;Chargespot - Kosmitis Residence;Naousa;37.12362673446994;25.24965047836304;2x22kW Type 2 socket;ChargeSpot
+1466;Chargespot - Sivota Diamond Spa Resort;Sivota;39.40261740122317;20.238962173461918;2x22kW Type 2 socket;ChargeSpot
+1467;Chargespot - Taverna o Mpampis;Livadi Arachovas;38.52395372578406;22.543129920959476;2x22kW Type 2 socket;ChargeSpot
+1468;Chargespot - Camping Nea Epidavros;Eparhiaki Odos Ligouriou - Neas Epidavrou 157;37.678606816864566;23.14904093742371;2x22kW Type 2 socket;ChargeSpot
+1469; Chargespot - Emporios Bay Hotel ;Emporios;38.188123932024425;26.02773785591126;2x22kW Type 2 socket;ChargeSpot
+1470;Chargespot - Myrion Beach Resort & Spa;Gerani;35.52015906967086;23.86964321136475;2x22kW Type 2 socket;ChargeSpot
+1471;Chargespot - Capsis Hotel Thessaloniki (1);Monastiriou 16;40.642052842999725;22.93275833129883;2x22kW Type 2 socket;ChargeSpot
+1472;Chargespot - Misiakas Recovery;13th Oktovriou 86;40.07963118810148;21.42359733581543;2x22kW Type 2 socket;ChargeSpot
+1473;Chargespot - River West (3) P5;Par. Leoforos Kifisou 98;37.980570223017104;23.676760196685795;2x22kW Type 2 socket;ChargeSpot
+1474;Chargespot - Artemis - Gozen Karadinc OE (1);Tigaki;36.8888628341856;27.182117700576786;2x22kW Type 2 socket;ChargeSpot
+1475;Chargespot - Polykatastēma China (2);Petrou Ralli 18;37.97602884660737;23.692435026168823;1x22kW Type 2 socket;ChargeSpot
+1476;Chargespot - Omalia Village;Kryoneria;38.648005930563905;21.91933393478394;2x22kW Type 2 socket;ChargeSpot
+1477;Chargespot - Watercity Waterpark Crete;Anopoli;35.311238068257786;25.250422954559326;2x22kW Type 2 socket;ChargeSpot
+1478;Chargespot - Karatzas Seaside Rooms;Karfas;38.32113776085005;26.15346908569336;2x22kW Type 2 socket;ChargeSpot
+1479;Chargespot - CAMPING ALEXANDROS;Nea Karvali;40.959070648199265;24.516248703002933;2x22kW Type 2 socket;ChargeSpot
+1480;Chargespot - Lutania Beach Hotel;Athinon Street;36.248192825888715;28.163591623306278;2x22kW Type 2 socket;ChargeSpot
+1481;Chargespot - Hyperion City Hotel & Spa;Eleftherioy Venizeloy 75-79;35.514971904400156;24.029234647750858;2x22kW Type 2 socket;ChargeSpot
+1482;Chargespot - Belvita Home Villas;Stokholmis Street;36.256983182062214;28.158828020095825;2x22kW Type 2 socket;ChargeSpot
+1483;Chargespot - Gravity Episkevastiki Rodos;9o km Rhodes-Lindos;36.38240601548818;28.19991946220398;2x22kW Type 2 socket;ChargeSpot
+1484;Chargespot - Rhodes-Shop Pro;Kanada 55;36.437088238691835;28.233683109283447;1x22kW Type 2 socket;ChargeSpot
+1485;Chargespot - Caffe4u;Georgiou Papandreou 48;38.01522595721816;23.652116060256958;1x22kW Type 2 socket;ChargeSpot
+1486;Chargespot - Autotechnik ΙΚΤΕΟ;1i Parallilos Proektasi Stratigou Makrigianni;40.68799280097536;22.922211885452274;2x22kW Type 2 socket;ChargeSpot
+1487;Chargespot - Tinos Villages;Ormos Agiou Ioannou;37.537499432247294;25.218601226806644;2x22kW Type 2 socket;ChargeSpot
+1488;Chargespot - Golden Village Camping Thassos;Hrisi ammoudia;40.72114429824649;24.750384092330936;1x22kW Type 2 socket;ChargeSpot
+1489;Chargespot - Green Hill Rooms;Valanidorachi;39.218971811721175;20.515894889831547;2x22kW Type 2 socket;ChargeSpot
+1490;Chargespot - Home for Health and Fitness Agrielias;Agrielia;38.92566307294953;22.406530380249027;2x22kW Type 2 socket;ChargeSpot
+1491;Chargespot - Orange; ;41.11925842940659;24.875546693801883;2x22kW Type 2 socket;ChargeSpot
+1492;Chargespot - Antigoni Studios;Thesi Magazia;38.90798271944692;24.569753408432007;2x22kW Type 2 socket;ChargeSpot
+1493;Chargespot - Marelina Villas;Panormos;35.418336876947215;24.6928346157074;1x22kW Type 2 socket;ChargeSpot
+1494;Chargespot - Athina Airport Hotel;13o km Thessalonikis - Peraias;40.527248027146776;22.999802827835083;2x22kW Type 2 socket;ChargeSpot
+1495;Chargespot - Atlantica Grand Mediterraneo (1);Ermones;39.612631296466986;19.779027700424198;2x22kW Type 2 socket;ChargeSpot
+1496;Chargespot - Atlantica Princess Hotel;Ialisos;36.41831256327363;28.17729234695435;2x22kW Type 2 socket;ChargeSpot
+1497;Chargespot - Denthis Hotel;Eparchiaki Odos Kalamatas-Spartis;37.09883179848621;22.228560447692875;2x22kW Type 2 socket;ChargeSpot
+1498;Chargespot - Funny Bunny;3o km Ethnikis Odou Kozanis - Thessalonikis;40.31246235797052;21.82339668273926;2x22kW Type 2 socket;ChargeSpot
+1499;Chargespot - Glassdrive - Liolis Vasileios;Leoforos Ioanninon 325;38.96301272684521;20.748968124389652;2x22kW Type 2 socket;ChargeSpot
+1500;Chargespot - Idiotiko KTEO Karditsas;Andrea Papandreou 144;39.369349105760506;21.925202608108524;2x22kW Type 2 socket;ChargeSpot
+1501;Chargespot - K Express Car Rentals;Main Street of Airport;37.76411637898435;20.883657932281498;2x22kW Type 2 socket;ChargeSpot
+1502;Chargespot - La Suite Boutique Hotel & Spa;Amfithea;39.69039617765903;20.865933895111084;2x22kW Type 2 socket;ChargeSpot
+1503;Chargespot - Mare West (1);5o km Korinthoy - Patron;37.93124277113969;22.872955799102783;2x22kW Type 2 socket;ChargeSpot
+1504;Chargespot - Mare West (4);5o km Korinthoy- Patron;37.931251233497974;22.87279486656189;2x22kW Type 2 socket;ChargeSpot
+1505;Chargespot - Mare West (5);5o km Korithoy-Patron;37.93125969585526;22.872762680053714;2x22kW Type 2 socket;ChargeSpot
+1506;Chargespot - Mare West (6);5o km Korinthoy Patron;37.93126815821159;22.872698307037354;2x22kW Type 2 socket;ChargeSpot
+1507;Chargespot - Paradise Village;Reni , Koskinou;36.395888028102185;28.233500719070435;2x22kW Type 2 socket;ChargeSpot
+1508;Chargespot - Fourkis Leonti;Anthidona;38.46719847377679;23.556307554245;2x22kW Type 2 socket;ChargeSpot
+1509;Chargespot - Viologiko Chorio L. Alexandras;L. Aleksandras 128;37.988442967578244;23.749909400939945;1x22kW Type 2 socket;ChargeSpot
+1510;Chargespot - Ledison Nikaia;Grigoriou Lampraki 315;37.978388367747655;23.638275861740116;1x22kW Type 2 socket;ChargeSpot
+1511;Chargespot - Ravenna Schimatariou;Athinon - Lamias National Rd 61th km;38.3442395211406;23.594169616699222;1x22kW Type 2 socket;ChargeSpot
+1512;Chargespot - Renault - Dacia;Leoforos Tatoioy 93;38.058000945815216;23.754994869232178;1x22kW Type 2 socket;ChargeSpot
+1513;Chargespot - Chatzipantos Home Lighting;Nea Periferiaki odos Veroias;40.521735049930776;22.213636636734012;1x22kW Type 2 socket;ChargeSpot
+1514;Chargespot - To Ellinikon;Omalos;35.341778460741686;23.90280604362488;1x22kW Type 2 socket;ChargeSpot
+1515;Chargespot - DriveNow Rent a Car;Filotheou A. 64;35.010095185789154;25.751202106475834;1x22kW Type 2 socket;ChargeSpot
+1516;Chargespot - Ravenna Kifisou;Leoforos Kifisou 18;37.95925630126432;23.676052093505863;2x22kW Type 2 socket;ChargeSpot
+1517;Chargespot - Theofilos Paradise Boutique Hotel;Skra 7;39.10630375478445;26.5595018863678;2x22kW Type 2 socket;ChargeSpot
+1518;Chargespot - Ravenna Thessalonikis;10 km Thessalonikis - N Moudanion;40.55830305717813;22.9913592338562;2x22kW Type 2 socket;ChargeSpot
+1519;Chargespot - Salonikiou Beach Deluxe Apartments;Akti Salonikiou;40.30613812265031;23.69411945343018;1x22kW Type 2 socket;ChargeSpot
+1520;Chargespot - IASO Thessalias;8o km Palaias Ethnikis Odou Larisas-Athinon;39.58821985149895;22.469272613525394;2x22kW Type 2 socket;ChargeSpot
+1521;Chargespot - Parking Plaza;Peiraios 3;35.51442173084776;24.015287160873417;2x22kW Type 2 socket;ChargeSpot
+1522;Chargespot - Dore Boutique Hotel;Agia Marina;35.51676212557858;23.93328666687012;1x22kW Type 2 socket;ChargeSpot
+1523;Chargespot - Porto Portes Suites;Nea Potidaia;40.19606885047718;23.33182811737061;2x22kW Type 2 socket;ChargeSpot
+1524;Chargespot - Skoda Karalelekis DC;1o Hiliometro Didimoteihou - Orestiadas;41.358152442479856;26.507767438888553;1x25kW CCS Type 2 socket;ChargeSpot
+1525;Chargespot - AirTravel Parking;24km L. Markopoulou;37.91682996170919;23.892538547515873;1x22kW Type 2 socket;ChargeSpot
+1526;Chargespot - Parking Omonoia;agiou konstantinou 39;37.985153599169934;23.723720312118534;1x22kW Type 2 socket;ChargeSpot
+1527;Chargespot - Sakaridis VW;Ditiki Periferiaki Odos Kilkis;40.98956831211467;22.86030650138855;1x22kW Type 2 socket;ChargeSpot
+1528;Chargespot - Hotel Hera;Falirou 9;37.966911417785354;23.728923797607425;1x22kW Type 2 socket;ChargeSpot
+1529;Chargespot - Parking Pigasos;Evgeniou Karavia 73;38.01225900558895;23.729374408721927;1x22kW Type 2 socket;ChargeSpot
+1530;Chargespot - Plessas Bros S.A.;Sahtouri 12;38.20367217988251;21.714005470275882;1x22kW Type 2 socket;ChargeSpot
+1531;Chargespot - Central Park & Wash;Andrea Papandreou 36;38.02004382792456;23.79765272140503;1x22kW Type 2 socket;ChargeSpot
+1532;Chargespot - Prespa Resort;Plati Prespon;40.81466994350047;21.131783723831177;1x22kW Type 2 socket;ChargeSpot
+1533;Chargespot - Automarin DC;L. Aleksandras 75;37.989804333976274;23.74479174613953;1x25kW CCS Type 2 socket;ChargeSpot
+1534;Chargespot - Parking Tsoukalis;Chiou 2;37.987199958804666;23.721177577972416;1x22kW Type 2 socket;ChargeSpot
+1535;Chargespot - Naiades Hotel Resort & Conference;Neochori;39.28154162162039;21.7374050617218;1x22kW Type 2 socket;ChargeSpot
+1536;Chargespot - Parking Asitzoglou;3rd Septemvriou 155;37.9994684635225;23.731466531753544;1x22kW Type 2 socket;ChargeSpot
+1537;Chargespot - Pelion Resort Hotel;Xatzakou Portaria;39.39198852851281;23.003547191619877;1x22kW Type 2 socket;ChargeSpot
+1538;Chargespot - Autoline;Ethniki Odos Thessalonikis-Athinon (3km);40.65618407183144;22.8935444355011;1x22kW Type 2 socket;ChargeSpot
+1539;Chargespot - Giannis Village Resort;Astakos;38.536576715735045;21.074759960174564;2x22kW Type 2 socket;ChargeSpot
+1540;Chargespot - Kornilios Palace;Ag. Athanasios, Aghialos;40.70790519856075;22.780044078826904;1x22kW Type 2 socket;ChargeSpot
+1541;Chargespot - Hotel Natassa;1 km Kavalas Ksanthis;41.12299243218266;24.8806643486023;1x22kW Type 2 socket;ChargeSpot
+1542;Chargespot - Kyknos Beach Hotel & Bungalows;Beach Road;35.28878715881986;25.445730686187748;2x22kW Type 2 socket;ChargeSpot
+1543;Chargespot - City Park Parking;Karaiskou 68-70;37.94472207265774;23.64962697029114;1x22kW Type 2 socket;ChargeSpot
+1544;Chargespot - Athens FastPark;Attiki Odos exit K1;37.912538579652036;23.923137187957767;1x22kW Type 2 socket;ChargeSpot
+1545;Chargespot - Alexandros Palace;Trypiti, Nea Roda;40.36636202323693;23.92977833747864;1x22kW Type 2 socket;ChargeSpot
+1546;Polis Park Ριζάρη;Ριζάρη 4 & Βασ. Κωνσταντίνου, Αθήνα 10675;37.9748967;23.7459648;4 Ρευματοδότες;Fortisis
+1547;Polis Park Πλατείας Κάνιγγος;Πλατεία Κάνιγγος Αθήνα 10677;37.9855881;23.7312077;2 Ρευματοδότες;Fortisis
+1548;Polis Park Πλατεία Νοσοκομείου Παίδων;Πλατεία Παιδών 1, Αθήνα 11527;37.98400760000001;23.767815;2 Ρευματοδότες;Fortisis
+1549;Paradise Parking Σεβαστουπόλεως;Σεβαστουπόλεως 113 & Ερυθρού Σταυρού, Αθήνα 11526;37.99269450000001;23.7680653;1 Ρευματοδότης;Fortisis
+1550;Polis Park Νέα Σμύρνη;Πλατεία Καρύλλου, Νέα Σμύρνη 17123;37.9478543;23.7138746;2 Ρευματοδότες;Fortisis
+1551;Polis Park Αγ. Νικόλαος Πειραιά;Ακτή Μιαούλη, 18358, Πειραιάς;37.9388334;23.6394509;2 Ρευματοδότες;Fortisis
+1553;Metropolitan Expo;"Διεθνής Αερολιμένας '"Ελ. Βενιζέλος'", Σπάτα, 19001";37.9356467;23.9484156;2 Ρευματοδότες;Fortisis
+1554;Charge and Drive Νέα Φιλαδέλφεια;Μαιάνδρου 81, Νέα Φιλαδέλφεια 14341;38.0389408;23.7345548;1 Ρευματοδότης;Fortisis
+1555;Charge and Drive Αχαρνές;Λεωφ. Καραμανλή 137, Αχαρνές  13672;38.0912083;23.7569377;1 Ρευματοδότης;Fortisis
+1556;Cityzen Πύργος Αθηνών;Αγίου Ανδρέου 3, Αθήνα 11527;37.984203;23.760337;2 Ρευματοδότες;Fortisis
+1557;Cityzen Εμμανουήλ Μπενάκη;Εμμανουήλ Μπενάκη 10 Αθήνα  10564;37.98298339999999;23.7301297;1 Ρευματοδότης;Fortisis
+1558;Cityzen Δικαστήρια Ευελπίδων;Ευελπίδων κ Μουστοξύδη Αθήνα 11362;37.990872;23.7404957;1 Ρευματοδότης;Fortisis
+1559;Athens Marriott Hotel;Λεωφ. Ανδρέα Συγγρού 385, Παλαιό Φάληρο 17564;37.9405952;23.6970387;1 Ρευματοδότης;Fortisis
+1560;Groupama Ασφαλιστική;Λεωφ. Ανδρέα Συγγρού 213-215, Νέα Σμύρνη 17121;37.9483308;23.7066416;1 Ρευματοδότης;Fortisis
+1561;ΒΕΡΟΥΧΗΣ Automotive Specialist;Λεωφ. Ιωνίας 25, Άλιμος, 17456;37.9253814;23.7419229;1 Ρευματοδότης;Fortisis
+1562;Μαρίνα Φλοίσβου;Τροκαντερό, Τ.Κ. 17561, Παλαιό Φάληρο;37.93121;23.6870786;4 Ρευματοδότες;Fortisis
+1563;ΒΕΝΕΤΣΙΑΝΟΣ ΑΝΔΡΟΥΛΑΚΗΣ SERVICE;Γράμμου 85, Μοσχάτο, 18345;37.9577347;23.6925434;1 Ρευματοδότης;Fortisis
+1564;ZeniΘ Κατάστημα Περιστερίου;Λεωφ. Παναγή Τσαλδάρη 9, Περιστέρι 121 34;38.007639;23.6985098;2 Ρευματοδότες;Fortisis
+1565;KTEO Autovision Λεωφ. Θηβών;Λεωφ. Θηβών 212, Άγιος Ιωάννης Ρέντης 182 33;37.9706383;23.6648202;2 Ρευματοδότες;Fortisis
+1566;Cityzen ΑΙΘΡΙΟ;Αγίου Κωνσταντίνου 40 Μαρούσι 15124;38.0475326;23.8037387;2 Ρευματοδότες;Fortisis
+1567;Cityzen ΚΡΟΝΟΣ;Αγίου Κωνσταντίνου 49 Μαρούσι 15124;38.0475223;23.8050007;2 Ρευματοδότες;Fortisis
+1568;Cityzen Φραγκοκκλησιάς;Φραγκοκκλησιάς 2 Μαρούσι 15125;38.0395411;23.8025327;1 Ρευματοδότης;Fortisis
+1569;LOTUS CAR RENTAL;Αγίας Τριάδος 56, 15343, Αγία Παρασκευή;38.0156216;23.8385585;1 Ρευματοδότης;Fortisis
+1570;U-SAVE Parking;3ο χιλιόμετρο Λεωφόρου Μαρκόπουλου - Παιανίας, 19400 Κορωπί;37.9386324;23.8757681;1 Ρευματοδότης;Fortisis
+1571;Φαρμακείο Σπ. Χαλδούπη;Υποσμηναγού Νικολάου Παρούση 30, Ωρωπός 19015;38.3046181;23.7534513;1 Ρευματοδότης;Fortisis
+1572;Polis Park - Ιπποκράτειο Νοσοκομείο Θεσσαλονίκης;Κλεάνθους - Κ. Καραμανλή - Αλ. Παπαναστασίου 0, 54342 Θεσσαλονίκη;40.6145205;22.9631008;1 Ρευματοδότης;Fortisis
+1573;THE MET Hotel;26ης Οκτωβρίου 48, Θεσσαλονίκη, 54627;40.64081900000001;22.9204487;1 Ρευματοδότης;Fortisis
+1574;Cityzen Συκιές;Αγίου Δημητρίου 28, Συκιές 566 25;40.6496149;22.9514465;3 Ρευματοδότες;Fortisis
+1575;Ξενοδοχείο ΕΥΡΙΔΙΚΗ;Σόλωνος 13 Κιλκίς  61100;40.993935;22.8729916;1 Ρευματοδότης;Fortisis
+1576;Domotel Xenia Βόλος;Πλαστήρα 1, Βόλος 38222;39.3531679;22.9570873;1 Ρευματοδότης;Fortisis
+1577;Cityzen Λιμένας Βόλου Τελωνείο;Πύρασσου 1, Βόλος 38221;39.361017;22.9348772;2 Ρευματοδότες;Fortisis
+1578;Δημαρχείο Καρδίτσας;Ιεζεκιήλ 47, Καρδίτσα 43131;39.3657508;21.9221588;2 Ρευματοδότες;Fortisis
+1579;Pegasus Studios and Apartments;Αχερούνες, Σκύρος;38.8548138;24.5369364;1 Ρευματοδότης;Fortisis
+1580;Aristi Mountain Resort;Αρίστη Ζαγοροχώρια 44404;39.9339539;20.6720747;1 Ρευματοδότης;Fortisis
+1627;Kioskys;Idomeneos 19,131 22 Ilion;38.031637;23.71032;Type 2 ≤ 22 kW, GR*EVZ*E9800;ProtergiaCharge
+1581;Alexander Beach Hotel & Spa;2o χλμ Αλεξανδρούπολη - Κομοτηνή, Αλεξανδρούπολη;40.8457193;25.873962;1 Ρευματοδότης;Fortisis
+1582;MIXAΛΑΤΟΣ - NISSAN;ΒΙ.ΠΕ. Αργοστολίου 28100 Κεφαλλονικά;38.1606016;20.499025;1 Ρευματοδότης;Fortisis
+1583;ΝΥΔΡΙ Parking ΜΠΑΚΟΠΑΝΟΣ;Ε.Ο. Λευκάδας - Βασιλικής Νυδρί Λευκάδα;38.7088916;20.7126621;1 Ρευματοδότης;Fortisis
+1584;ΣΕΑ Βέλο Ολυμπία Οδός Αθήνα - Πάτρα;103,2 χλμ. Ν.Ε.Ο. Αθήνας - Πάτρας;38.2466395;21.734574;2 Ρευματοδότες;Fortisis
+1585;Pharae Palace Hotel;Ρήγα Φεραίου 170, Καλαμάτα 24100;37.0249741;22.1166142;1 Ρευματοδότης;Fortisis
+1586;ΣΤΑΜΑΤΕΛΑΤΟΣ Gas Station;2o χλμ. Αμαλιάδας - Κουρούτας, Αμαλιάδα 27200;37.7682973;21.2967264;2 Ρευματοδότες;Fortisis
+1587;Auto Parking Patras;Γεροκωστοπούλου 12-16, Πάτρα  26221;38.24720689999999;21.7338543;1 Ρευματοδότης;Fortisis
+1588;ECO PROGRESS;Πανεπιστημίου 1, Πάτρα, 26223;38.2561149;21.746289;1 Ρευματοδότης;Fortisis
+1589;TΖΟΥΡΑΜΑΝΗΣ BMW - Mini;N.E.O. Πάτρας - Αθήνας, 26442, Πάτρα;38.2731467;21.7516996;2 Ρευματοδότες;Fortisis
+1590;Chios Chandris Hotel;Ευγενείας Χανδρή 3, Χίος, 82100;38.366872;26.1434904;1 Ρευματοδότης;Fortisis
+1591;Parking Apollon;Γρηγορίου Ε΄ 9-11  Χανιά 73100;35.5110899;24.02117;1 Ρευματοδότης;Fortisis
+1592;Super Market ΧΑΛΚΙΑΔΑΚΗΣ MAX Κουνουπιδιανά;Ακρωτηρίου 109, Κουνουπιδιανά Χανίων 73100;35.51363449999999;24.0477058;1 Ρευματοδότης;Fortisis
+1593;Πολυτεχνείο Κρήτης;Ακρωτήρι, Κουνουπιδιανά, ΤΚ 73100, Χανιά;35.5315822;24.0813748;2 Ρευματοδότες;Fortisis
+1594;Μαρίνα Ρεθύμνου;Σοφοκλή Βενιζέλου 24, Ρέθυμνο 74100;35.3665459;24.483403;4 Ρευματοδότες;Fortisis
+1595;Δημαρχείο Ρεθύμνου;Δημοκρατίας 2, 74100 Ρέθυμνο;35.3652871;24.4774702;2 Ρευματοδότες;Fortisis
+1596;Sentido Unique Blue;Καρτερός, Ηράκλειο Κρήτης, 71500;35.3289854;25.2045105;2 Ρευματοδότες;Fortisis
+1597;Μέγαρο ΧΑΝΔΑΞ;Πηνείου 7, Ηράκλειο 71303;35.3380961;25.1222103;1 Ρευματοδότης;Fortisis
+1598;Super Market ΧΑΛΚΙΑΔΑΚΗΣ MAX Νέα Αλικαρνασσός;Μαυσώλου 1, Ηράκλειο 71601;35.34419;25.1552428;1 Ρευματοδότης;Fortisis
+1599;Skanderbeg Square;Skanderbeg Square -,1000 Tirana;41.328468;19.818266;Type 2 ≤ 22 kW, HR005E0116*01*1;ProtergiaCharge
+1600;CHANIA_GOGONI & MANOU LEFT;Anagnostou Gogoni 156 & Manou,73100 Chania;35.503967155083;24.007051469681;Type 2 ≤ 22 kW, Left;ProtergiaCharge
+1601;SYN.KA_CHANIA_AGIOI APOSTOLOI_LEFT;Nearcho, Daratsos,73100 Chania;35.50807275534;23.982113402378;Type 2 ≤ 22 kW, Left;ProtergiaCharge
+1602;SYN.KA_CHANIA_PLATANIAS_LEFT;P.E.O. Kissamou Chanion 123, Platanias,73014 Chania;35.517196639638;23.909412141801;Type 2 ≤ 22 kW, Left;ProtergiaCharge
+1603;SPRING_DEPARTMENT_STORE_LEFT;Kifisou 80,18233 Agios Ioannis, Rentis;37.970917384894;23.675869899858;Type 2 ≤ 22 kW, LEFT;ProtergiaCharge
+1604;MARINA_BENITSES_1_RIGHT;Eparchiaki Odos Vrionis, Agiou Nikolaou,49084 Corfu;39.547394073892;19.914013241548;Type 2 ≤ 22 kW, RIGHT;ProtergiaCharge
+1605;SYN.KA_TINOS_RIGHT;Markou Krikeli,84200 Tinos;37.535672638266;25.167751317199;Type 2 ≤ 22 kW, Right;ProtergiaCharge
+1606;EKO Fuel Station Zipari;Eparchiaki Odos Ko-Kefalou,853 00 Zipari;36.876811;27.20707;Type 2 ≤ 22 kW, GR*EVZ*E6897;ProtergiaCharge
+1607;KYANH BEACH RESORT CHANIA KRETA;Kyani Akti,730 03 Gerani;35.46675;24.15504;Type 2 ≤ 22 kW, GR*EVZ*E1244;ProtergiaCharge
+1608;Hotel Almira;Οdos xoris onomasia,270 50 Arkoudi;37.84751;21.10872;Type 2 ≤ 22 kW, GR*EVZ*E5783;ProtergiaCharge
+1609;Acrotel Elea Beach;Eparchiaki Odos Nikitis-Sartis,630 88 Elia Nikitis;40.149357;23.731985;Type 2 ≤ 22 kW, GR*EVZ*E9769;ProtergiaCharge
+1610;Leros Lakki;Akti Ploutarchou Plessa,854 00 Lakki;37.13137;26.85265;Type 2 ≤ 22 kW, GR*EVZ*E2761;ProtergiaCharge
+1611;Corissia Beach Hotel Georgioupolis;Οdos xoris onomasia,730 07 Georgioupoli;35.36262;24.2614;Type 2 ≤ 22 kW, GR*EVZ*E7572;ProtergiaCharge
+1612;FINES Zlatograd CCS 2;Zlatograd 1,4980 Zlatograd;41.379284;25.10195;CCS Combo Type 2 ≤ 150 kW, BG*FCH*ECB*ZLATOGRAD*0001*C2;ProtergiaCharge
+1613;Protergia Charge - Acharavi Beach Hotel 1;Axaravi,49100 Kerkyra;39.796867349891;19.817766955124;Type 2 ≤ 22 kW, ACHARAVI_BEACH_1;ProtergiaCharge
+1614;Acrotel Lilyann Boutique;Eparchiaki Odos Nikitis-Sartis,630 88 Νικήτη;40.165043;23.725622;Type 2 ≤ 22 kW, GR*EVZ*E9877;ProtergiaCharge
+1615;Acrotel Lilyann Village;Nikiti, Sithonia, Halkidiki,630 88 Νικήτη;40.217986;23.671221;Type 2 ≤ 22 kW, GR*EVZ*E9245;ProtergiaCharge
+1616;Electric Vehicle Charging Station;Ethniki Odos Livadias Amfissas,320 04 Arachova;38.479375;22.580218;Type 2 ≤ 12,4 kW, GR*EVZ*E5485;ProtergiaCharge
+1617;Athens Avenue Hotel Sygrou Avenue Side Street;Leoforos Andrea Siggrou 182,176 71 Kallithea;37.956094;23.715287;Type 2 ≤ 11 kW__, GR*EVZ*E6614;ProtergiaCharge
+1618;Eurolamp;Odos Diavaton,570 08 Θεσσαλονίκη;40.676658;22.859413;Type 2 ≤ 22 kW, GR*EVZ*E4018;ProtergiaCharge
+1619;Adamopoulos Parking;Papadiamantopoulou 26,115 28 Athina;37.979013;23.756334;Type 2 ≤ 22 kW, GR*EVZ*E5470;ProtergiaCharge
+1620;KOUMOUNDOUROS_RIGHT;Lewforos Dimokratias 242 & Kalpakiou 2,13562 Agioi Anargyroi;38.041159403882;23.726324462593;Type 2 ≤ 22 kW, KOUMOUNDOUROS_RIGHT;ProtergiaCharge
+1621;Kirkovo;Road 5,6884 Domishte;41.35846;25.357018;Type 2 ≤ 22 kW, FR*CPO*E000000004765;ProtergiaCharge
+1622;Electrokinisi Polis;Tzon Kennenty 44,121 31 Peristeri;38.004232;23.687996;Type 2 ≤ 22 kW, GR*EVZ*E8676;ProtergiaCharge
+1623;Νοvacel Headquarters;Leoforos Thorikou,190 10 Saronikos;37.854593;23.920798;Type 2 ≤ 22 kW, GR*EVZ*E2950;ProtergiaCharge
+1624;Aris Tavern;Tatoiou 249,136 71 Acharnes;38.130513;23.795395;Type 2 ≤ 22 kW, GR*EVZ*E1747;ProtergiaCharge
+1625;ΑΙΜΟΔΙΑΓΝΩΣΗMED_RIGHT;Charilaoy Trikoupi 197,14564 Kifisia;38.087064627641;23.804120052836;Type 2 ≤ 22 kW, ΑΙΜΟΔΙΑΓΝΩΣΗMED_RIGHT;ProtergiaCharge
+1626;Athens | Thessalonikis Str. 64;Thessalonikis 64,2645 AS Athina;37.974782;23.712332;CCS Combo Type 2 ≤ 30 kW, NL*LMS*E1897811*1;ProtergiaCharge
+1628;PLAZ_VOULAS_2_RIGHT;Lewforos Alkyonidwn 4,16673 Voula;37.850045;23.7518168;Type 2 ≤ 22 kW, PLAZ_VOULAS_2_RIGHT;ProtergiaCharge
+1629;MIKROLIMANO 2;AKTI DILAVERI 2,185 33 PEIRAIAS;37.938231510889;23.662191205786;Type 2 ≤ 22 kW, MIKROLIMANO 2;ProtergiaCharge
+1630;Protergia Charge - Emar;Lewforos Grammoy 36,45445 Ioannina;39.684975654243;20.833562413349;Type 2 ≤ 22 kW, EMAR;ProtergiaCharge
+1631;Kolias Evangelos;Mpelogianni 134A,184 54 Nikea;37.971785;23.663658;Type 2 ≤ 22 kW, GR*EVZ*E3181;ProtergiaCharge
+1632;BP Gas Station;Kalamata,241 00 Kalamata;37.055993;22.067792;Type 2 ≤ 22 kW, GR*EVZ*E3855;ProtergiaCharge
+1633;Patra | Akti Dimeon;Akti Dimeon,262 22 Patra;38.233503;21.725024;CCS Combo Type 2 ≤ 60 kW, IT*GES*EADWET;ProtergiaCharge
+1634;Patra | Panepistimiou;Panepistimiou,264 43 Patra;38.274878;21.76176;Type 2 ≤ 43 kW, IT*GES*E3HUVZ;ProtergiaCharge
+1635;Patra | Nea Ethniki Odos Patron 152;Nea Ethniki Odos Patron 152,264 42 Patra;38.275089;21.761481;Type 2 ≤ 22 kW, IT*GES*EF1P5Q;ProtergiaCharge
+1636;Pirgos | Papageorgiou;Papageorgiou,271 00 Pirgos;37.680009;21.438945;Type 2 ≤ 22 kW, IT*GES*EPHQB4;ProtergiaCharge
+1637;Protergia Charge - Grand Hotel Palace 1;Monastiriou 305,54628 Thessaloniki;40.653430454402;22.907971113379;Type 2 ≤ 22 kW, LEFT;ProtergiaCharge
+1638;Shell Tsakonas Cholargos;Mesogeio Street 310,153 41 Agia Paraskevi;38.00876;23.805698;Type 2 ≤ 22 kW, GR*EVZ*E1193;ProtergiaCharge
+1639;FINES Kirkovo 2 CCS 2;Hotel Chinar 1,6884 Kirkovo;41.339863;25.358201;CCS Combo Type 2 ≤ 135 kW, BG*FCH*ECB*KIRKOVO*0002*C2;ProtergiaCharge
+1640;Andriopoulos Meat Market;Chelmou 25,145 65 Agios Stefanos;38.1389;23.854017;CCS Combo Type 2 ≤ 50 kW, GR*EVZ*E2883;ProtergiaCharge
+1641;Acrotel Athena Palace;Akti Elia, Nikiti Halkidiki 8,630 88 Nikiti;40.163105;23.726908;Type 2 ≤ 22 kW, GR*EVZ*E2085;ProtergiaCharge
+1642;Makedonia Palace Right;Leoforos Megaloy Alexandrou 2,546 40 Thessaloniki;40.618457863587;22.952204182685;Type 2 ≤ 22 kW, Makedonia Palace Right;ProtergiaCharge
+1643;Porto Karras Marina  Right;Neos Marmaras,630 81 Chalkidiki;40.074668562443;23.796896339367;Type 2 ≤ 22 kW, Porto Karras Marina Right;ProtergiaCharge
+1644;Nea Peramos Old Customs;Nikis 97,640 07 Nea Peramos;40.841562;24.305483;Type 2 ≤ 22 kW, GR*EVZ*E2476;ProtergiaCharge
+1645;Acrotel Athena Villas;Akti Elias,630 88 Nikiti;40.153486;23.730045;Type 2 ≤ 22 kW, GR*EVZ*E1632;ProtergiaCharge
+1646;Pangaio Town Hall;Papachristidi 143,641 00 Eleftheroupoli;40.913549;24.252012;Type 2 ≤ 22 kW, GR*EVZ*E2001;ProtergiaCharge
+1647;Acrotel Porto Brava Luxury Villas;Ormos Panagias,630 78 Ormos Panagias;40.23393;23.731331;Type 2 ≤ 22 kW, GR*EVZ*E5562;ProtergiaCharge
+1648;ELECTROKINISIS CHARGE SPOT FRONTZOU POLITEIA;Efthimiou Tzalla 4,453 33 Ioannina;39.664542;20.84143;Type 2 ≤ 22 kW, GR*EVZ*E9057;ProtergiaCharge
+1649;Protergia Charge - Evathlon Total Fitness 1;Palaia Ε.Ο. Korinthoy Patrwn 71,26504 Patra;38.292524434229;21.784065411451;Type 2 ≤ 22 kW, EVATHLON_LEFT;ProtergiaCharge
+1650;Charge Plus John's Hotel;KOTSOY 9,34100 CHALKIDA;38.462128;23.591183;Type 2 ≤ 22 kW, FI*001*E67030;ProtergiaCharge
+1651;PREMIUM;dompoli evergeti 7,45100 Iioannina;39.658602418935;20.845669192939;Type 2 ≤ 22 kW, Premium;ProtergiaCharge
+1652;CARGLASS ® Syggrou;Leoforos Andrea Siggrou 159,171 21 Nea Smirni;37.953108;23.712698;Type 2 ≤ 22 kW, GR*EVZ*E5321;ProtergiaCharge
+1653;CARGLASS ® Cholargos;Leoforos Mesogeion 296,155 62 Cholargos;38.007912;23.803869;Type 2 ≤ 22 kW, GR*EVZ*E9312;ProtergiaCharge
+1654;CARGLASS ® Koropi;Leoforos Eyelpidon, km 27,194 00 Koropi;37.883906;23.875885;Type 2 ≤ 22 kW, GR*EVZ*E8442;ProtergiaCharge
+1655;INSULA ELECTRIC  Industrial Zone Chania Crete;Tsikalaria,732 00 Tsikalaria;35.480028;24.064982;Type 2 ≤ 22 kW, GR*EVZ*E6431;ProtergiaCharge
+1656;CARGLASS ® Metamorfosi;Tatoiou 53,144 51 Metamorfosi;38.055586;23.753224;Type 2 ≤ 22 kW, GR*EVZ*E2780;ProtergiaCharge
+1657;EKEMS Vyrona;Saketa Camp,162 33 Vironas;37.951606;23.776306;Type 2 ≤ 22 kW, GR*EVZ*E7878;ProtergiaCharge
+1658;Protergia Charge - Chliapas Eco  Fuels Kozani (DC);Larisis 2,50100 Kozani;40.299813295147;21.799669861794;Type 2 ≤ 43 kW Att. Cable, Type 2;ProtergiaCharge
+1659;Charge Plus  Karystion Hotel;Kriezotoy,340 01 Karystos;38.012599;24.424127;Type 2 ≤ 22 kW, FI*001*E62881;ProtergiaCharge
+1660;Sani Resort 1;Sani, Kassandra,630 77 Halkidiki;40.103158616229;23.309875267709;Type 2 ≤ 22 kW, SANI RESORT 1_LEFT;ProtergiaCharge
+1661;Corissia Harmony Hotel;Georgioupoli,730 07 Georgioupoli;35.361774;24.261893;Type 2 ≤ 22 kW, GR*EVZ*E7329;ProtergiaCharge
+1662;Charge Plus Pefki;unknown,34200 Pefki;39.008356;23.210606;Type 2 ≤ 22 kW, FI*001*E66987;ProtergiaCharge
+1663;Charge Plus  Pefki;unknown,- unknown;39.008402;23.210637;Type 2 ≤ 22 kW, FI*001*E66986;ProtergiaCharge
+1664;Charge Plus Thisoa Hotel;Karkalou,- Dimitsana;37.636108;22.086357;Type 2 ≤ 22 kW, FI*001*E62852;ProtergiaCharge
+1665;SYN.KA_DIMOS LEFKIMMIS CORFU_RIGHT;lefkimmi,490 80 corfu;39.421995;20.044768;Type 2 ≤ 22 kW, RIGHT;ProtergiaCharge
+1666;PORSCHE_CENTER_ATHENS_2  (ONLY FOR PORSCHE CHARGING CARD HOLDERS );12th km. National Road Athens – LamiaGreece,14451 Metamorfossi;38.071305126374;23.764125947078;CCS Combo Type 2 ≤ 350 kW, Porshe_center_Athens2;ProtergiaCharge
+1667;Protergia Charge - Mixalakopoulou Athens Municipality;Michalakopoulou,11528 Athens;37.977023507432;23.755087582605;Type 2 ≤ 22 kW, LEFT;ProtergiaCharge
+1668;Charge Plus  Pyrgos Melissourgou;Kalívia Thorikoú,190 10 Attiki;37.787844;23.914357;Type 2 ≤ 22 kW, FI*001*E62884;ProtergiaCharge
+1669;PHAEA_BLUE_PALACE_2_RIGHT;Plaka, Shisma Elounda,72053 Lasithi, Crete;35.29391448843;25.726017496931;Type 2 ≤ 22 kW, Blue Palace_Right 2;ProtergiaCharge
+1670;Protergia Charge - Alas Resort & Spa 2;Elaia, Lakonias,23052 Lakonia;36.760839658245;22.795165681637;Type 2 ≤ 22 kW, Alas_Right;ProtergiaCharge
+1671;Village Heights Left;Roussos Lakos, Ano Hersonissos,70014 Heraklion, Crete;35.300052549317;25.352174753465;Type 2 ≤ 22 kW, VILLAGE HEIGHTS HOTEL LEFT 1;ProtergiaCharge
+1672;PHAEA_AGAPI_BEACH;Andrea Papandreou Street, Andara,71414 Heraklion, Crete;35.336543392925;25.078262657673;Type 2 ≤ 22 kW, AGAPI BEACH HOTEL;ProtergiaCharge
+1673;SYN.KA_CORFU_1ST KLM NR CORFU-LEFKIMMIS RIGHT;1st klm National Road Corfu-Lefkimmi,49080 Corfu;39.541474194508;19.912629263258;Type 2 ≤ 22 kW, CORFU_1ST KLM NR CORFU-LEFKIMMIS RIGHT;ProtergiaCharge
+1674;ECO GO;Ag. Eleftheriou 137,185 41 Pireas;37.957127;23.662798;Type 2 ≤ 22 kW, GR*EVZ*E6158;ProtergiaCharge
+1882;Mojito Beach Bar;85109 Νότιας Ρόδου, Ελλάδα;35.972406;27.897307;type 2;PlugShare
+1675;HYATT_RIGHT;13rd klm Thessaloniki, Perea,57001 Thessaloniki;40.522589401105;23.000239439438;Type 2 ≤ 22 kW, HYATT RIGHT;ProtergiaCharge
+1676;Protergia Charge - Regency Casino Thessaloniki 4;12 Klm National Road Thessaloniki Airport,55103 Thessaloniki;40.527408208047;22.988157697109;Type 2 ≤ 22 kW, CASINO 2 RIGHT;ProtergiaCharge
+1677;SYN.KA_HERAKLION_RIGHT;Leoforos 62 Martiron, 146,71303 Heraklion;35.333909414588;25.114766450434;Type 2 ≤ 22 kW, RIGHT;ProtergiaCharge
+1678;LYRARAKIS_LEFT;Alagni, Arkalochori,70300 Heraklion, Crete;35.184361417093;25.208536896927;Type 2 ≤ 22 kW, Lyrarakis left;ProtergiaCharge
+1679;SYN.KA_DIMOS LEFKIMMIS CORFU_LEFT;Lefkimmi,49080 Corfu;39.421973;20.04477;Type 2 ≤ 22 kW, LEFT;ProtergiaCharge
+1680;SYN.KA_RETHIMNO_RIGHT;Machiton Sholis Chorofilakis 48,74100 Rethimno;35.365719838335;24.496480267282;Type 2 ≤ 22 kW, RIGHT;ProtergiaCharge
+1681;Elbis - Intelligent Electronic Systems;Thesalonikis Neon Moudanion, km 14,570 01 Thermi;40.523325;23.011685;Type 2 ≤ 22 kW, GR*EVZ*E7778;ProtergiaCharge
+1682;Sardelaki me Thea;Leoforos Posidonos 18,166 72 Vouliagmeni;37.808891;23.782318;Type 2 ≤ 12,4 kW, GR*EVZ*E3928;ProtergiaCharge
+1683;Protergia Charge - Aegean Kalamata Athanasiou (DC);Irwwn Polytechneiou,24100 Kalamata;37.033866083912;22.103073991959;Type 2 ≤ 22 kW Att. Cable, Type 2;ProtergiaCharge
+1684;Protergia Charge - Hotel Z 2;Georgiou Kondili 0,67100 Xanthi;41.130815125172;24.892627775581;Type 2 ≤ 22 kW, Right;ProtergiaCharge
+1685;DEL_MARE_LEFT;Epar. Odos Paliouriou - Afitou,63085 Kassandra;39.937204729225;23.568951544941;Type 2 ≤ 22 kW, LEFT;ProtergiaCharge
+1686;DEL_MARE_RIGHT;Epar. Odos Paliouriou Afitou,63085 Kassandra;39.9334697;23.5677701;Type 2 ≤ 22 kW, RIGHT;ProtergiaCharge
+1687;SEA ALMIROU SOUTHBOUND;SEA ALMYROU KATHODOS,37008 ALMYROS;39.062671714194;22.888076777225;CHAdeMO ≤ 50 kW, CHAdeMO;ProtergiaCharge
+1688;SEA_ALMYROU_NORTHBOUND_;SEA ALMYROU ANODOS,37008 ALMYROS;39.064183673775;22.88866681964;CHAdeMO ≤ 50 kW, CHAdeMO;ProtergiaCharge
+1689;Electromotivo;Irakleous 27,176 71 Kallithea;37.956554;23.71253;Type 2 ≤ 22 kW, GR*EVZ*E2834;ProtergiaCharge
+1690;Anastasia suites;Kanari,570 21 Asprovalta;40.72321;23.710024;Type 2 ≤ 22 kW, GR*EVZ*E3954;ProtergiaCharge
+1691;FINES Marikostinovo HYC CCS 2;Marikostinovo 1,2870 Marikostinovo;41.43436;23.333703;CCS Combo Type 2 ≤ 225 kW, BG*FCH*ECB*MARIKOSTINOVO*0002*C2;ProtergiaCharge
+1692;Tsampas Small;Small -Tsampas, 1st km Orxomenos-Levadeia,323 00 Orxomenos;38.488373;22.981377;Type 2 ≤ 11 kW__, NL*LMS*E1000021031*1;ProtergiaCharge
+1693;Protergia Charge - Iakovidou Athens Municipality;IAKOVIDOU 1-3,11144 Athens;38.018662364117;23.735263684345;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1694;Protergia Charge - Lykourgoy Athens Municipality;ATHINAS & LYKOURGOU,10551 Athens;37.982709783327;23.727765098691;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1695;Protergia Charge - Loukianou Athens Municipality;LOUKIANOU 7,10675 Athens;37.976884150458;23.743918671181;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1696;Kalesma Mykonos;Mykonos,846 00 Mikonos;37.416471;25.315403;Type 2 ≤ 22 kW, GR*EVZ*E1075;ProtergiaCharge
+1697;SEA_NIKAIAS_SOUTHBOUND;SEA NIKAIAS KATHODOS,41500 Nikaia;39.548943442999;22.497339248657;CHAdeMO ≤ 50 kW, CHAdeMO;ProtergiaCharge
+1698;MARINAZEAS1;Marina Zeas,18536 Piraeus;37.931530490775;23.646923303604;Type 2 ≤ 22 kW, Left;ProtergiaCharge
+1699;SEA_NIKAIAS_NORTHBOUND;SEA NIKAIAS ANODOS,41500 Nikaia;39.549927899344;22.496427297592;CHAdeMO ≤ 50 kW, CHAdeMO;ProtergiaCharge
+1700;Protergia Charge - Liosion Athens Municipality;Liosion 22,10438 Athens;37.9883875;23.7254986;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1701;Protergia Charge - Argentina SQR Athens Municipality;Plateia Argentinis Dimokratias,11472 Athens;37.989247770139;23.743599107585;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1702;Protergia Charge - Irodou_Attikou Athens Municipality;Irodou Attikou,10557 Athina;37.970357228487;23.73959052943;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1703;LAMER_RESORT_2;Dramia, Georgioupoli, Chania, Crete,73007 Chania;35.351423099852;24.31225478253;Type 2 ≤ 22 kW, Right;ProtergiaCharge
+1704;Protergia Charge - Velvendous Athens Municipality;Velvendous 47,11255 Velvendou 47;38.0035994;23.7465617;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1705;Protergia Charge - Chrmantika Athens Municipality;Christou Mantika,11362 Athens;37.996290294519;23.741545670616;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1706;ATHENS_ALEXANDRIAS;Alexandrias 35,10441 Athens;37.992458277069;23.713628663228;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1707;Protergia Charge - Archimidous Athens Municipality;Archimidous 23 B,11635 Athens;37.967149877794;23.742272520499;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1708;ATHENS_FIDIPPIDOU;Fidippidou 30,11527 Athens;37.985655977209;23.765315626742;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1709;Protergia Charge - Pl.Mavilis Athens Municipality;D. Soutsou 3,11521 Athens;37.982646984252;23.756253210332;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1710;Protergia Charge - Skoufa Athens Municipality;Skoufa 13,10673 Athens;37.977825420625;23.740195884414;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1711;Protergia Charge - Pl.Eleftherias Athens Municipality;Plateia Eleutherias 25,10553 Athens;37.980645656606;23.720808848819;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1712;Protergia Charge - Evmolpidon Athens Municipality;Evmolpidon 32,11854 Athens;37.979995;23.711266;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1713;Protergia Charge - Iraklidon Athens Municipality;Iraklidon 66, Athens,11851 Athens;37.976768842826;23.714634678738;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1714;Protergia Charge - Kafantari Athens Municipality;Leof. Vouliagmenis & Leof. G. Kafantari,11631 Athens;37.956762707593;23.735467938264;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1715;Protergia Charge - Anapafseos Athens Municipality;Razikotsika 20 & Anapafseos,11636 Athens;37.965579490254;23.734912851218;Type 2 ≤ 11 kW, Left;ProtergiaCharge
+1716;Auto Care Livadeia;Galaxidiou,321 00 Levádhia;38.4414;22.871759;Type 2 ≤ 22 kW, NL*LMS*E1000024861*1;ProtergiaCharge
+1717;Charge Plus Nafpaktos;Athanasiadi Nova & Smirnis,30300 Nafpaktos;38.390044;21.818149;Type 2 ≤ 22 kW, FI*001*E61902;ProtergiaCharge
+1718;Charge plus;ARISTOGITONOS FILOXSENOYS,340 08 ERETRIA;38.391197;23.788694;Type 2 ≤ 22 kW, FI*001*E52119;ProtergiaCharge
+1719;ANFO Parking;Esperidon 1,176 71 Kallithea;37.961644;23.712162;Type 2 ≤ 22 kW, GR*EVZ*E2540;ProtergiaCharge
+1720;Charge Plus  Kalamata;Iroon Politexnioy,24100 Kalamata;37.033728;22.099238;Type 2 ≤ 22 kW, FI*001*E62851;ProtergiaCharge
+1721;Charge Plus Lavrio;Fokionos Neyri 3,19500 Lavrio;37.716915;24.055685;Type 2 ≤ 22 kW, FI*001*E62880;ProtergiaCharge
+1722;Charge Plus Rafina;Flemingk 42,190 09 Rafina;38.019049;24.001052;Type 2 ≤ 22 kW, FI*001*E62877;ProtergiaCharge
+1723;Charge Plus lavrio;Fokionos Neyri 3,195 00 Lavrio;37.716987;24.055552;Type 2 ≤ 22 kW, FI*001*E62879;ProtergiaCharge
+1724;Charge Plus  Likovrisi;Gr.Labraki20,14123 Likovrisi;38.067398;23.779843;Type 2 ≤ 22 kW, FI*001*E62875;ProtergiaCharge
+1725;Charge Plus  Likovrisi;Gr.Labraki 20,14123 Likovrisi;38.067404;23.779857;Type 2 ≤ 22 kW, FI*001*E62876;ProtergiaCharge
+1726;KAFKAS A.E Headquarters;Leoforos Markopoulou,190 02 Peania;37.940441;23.873613;Type 2 ≤ 5,5 kW, GR*EVZ*E7644;ProtergiaCharge
+1727;Charge Plus Korinthos;75th km P.E.O, Athens, korinthos,20100 Korinthos;37.924721;22.986451;Type 2 ≤ 22 kW, FI*001*E62873;ProtergiaCharge
+1728;Charge Plus Korinthos;75th km P.E.O, Athens, Korinthos,20100 Korinthos;37.924715;22.986388;Type 2 ≤ 22 kW, FI*001*E62874;ProtergiaCharge
+1729;Charge Plus Aigio;Korinthoy 146 - 148,25100 Aigio;38.233978;22.099393;Type 2 ≤ 22 kW, FI*001*E62859;ProtergiaCharge
+1730;Charge Plus Nayplio;LEOF.ASKLIPIOY 74,21100 NAYPLIO;37.570775;22.81692;Type 2 ≤ 22 kW, FI*001*E20964;ProtergiaCharge
+1731;INSULA ELECTRIC IND.ZONE CHANIA KRETA - CP 1;TSIKALARIA CHANIA 0,73200 CHANIA CRETA;35.47999;24.065;Type 2 ≤ 22 kW, GR*ELME*48144669;ProtergiaCharge
+1732;Volton  ΕΛΛΗΝΙΚΗ ΕΝΕΡΓΕΙΑΚΗ ΑΕ  - LEFT;P.BAKOGIANNI 22,14451 ΜΕΤΑΜΟΡΦΩΣΗ;38.057622;23.747548;Type 2 ≤ 22 kW, GR*ELM*E648146824;ProtergiaCharge
+1733;PLAISIO AG.PARASKEVI ATHINA - RIGHT;MESOGEION502,15342 AGIA PARASKEVI;38.01237;23.835926;Type 2 ≤ 22 kW, GR*ELME*48141741;ProtergiaCharge
+1734;ΠΛΑΤΑΙΩΝ PARKING GAS STATION  - ΠΛΑΤΑΙΩΝ LEFT;ΑΧΧΙΛΕΩΣ 65,10435 ΑΘΗΝΑ;37.984017;23.715993;Type 2 ≤ 22 kW, GR*ELM*E50000005;ProtergiaCharge
+1735;PLAISIO ALIMOU ATHINA - PLAISIO (LEFT);VOULIAGMENIS 595,16452 ARGYROUPOLI;37.911448;23.745639;Type 2 ≤ 22 kW, GR*ELM*E48141746;ProtergiaCharge
+1736;Charge Plus Komotini;E.OXANTHIS - KOMOTINIS,67100 KOMOTINI;41.109971;25.365012;Type 2 ≤ 22 kW, FI*001*E62496;ProtergiaCharge
+1737;Charge Plus Agrinio;X. Nikolaoy & Svoli,30100 Agrinio;38.6295;21.418496;Type 2 ≤ 22 kW, FI*001*E61901;ProtergiaCharge
+1738;Charge Plus Alexandroupoli;3rd km E.O. Alex / lis-Ferron,68100 Alexandroupoli;40.854635;25.917584;Type 2 ≤ 22 kW, FI*001*E62298;ProtergiaCharge
+1739;IN LED KARALIS;Pireos 78,104 35 Moschato;37.95927;23.688023;Type 2 ≤ 12,4 kW, GR*EVZ*E2564;ProtergiaCharge
+1740;Kyrannos Rent a Car;Pera Gialos,859 00 Astypalea;36.549002;26.352284;Type 2 ≤ 22 kW, GR*EVZ*E2853;ProtergiaCharge
+1741;XANI ZEMENOU;Hani Zemenou,320 04 Zemeno Arachova;38.475683;22.640696;Type 2 ≤ 22 kW, GR*EVZ*E9983;ProtergiaCharge
+1742;Parking Papaioannou;Tsamadou 40,106 83 Athens;37.98927;23.735674;Type 2 ≤ 12,4 kW, GR*EVZ*E9421;ProtergiaCharge
+1743;Mitafis Bakery;Eth. Antistaseos 2,346 00 Chalkida;38.504414;23.634649;Type 2 ≤ 12,4 kW, GR*EVZ*E7931;ProtergiaCharge
+1744;Charge Plus;Gravias,57013 Thessaloniki, Oreokastro;40.706677;22.934257;Type 2 ≤ 22 kW, FI*001*E55378;ProtergiaCharge
+1745;Charge Plus;Mideias 95,35100 Lamia;38.893628;22.445586;Type 2 ≤ 22 kW, FI*001*E53005;ProtergiaCharge
+1746;Chargespot - Έπιπλα GAND;L. Kifisias 129, Marousi,15124 Athens;38.048398;23.807722;Type 2 ≤ 22 kW, FI*001*E45005;ProtergiaCharge
+1747;Charge Plus Glifada;Geor.Gennimata & Mistra,16561 Glifada;37.887512;23.770299;Type 2 ≤ 22 kW, FI*001*E55727;ProtergiaCharge
+1748;Charge Plus Glifada;Geor. Gennimata & Mistra,165 61 Glifada;37.88752;23.770288;Type 2 ≤ 22 kW, FI*001*E55726;ProtergiaCharge
+1749;Charge Plus Anavissos;Leoforos Kamanli,19013 Anavissos;37.732956;23.948389;Type 2 ≤ 22 kW, FI*001*E55714;ProtergiaCharge
+1750;Charge Plus Anavissos;Leoforos Karamanli,19013 Anavissos;37.732965;23.948371;Type 2 ≤ 22 kW, FI*001*E55720;ProtergiaCharge
+1751;Agios Ioannis Rentis | Agias Annis 73;Agias Annis 73,182 33 Agios Ioannis Rentis;37.969959;23.677783;Type 2 ≤ 22 kW, IT*GES*EMSJ0K;ProtergiaCharge
+1752;Charge Plus;KALAVRITON52-56,262 26 PATRA;38.232618;21.747264;Type 2 ≤ 22 kW, FI*001*E52112;ProtergiaCharge
+1753;Charge Plus;PITIOYSIS,34100 CHALKIDA;38.446245;23.623577;Type 2 ≤ 22 kW, FI*001*E51383;ProtergiaCharge
+1754;Rruga Skender Kosturi;Rruga Skender Kosturi,1000 Tirana;41.33617;19.816195;Type 2 ≤ 22 kW, None;ProtergiaCharge
+1755;Ursa Major Suites;Epar.Od. Tripotamou-Kallonis, Komi 842 00, Greece;37.604757;25.142979;type 2;PlugShare
+1756;ElpeFuture BP Kerkyra;39.658395, 19.838632;39.658369;19.83843;type 2;PlugShare
+1757;Shell Argostoli;ΒΙ.ΠΕ, Argostoli 281 00, Greece;38.16375;20.496954;type 2;PlugShare
+1758;Xenakis Cars;10ο χλμ Ρόδου Λίνδου, Rodos 851 05, Greece;36.36895;28.195188;type 2;PlugShare
+1759;ESARJ - Aytemiz Polatcan Keşan;Keşan İspat Cami Mah. Kondra Cad. No: 80, Keşan, 22800 Edirne / Türkiye;40.875049;26.642201;type 2;PlugShare
+1760;ZES - Susurluk Festiva Outlet DC;Aziziye Mahallesi, 10600 Susurluk/Balıkesir, Turkey;39.840653;28.143024;type 2;PlugShare
+1761;ΑVIN CHARGING POINT (Coming Soon);Οδός χωρίς ονομασία, Πάρος 844 00, Ελλάδα;37.006376;25.131108;type 2;PlugShare
+1762;AVIN 4103;Επαρχ. Οδός, Epar.Od. Firon-Ormou Perissis, Emporio 847 03, Greece;36.35818074854391;25.43913305249101;type 2;PlugShare
+1763;ZES - Pakt Plus AVM Biga;Sakarya Mah., Terminal Cd. No:27 Biga/Çanakkale;40.225859;27.247853;type 2;PlugShare
+1764;EKO Kalypso Pirgos;Kaldilieri 16, Pirgos 271 00, Greece;37.671936;21.428337;type 2;PlugShare
+1765;Lidl Kassandreia;Epar.Od. Paliouriou-Afitou, Kassandra 630 77, Greece;40.06053;23.431096;type 2;PlugShare
+1766;EŞARJ - Erasta AVM Fethiye;Taşyaka, Ölüdeniz Cd. No:14, 48300 Fethiye/Muğla, Turkey;36.622349;29.132177;type 2;PlugShare
+1767;ZES - Muğla Rüyapark DC;Emirbeyazıt Mah. Uğur Mumcu Bulv. Rüya Park No:50 D:28 K:Zemin, 48000 Menteşe/Muğla, Türkiye;37.193028;28.369201;type 2;PlugShare
+1768;Lidl Mesampelies;Λεωφ. Παπαναστασίου 144, Ηράκλειο 714 09;35.314031;25.141507;type 2;PlugShare
+1769;EKO - Aghios Nikolaos;196ο ΧΛΜ 90 ΝΕΟ ΧΑΝΙΩΝ ΗΡΑΚΛΕΙΟΥ ΑΓ. ΝΙΚΟΛΑΟΥ ΣΗΤΕΙΑΣ, Ag. Nikolaos 721 00;35.205164;25.695213;type 2;PlugShare
+1770;Kipa AVM 5M Migros;Zeytinli, İzmir Çanakkale Yolu, 10302 Edremit/Balıkesir, Türkiye;39.59754;26.973386;type 2;PlugShare
+1771;Hotel PATMOS AKTIS Suites&Spa;8H36+MF Patmos, Greece;37.303727;26.561286;type 2;PlugShare
+1772;Akhisar Novada;Seyit Ahmet Mahallesi, 787. Sk. No:5, 45200 Akhisar/Manisa;38.943462;27.832854;type 2;PlugShare
+1773;Charger;Fatih Mahallesi, Sardunya Sk., 34540 Çatalca/İstanbul, Turkey;41.41269;28.18316;type 2;PlugShare
+1774;villa Grand Bitola;Kravarechki Pat б.б., Bitola 7000, North Macedonia;41.010567;21.352715;type 2;PlugShare
+1775;AVIN Evdilos, NRG incharge (Coming Soon);Epar.Od. Agiou Kirikou - Armenisti, Ikaria 833 02, Greece;37.62783184075719;26.18731487542391;type 2;PlugShare
+1776;DC Αράχωβα;38.479375, 22.580218;38.479379;22.580266;type 2;PlugShare
+1777;Divjaka Resort;SH57, Albanie;40.972472;19.479916;type 2;PlugShare
+1778;АВ;66J7+8G Kalloni, Greece;39.23082134710504;26.2137582959758;type 2;PlugShare
+1779;Oksijen O266 İstanbul Yönü;8JXH+VP Savaştepe/Balıkesir, Turkey;39.34972;27.62932;type 2;PlugShare
+1780;Kurnalı Petrol Shell;Bursa-Balıkesir Yolu, 16510‎ Bursa, Bursa‎ Turkey;40.055945;28.363997;type 2;PlugShare
+1781;ZES - Egelia İmroz Otel;Eski Bademli Mah. Köy Yolu Sk. No:202 Gökçeada/Çanakkale;40.222875;25.907525;type 2;PlugShare
+1782;NATURA PARK HOTEL;Psalidi 85300, Kos, Greece;36.88096;27.344436;type 2;PlugShare
+1783;SHARZ - BANDIRMA LİMAN AVM;17 Eylül, Gönen Yolu Cd. No:2/1, 10200 Bandırma/Balıkesir, Turkey;40.343839;27.981127;type 2;PlugShare
+1784;ZES - Hotel La Bella Bergama;Fatih Mah. Ataturk Bulvari No:303  Bergama/İzmir;39.092128;27.135233;type 2;PlugShare
+1785;Berat Caravan Camping;Rruga Mezi i Urave, Albanie;40.778432;19.857909;type 2;PlugShare
+1786;Küçükköy Belediyesi Önü 180kw Eşarj (Coming Soon);Küçükköy, Küçükköy Köyü Yolu, 10410 Ayvalık/Balıkesir, Türkiye;39.287593332713804;26.684516966342926;type 2;PlugShare
+1787;En Yakıt - Ufresh Shop;Yeni Sanayi, Devlet Kara Yolu Caddesi No: 135, 09800 Nazilli/Aydın;37.90411065360915;28.300253737125697;type 2;PlugShare
+1788;Shell Lamia | Travel Stop Lamias;38.874664856945884, 22.455960900179324;38.8747285675456;22.45599064975977;type 2;PlugShare
+1789;ZES - Hotel La Bella Alaşehir;Yeni Mahalle Süleyman Demirel Bulvarı No:376 Alaşehir/Manisa;38.345509;28.53801;type 2;PlugShare
+1790;ZES - Bamboo Nazilli AVM;İsabeyli Mah. 11. Cad. No: 34-3/C Nazilli/Aydın;37.898417;28.278551;type 2;PlugShare
+1791;ElpeFuture BP Calipso Trikala;Karditsis 58, Trikala 421 00, Greece;39.544633;21.775802;type 2;PlugShare
+1792;Halepa Hotel;El. Venizelou 164, Chania 731 33, Greece;35.517505;24.036336;type 2;PlugShare
+1793;SarantisOil;ΔΥΤΙΚΗ ΠΕΡΙΜΕΤΡΙΚΗ 280, Karistos 340 01, Greece;38.018847;24.411827;type 2;PlugShare
+1794;Evo Car Rental - Chora, Folegandros;Chora, Folegandros 840 11, Greece;36.627722;24.922721;type 2;PlugShare
+1795;The White Apartment;Aleksandar Spirkoski-Dzhemo 16, Prilep, North Macedonia;41.339749;21.545096;type 2;PlugShare
+1796;Shell Νέα Κερδύλλια;QRVM+6P Amfipoli, Greece;40.793006783713366;23.834257821610255;type 2;PlugShare
+1797;Sklavenitis Serres (Coming Soon);3ο χιλιόμετρο, EO Serron Dramas, Serres 621 00, Greece;41.08933702760852;23.598363650619536;type 2;PlugShare
+1798;Lidl Thasos;(40.7745129, 24.7004155);40.774576;24.700032;type 2;PlugShare
+1799;ElpeFuture EKO Nea Manolada;29WP+82 Vouprasia, Greece;38.04585496966145;21.385103352818152;type 2;PlugShare
+1800;ElpeFuture Nestani MSS ΣΕΑ Νεστάνης;37.580845, 22.432270;37.580817;22.432281;type 2;PlugShare
+1801;SIREN Paros Apartments (Coming Soon);Lividia Paroikia, Paros 844 00, Greece;37.088377;25.156456;type 2;PlugShare
+1802;EKO Calipso Dispilio;40.466360, 21.301731;40.466354;21.301565;type 2;PlugShare
+1803;MANIATIS Hotel + Restaurant;Lagkadia Arcadia Greece;37.681559;22.029463;type 2;PlugShare
+1804;EVN Veles;Nikola Orovcanec St 3, Veles 1400, North Macedonia;41.716678;21.783282;type 2;PlugShare
+1805;ZES - Chataeu Kalpak Şarköy;Gelibolu Yolu 7 km,  Şarköy/Tekirdağ;40.654011;27.05469;type 2;PlugShare
+1806;voltrun şarj istasyonu;Yeni, Atatürk Blv. No:291, 09270 Yalıköy/Didim/Aydın, Turkey;37.390048;27.249068;type 2;PlugShare
+1807;ZES - Hotel La Bella Soma;İnönü Mah. Bergama Cad. No: 14 Soma/Manisa;39.190543;27.587226;type 2;PlugShare
+1808;Makpetrol;4GQV+7P Bogorodica, North Macedonia;41.138165;22.544301;type 2;PlugShare
+1809;Ewiva Castro;Castro LE	Via di Mezzo 101;40.0103830175165;18.42527400952451;type 2;PlugShare
+1810;Eşarj Carrefour Urla;Altıntaş Mh, Ahmet Besim Uyal Cd. No:77, 35430 Urla/İzmir, Türkiye;38.32040153527849;26.75413389374442;type 2;PlugShare
+1811;ITI;85301 Kamari, Griechenland;36.73624;26.972411;type 2;PlugShare
+1812;Chargespot -Συνεργειο Αυτοκινητων Γοζαδινος Evolution;Orologio, avlonari;38.513742;24.108544;type 2;PlugShare
+1813;DEI blue - s/m AB Grevena;40.089279, 21.442100;40.089245;21.442111;type 2;PlugShare
+1814;ZES - TP Sedat Akyol Petrol;Dereköy Mah. Kuyucak Tavas Yolu Üzeri Karacasu/Aydın;37.771304;28.594015;type 2;PlugShare
+1815;ElpeFuture BP Kilkis;El. Venizelou Τερμα, Kilkis 611 00, Greece;40.998097;22.862209;type 2;PlugShare
+1816;AVIN;VQ7R+JP Paleros, Greece;38.86401814294401;20.791873812319295;type 2;PlugShare
+1817;ESARJ - Hampton by Hilton;Hoca Hamza Mah. Kemal Reis Cad. No:25 Gelibolu, 17500 Çanakkale / Türkiye;40.413422;26.678848;type 2;PlugShare
+1818;EVN-Strumica;1-ви Мај 41, Strumica, North Macedonia;41.43791;22.641423;type 2;PlugShare
+1819;ZES Kairos Marina (Körmen) (Coming Soon);QJ99+P6 Datça/Muğla, Türkiye;36.769300161376364;27.618098588441466;type 2;PlugShare
+1820;Rruga Gjin Zenebishti. Vladimir Ponde Wash;Gjirokastër, Albania;40.075884;20.141598;type 2;PlugShare
+1821;Skoda Karalelekis;1st km Didimoteicho - Orestiadas, Didimoteicho 683 00, Greece;41.357963;26.507525;type 2;PlugShare
+1822;EVN KAVADARCI ;Ulica 7-mi Septemvri 38, 1430 Kavadrtsi, North Macedonia;41.433799;22.012689;type 2;PlugShare
+1823;Papadopoulos Peugeot;Periferiaki Serron, Serres 621 00, Greece;41.099957;23.486747;type 2;PlugShare
+1824;Σκλαβενίτης Ελασσώνα;Μ. Αλεξάνδρου, Mitropoliti, Elassona 402 00, Greece;39.894712278192046;22.1884891274063;type 2;PlugShare
+1825;Τοποθεσία Άγιος Νικόλαος;Livadia Tilos;36.414693;27.386511;type 2;PlugShare
+1826;Paranesti (Δήμος Παρανεστίου);Paranesti square;41.267057;24.500818;type 2;PlugShare
+1827;Vellezerit Ismaili Shpk;V2FG+RVX, Rruga Skënderbeu, Sarandë, Albania;39.875286;20.02714;type 2;PlugShare
+1828;Fata Morgana Studios & Apartments;Fata Morgana Studios & Apartments, Sfakia 73011, Chania, Crete, Greece;35.183716;24.24378;type 2;PlugShare
+1829;Çan Belediyesi Akıllı Durak;Seramik Mh, Analar Sk. No:6, 17400 Çan/Çanakkale, Türkiye;40.019309;27.053459;type 2;PlugShare
+1830;Porto Palermo;SH8, Albania;40.06267;19.79392;type 2;PlugShare
+1831;ZES - Gediz Petrol Kütahya;Ova Mh, Çeltikçi Köyü, Gediz Yolu, Gediz/Kütahya;38.936609;29.314451;type 2;PlugShare
+1832;Otopratik Çaykara;Küçük Sanayi Sitesi, Sanayi 5. Sk. No:2, 39750 Lüleburgaz/Kırklareli, Turkey;41.40661425342748;27.339475016195603;type 2;PlugShare
+1833;SHARZ - Özcanlar Köfte Beyazköy;İstanbul Blv. Tekirdağ Yönü;40.989571;27.602495;type 2;PlugShare
+1834;EŞARJ - Manici Çiftlik, Çanakkale;İlyasfakı Mah. Köy Sok. No:152-8, Ayvacık, 17862 Çanakkale / Türkiye;39.559643;26.341613;type 2;PlugShare
+1835;ZES - Köfteci Tamer Öztürk;Cumhuriyet Mah.  Adnan Menderes Blv. no:14 Çine/Aydın;37.623221;28.04579;type 2;PlugShare
+1836;ZES - Ramada By Wyndham Tire;Fatih Mah. İstasyon Cd. NO:83 Tire/İzmir;38.102269;27.716163;type 2;PlugShare
+1837;ZES - Ulubey Kanyonu;Dilaver, 64900 Külçen/Ulubey/Uşak;38.419475;29.304209;type 2;PlugShare
+1838;SHARZ - Karamesutlu Energy;Gaziosmanpaşa, İstanbul Kırklareli Yolu, 39200 Karamesutlu/Babaeski/Kırklareli, Türkiye;41.474504;27.098625;type 2;PlugShare
+1839;EVN - Shtip;Кеј Маршал Тито Komuna e Shtipit MK, Shtip 2000, North Macedonia;41.736619;22.191074;type 2;PlugShare
+1840;ZES - Zorluteks Lüleburgaz DC;Yıldırım Mahallesi, İstanbul Edirne Yolu No:17, 39750 Büyükkarıştıran Belediyesi/Lüleburgaz/Kırklareli;41.281744;27.589476;type 2;PlugShare
+1841;Kalamar Hotel;Kalkan Mahallesi, Begonvil Sk. No:2, 07580 kaş/Kaş/Antalya, Türkiye;36.262184;29.399319;type 2;PlugShare
+1842;ZES - 39 Burda AVM  ;8 Kasım Mh İstasyon Cd No 151/z54 39 Burda Avm, Durak, 39750 Lüleburgaz/Kırklareli, Türkiye;41.385951;27.34915;type 2;PlugShare
+1843;Shell Livadias Amfissas;Χλμ, ΕΟ Λιβαδειάς Λαμίας 3Ο, Livadia 321 00, Greece;38.45864318889737;22.897744894027703;type 2;PlugShare
+1844;ZES - Vino Dessera Vineyards;Çifteçeşmeler Mah. No:75 Ahmetçe/Kırklareli;41.787817;27.234192;type 2;PlugShare
+1845;Dorkas Rooms and Appartments;4GQ7+M5 Livadi, Greece;37.13913;24.51296;type 2;PlugShare
+1846;Аква Спа Хотел Златоград;ul. Progres 1, Zlatograd;41.379453843848786;25.101974131299198;type 2;PlugShare
+1847;Evridiki Hotel;Pontou 13, 61100 Kilkis, Greece;40.993853;22.873027;type 2;PlugShare
+1848;AVIN FERRES;Rodopis 2, Feres 685 00, Greece;40.892014326682656;26.17803947096535;type 2;PlugShare
+1849;ZES- Başol Petrol;Basol Petrol Energy, Hisar, Tekirdağ Cd. No:2, 59400 Hayrabolu/Tekirdağ;41.21959780916264;27.071018608839797;type 2;PlugShare
+1850;Albatros Spa & Resort Hotel;Dedalou 1, Limenas Hersonissou;35.322209;25.388557;type 2;PlugShare
+1851;Oksijen O228 İstanbul Yönü DC, AC;Bakacak mah. 40590 sk. no: 70;39.655383;27.730724;type 2;PlugShare
+1852;Sklavenitis Dramas;45QH+V7 Drama, Greece;41.13974385676908;24.17822063915776;type 2;PlugShare
+1853;Σύρος;Τάλαντα 841 00, Greece;37.426592;24.927113;type 2;PlugShare
+1854;EŞARJ - Propratik (Çerçiler Oto);Madenler Mah. Gazi Mustafa Kemal Atatürk Blv. No: 18, Yatağan, 48516 Muğla / Türkiye;37.327618;28.16422;type 2;PlugShare
+1855;O37 Oksijen Orhangazi;Topselvi Mahallesi, O-5, 16825 Orhangazi/Bursa, Türkiye;40.525202;29.340982;type 2;PlugShare
+1856;ZES - Oksijen O68 DC (İstanbul Yönü);Engürücük Mahallesi, O-5, 16600 Gemlik/Bursa, Türkiye;40.388502;29.14124;type 2;PlugShare
+1857;Joltie - Golden Rooms Astakos;Golden Rooms Astakos;38.53599181387468;21.085442253635634;type 2;PlugShare
+1858;Atlantica Mikri Poli;Ανάληψη, Ανάληψη, NA 72055, Greece;35.038448;25.989884;type 2;PlugShare
+1859;Aqua Spa Hotel Zlatograd;867 5a, 4980 Zlatograd, Bulgaria;41.379922;25.101746;type 2;PlugShare
+1860;SHELL CHARGING POINT;Βαρελλα, Σάμος 831 00, Ελλάδα;37.737408;26.985012;type 2;PlugShare
+1861;G-Charge - KAPLANKAYA;48200 Milas Muğla, Türkei;37.311477;27.409053;type 2;PlugShare
+1862;ZES - Palm Beach Otel;Mıhlı Mah. Yatırım 1.cad. No:19 Ayvacık/Çanakkale;39.546349;26.610899;type 2;PlugShare
+1863;alas resort and spa;QQ6W+4C Παραλία Λιμανάκι - Ελαία Λακωνίας, Elea 230 52, Greece;36.760697;22.795083;type 2;PlugShare
+1864;Evora Cafe;40.866853, 21.839118;40.866809;21.839163;type 2;PlugShare
+1865;AB Food Market;Ε.Ο. Πύργου-Κυπαρισσίας, 27054, Ζαχάρω Ηλείας, Ελλάδα;37.482029;21.649642;type 2;PlugShare
+1866;Milas Ören Marina;Ören, Atatürk Blv., 48220 Milas/Muğla, Turkey;37.031394;27.981708;type 2;PlugShare
+1867;SHARZ-AKBAKAN DİNLENME TESİSLERİ;Bursa Çanakkale Yolu 1-1 Altay Mh. Gönen;40.296823;27.546426;type 2;PlugShare
+1868;Kirkovo;8672 25, 6887 Zavoya, Bulgaria;41.34027459461262;25.357938847885126;type 2;PlugShare
+1869;Demir Kapija;"Hotel Verdissa Radnjanska 92, 1442 Demir Kapija, Nordmazedonien
+
+";41.415696;22.228786;type 2;PlugShare
+1870;Pleiades Studios;Epar.Od. Kiatou - Vitinas, Sikionies 200 16, Greece;37.890245;22.512005;type 2;PlugShare
+1871;ZES - Key Museum Torbalı;Çapak Mah., Özgörkey Cad. No:5 Torbalı/İzmir;38.203846;27.348788;type 2;PlugShare
+1872;Shell;Thivas - Mourikiou Rd (3rd km), Thiva 322 00;38.347128;23.322295;type 2;PlugShare
+1873;Havsa Energy Petrol;Cumhuriyet Mh., Arslan Sk No:16, 22500 Havsa/Edirne, Turkey;41.541022;26.83145;type 2;PlugShare
+1874;mürv'et;Çakaloğlu petrol ofisi, Kızılcapınar, 09700 Germencik/Aydın, Turkey;37.875692;27.560707;type 2;PlugShare
+1875;EŞARJ - Otopratik, Söke, Aydın;Cumhuriyet Mh. Akeller Cd. No: 6, Söke, 09200 Aydın / Türkiye;37.734416;27.401391;type 2;PlugShare
+1876;Chargespot - Emporios Bay Hotel;Emporios Εμπορειός, Emporios 821 02, Greece;38.188022;26.027614;type 2;PlugShare
+1877;SHARZ - D-Resort Murat Reis Ayvalık;Paşa Koyu Şeytan Sofrası Yolu No: 1, Küçükköy, 10410 Ayvalık/Balıkesir, Turkey;39.281037;26.661155;type 2;PlugShare
+1878;Akın Dizel;Küçük Şehsuvarbey, Sanayi Sitesi Cd. No:31, 22200 Uzunköprü/Edirne, Turkey;41.246087;26.685964;type 2;PlugShare
+1879;ZES - 17 Burda AVM Çanakkale;Barbaros Mah., Atatürk Cd. No: 207 Merkez/Çanakkale;40.12341;26.411297;type 2;PlugShare
+1880;Resen;32Q6+XQF, Tashe Miloshevski, Resen, North Macedonia;41.090042;21.011989;type 2;PlugShare
+1881;Voltrun - e-Power Balıkesir 2;Aliağa, D230, 10190 Altıeylül/Balıkesir, Türkiye;39.639907;27.686223;type 2;PlugShare
+1883;GIOev - İzmir - Selçuk;İsa Bey, Selçuk-İzmir Yolu No:90, 35920 Selçuk/İzmir, Türkiye;37.96147263284397;27.373059531305994;type 2;PlugShare
+1884;Aegina Kazarte Boutique (Coming Soon);Ακτή Μαραθώνα, Μαραθώνας, Αίγινα 180 10, Ελλάδα;37.71710485927498;23.460282795131207;type 2;PlugShare
+1885;Port of Vasiliki;Unnamed Road, Vasiliki 310 82, Greece;38.625652;20.606878;type 2;PlugShare
+1886;Mytilene;Βούτσικα 1, Μυτιλήνη 811 00, Greece;39.106738;26.557275;type 2;PlugShare
+1887;Καλύβια φυλακτης Λίμνη πλαστηρα;8P74+27 Kalivia Filaktis, Greece;39.31259013108746;21.70573252329696;type 2;PlugShare
+1888;Oksijen O204 Balıkesir Kuzey İzmir Yönü Hizmet Tesisi;QX56+25 Karesi/Balıkesir, Turkey;39.757796;27.962467;type 2;PlugShare
+1889;S/M My Market Farsala;1st km Farsala-Larissa national road (EO3) , 403 00 Farsala, Greece;39.30415851045157;22.38539055553443;type 2;PlugShare
+1890;S/M My Market Domokos;34th km Lamia-Karditsa national road (EO3), Domokos 350 10, Greece;39.121773060431984;22.311659259449556;type 2;PlugShare
+1891;Carrefour Arnea;40.4886393, 23.6144488;40.488714;23.614272;type 2;PlugShare
+1892;A;Λευτά 2, Ελάτεια 350 04, Ελλάδα;38.626301;22.767297;type 2;PlugShare
+1893;ELIN Gas Station | Kastro Voiotias;38.489019, 23.157631;38.48855541615839;23.157214045924373;type 2;PlugShare
+1894;EŞARJ - Beyaz Filo Otomotiv, Balıkesir;Kesirven Mah. İsmail Akçay Sk. No:311, Altıeylül, 10185 Balıkesir / Türkiye;39.56965;27.900133;type 2;PlugShare
+1895;Vila Vanila;Samoilova St 29, Gjevgjeli 1480, Mazedonien (EJRM);41.138163;22.507603;type 2;PlugShare
+1896;Хотел Планински изглед;6787 Yabalkovets, Bulgaria;41.601431;25.189518;type 2;PlugShare
+1897;Zes Evreşe Troia Dinlenme Tesisleri;Evreşe Yolu, 17340 Evreşe/Gelibolu/Çanakkale, Türkiye;40.639996;26.860044;type 2;PlugShare
+1898;Artemola;Tepe Damları, Atatürk Blv. 559 a, 64000 Eskisaray/Uşak Merkez/Uşak, Turkey;38.672728;29.218465;type 2;PlugShare
+1899;DEI blue - s/m AB Florinas;40.792803, 21.436361;40.793077;21.436288;type 2;PlugShare
+1900;P;93MP+6C Farmakonisi, Greece;37.383039;27.086093;type 2;PlugShare
+1901;Shell Airport Kos;Antimachia;36.79791113264601;27.096495553851128;type 2;PlugShare
+1902;Restaurant Patok;Patoku Lagoon, Albania;41.636445;19.588786;type 2;PlugShare
+1903;B-CHARGE Londra Camping Edirne Kapıkule;Kapıkule Yolu Üzeri 360/2 360/3, 22130 Kemal/Edirne Merkez/Edirne, Türkiye;41.71358364161192;26.369615169599662;type 2;PlugShare
+1904;Zeytin Cafe & Restaurant;Kaleiçi Mh., Kıbrıs Şehidi Abdülkadir Tanguç Sk No:2, 34540 Çatalca/İstanbul, Turkey;41.16125422870723;28.454478730123657;type 2;PlugShare
+1905;Global Sailing Academy - 220V 16A;48700 Marmaris Muğla, Turkey;36.944929;28.184789;type 2;PlugShare
+1906;ElpeFuture EKO Kos;ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ 35 &, Mpoumpoulinas, Kos 853 00, Greece;36.89583719085944;27.280857229222104;type 2;PlugShare
+1907;Begonvil Apart ZES;MGF2+6R Datça/Muğla, Türkiye;36.67306059468973;27.5020128240696;type 2;PlugShare
+1908;WAT Mobilite Opet Öztürkler Petrol;Sultanköy, Ereğli Cd. No: 57/1, 59740 Marmaraereğlisi/Tekirdağ, Turkey;40.996987066400884;27.973544557672117;type 2;PlugShare
+1909;Kafkas S.A. - Agios Nikolaos;Κωνσταντίνου Καραμανλή, Θέση Σταυρός, Ag. Nikolaos 721 00, Greece;35.185061;25.706174;type 2;PlugShare
+1910;ZES - Florat Çiftlik Hotel & Kahvaltı;Bahçeli Mah. İzmir Çanakkale Yolu. Dikili/İzmir;39.207568;26.816902;type 2;PlugShare
+1911;Geyikevi;PG57+2G Yeşilköy/Keşan/Edirne, Turkey;40.707515;26.513856;type 2;PlugShare
+1912;Arfara MSS Southbound (ΣΕΑ Αρφαρών);37.178525, 22.012235;37.178519;22.012285;type 2;PlugShare
+1913;Athanasiou Car Wash;Irwwn Polytechneiou, Kalamata, 24100, GRC;37.033449;22.103852;type 2;PlugShare
+1914;Korfos GK;Unnamed Road, Korfos 200 04, Ελλάδα;37.763243;23.116229;type 2;PlugShare
+1915;EŞARJ - Mengerler, Osmangazi, Bursa;Panayır Mah. İstanbul Cd. No:438 Osmangazi, 16303 Bursa / Türkiye;40.241913;29.063802;type 2;PlugShare
+1916;VİZYONEKS - VZX Yaman Peynircilik Edirne Yolu;Izgar Mah Köyyolu Sok. No:1;40.88226459786395;26.88713401501061;type 2;PlugShare
+1917;EKO Archangelos Rodos;36.2204150, 28.1134199;36.220241;28.112885;type 2;PlugShare
+1918;WAT Mobilite - Opet Endülüs Petrol DC / AC;Hürriyet Mah.  Rüzgar Sokak No:4 45200 Soma / Manisa;39.18297892160686;27.626714993962644;type 2;PlugShare
+1919;ZES Oksijen 266;Karaçam, O-5, Savaştepe, Turkey;39.348159;27.629301;type 2;PlugShare
+1920;Eşarj Uçak Kardeşler;Tepecik, Kuşadası Cd. No:79, 35460 Seferihisar/İzmir, Türkiye;38.17739650490005;26.831286138299888;type 2;PlugShare
+1921;Hotel Apollon Tyros Beach;Ταγματαρχου Αλευρα, Paralia 223 00, Greece;37.244506;22.867043;type 2;PlugShare
+1922;ZES - Hampton by Hilton İzmir Aliağa;Yalı, 130. Sk. No:11, 35800 Aliağa/İzmir, Turkey;38.832513;26.977913;type 2;PlugShare
+1923;ZES - Lüleburgaz Bakucha Otel;Arcadia Bağları, 39750 Lüleburgaz/Kırklareli;41.535359;27.297144;type 2;PlugShare
+1924;Paligremnos;Plakias beach;35.18288;24.401088;type 2;PlugShare
+1925;xx (Coming Soon);xx;38.494935;26.718141;type 2;PlugShare
+1926;korali house παραλία βράχου;vrachos deach παραλια βραχου, Zaloggo 480 62, Greece;39.175432;20.549196;type 2;PlugShare
+1927;Aridaia AVIN Gas Station;Epar.Od. Edessas - Arideas, Almopia 584 00, Greece;40.960547;22.071418;type 2;PlugShare
+1928;En Yakıt - Rindera İş Ve Yaşam Merkezi;Denizli OSB, OKUL CAD. KAPI NO:5;37.806640880108624;29.242957136621;type 2;PlugShare
+1929;Throisma Villas;Assos 280 85;38.378087;20.542675;type 2;PlugShare
+1930;Cabana Beach EV charger;Unnamed Road, Kassandra 630 85, Greece;39.961849;23.675385;type 2;PlugShare
+1931;ZES - TP Hüdaverdi Petrol Köyceğiz;Yeni Mah. Muğla Fethiye otoyolu D400 Fethiye/Muğla;36.972987;28.696465;type 2;PlugShare
+1932;Zes Zorlu Jeotermal Kızıldere;Kızıldere, D320, 09670 Buharkent/Aydın, Türkiye;37.947965;28.82549;type 2;PlugShare
+1933;ZES - Bahçıvanoğlu Otomotiv;Yalnızev, Aliağa-Dikili-Bergama Yolu No:5000, 35700 Bergama/İzmir, Turkey;39.089181;27.12684;type 2;PlugShare
+1934;Oncharge;Zeytindağ Mh. Aliağa Menemen Çandarlı Otoyolu, Zeytindağ, 35700 Bergama/İzmir, Türkiye;38.953991986925026;27.061788962859538;type 2;PlugShare
+1935;ZES - Didim D-Marin;Çamlık Mah. Paşa Cad. No: 4/A, 09270 Didim/Aydın;37.340803;27.262047;type 2;PlugShare
+1936;Eşarj - Otomol Milas;Kemikler, Muğla Bodrum Yolu, 48670 Milas/Muğla, Türkiye;37.215287;27.657988;type 2;PlugShare
+1937;Orestiada Central Park (Πάρκο Ορεστιάδας);Orestou 34, Orestiada 682 00, Greece;41.502998;26.535592;type 2;PlugShare
+1938;ZES - Suit Park Dinlenme Tesisleri;Yassıhüyük Mah. Denizli Antalya karayolu 8. Km. Acıpayam/Denizli;37.517412;29.303193;type 2;PlugShare
+1939;Carrefoursa Ömerli;Ömerli, Kadirova Cd. No:1, 34794 Çekmeköy/İstanbul, Turkey;41.083869;29.329491;type 2;PlugShare
+1940;Oksijen O135 izmir yonu;7F33+3P Karacabey/Bursa, Turkey;40.25269212511096;28.454281054365417;type 2;PlugShare
+1941;Sunny Bay Hotel;FMX6+4W Kissamos Province, Greece;35.4978;23.662278;type 2;PlugShare
+1942;AVIN Malgara;Leof. Thessalonikis 46, Nea Malgara 573 00, Greece;40.605324;22.680709;type 2;PlugShare
+1943;Sklavenitis Skala - Dei Blue;EO Monemvasias Krokeon 23, Ag. Georgios 230 51, Greece;36.85466443280013;22.679570205509663;type 2;PlugShare
+1944;Hotel Chandris;Leof. Aigaiou 120, Chios 821 00, Greece;38.366847;26.142792;type 2;PlugShare
+1945;eCars Ресторант Мотел Роси;1 17, 2843 Dolna Gradeshnitsa, Bulgaria;41.680611;23.18433;type 2;PlugShare
+1946;ZES - Menemen Novada;Yıldırım, Çanakkale Asfaltı-Türkelli Cd. No:46, 35676 Menemen/İzmir;38.678592;27.015336;type 2;PlugShare
+1947;Eşarj Ramada;Nusratlı, Tekirdağ-Malkara Karayolu 105a, 59000 Süleymanpaşa/Tekirdağ, Türkiye;40.94671522924556;27.465335891587106;type 2;PlugShare
+1948;Avin - Pelopio;MH6Q+H8 Olympia, Greece;37.661485;21.588373;type 2;PlugShare
+1949;has.to.be gmbh;Dramia, Georgioupoli, Chania, Crete, Chania, 73007, GRC;35.351304;24.312653;type 2;PlugShare
+1950;ZES - Vega AVM Silivri;Yenimahalle Mah. General Ali İhsan Türkan Caddesi, 1938 Silivri/İstanbul;41.077482;28.251868;type 2;PlugShare
+1951;Chargespot - Mplias Ioannis Synergeio;Epar.Od. Mirina-Moudrou, Limnos 814 00, Greece;39.912496;25.201826;type 2;PlugShare
+1952;Akademi Binicilik;İzzettin Mahallesi, Unnamed Road, 34540 Çatalca/İstanbul;41.209789;28.476336;type 2;PlugShare
+1953;ESARJ - Halil’in Yeri Restaurant;Akyaka Mahallesi İnişdibi Caddesi No 48 Ula/Muğla;37.055798;28.337092;type 2;PlugShare
+1954;ZES - Oksijen O167 İstanbul Yönü DC;26RC+PR Karacabey/Bursa, Turkey;40.041776;28.222095;type 2;PlugShare
+1955;kadoil rençber dinleme tesisleri;P969+XX Kemal/Edirne Merkez/Edirne, Turkey;41.711054;26.374424;type 2;PlugShare
+1956;SHELL 3o χλμ Καρδίτσης Αθηνών;9X86+PW Kampos, Greece;39.36683996940815;21.962291264430483;type 2;PlugShare
+1957;Shell 389 (Coming Soon);1 χλμ Σπάρτης Τριπολης, Sparti 231 00, Greece;37.092777;22.431867;type 2;PlugShare
+1958;Hotel Rodovoli EV Charging Station;Hotel Rodovoli, Ναπολέων Ζέρβα 32, Konitsa 441 00;40.044811;20.74989;type 2;PlugShare
+1959;Electrical Ρουμελιώτης;28ης Οκτωβρίου 52, Λουτρά Αιδηψού 343 00;38.86079;23.040602;type 2;PlugShare
+1960;Chargespot - I.K.T.E.O. Ekivolos S.A.;Περιφερειακος Ιστιαίας;38.94338;23.148354;type 2;PlugShare
+1961;Lyrarakis Winery;Alagni, Arkalochori, Heraklion, Crete, 70300, GRC;35.184361;25.208537;type 2;PlugShare
+1962;SHARZ - TARFA Tarımsal Faaliyetler San. ve Tic. Ltd. Şti.;Hükümet Önü Cad., No 62, 35840 Bayındır, İzmir;38.220031;27.652983;type 2;PlugShare
+1963;Paradise Resort;Evangelismos Methonis;36.802795;21.781853;type 2;PlugShare
+1964;Atler Hypco;Dikmekavak, Muğla Fethiye Yolu No:232, 48600 Ortaca/Muğla, Turkey;36.825718;28.788377;type 2;PlugShare
+1965;Onur Home;Dalyan, Arıkbaşı Sk. No:10, 48600 Ortaca/Muğla, Türkiye;36.824377;28.655925;type 2;PlugShare
+1966;My Market - Agioi Theodoroi;π.ε.ο.α.κ 64 χιλ, Άγιοι Θεόδωροι 200 03, Ελλάδα;37.924399;23.13293;type 2;PlugShare
+1967;Κηπια;Οδός χωρίς ονομασία, Κηπιά 641 00, Ελλάδα;40.88714414235451;24.201148822903633;type 2;PlugShare
+1968;My Market Aliveri;Ε.Ο. Χαλκίδος-Λεπούρων, Θέση, Γήπεδο Αλιβερίου, Aliveri 345 00, Greece;38.408018;24.03114;type 2;PlugShare
+1969;Şaphane;Pazar Mh, Cumhuriyet Meydanı No:12, 43950 Şaphane/Kütahya, Türkiye;39.025388;29.219773;type 2;PlugShare
+1970;ZES - Le Monde Beach Resort Dikili;Cumhuriyet Mah. Çetin Emeç Cad. No:2 Dikili/İzmir;39.094593;26.879729;type 2;PlugShare
+1971;Pelagus Villas;Παλλήνη , Κασσάνδρα 630 85, Ελλάδα;40.009968;23.548539;type 2;PlugShare
+1972;EVN Makedonija Gostivar;Dimitar Vlahov 1234, Gostivar 1230, North Macedonia;41.793603;20.910673;type 2;PlugShare
+1973;Acaya Golf Resort & Spa;Strada Comunale di Acaya, Km. 2, 73029 Acaya LE, Italy;40.345788;18.312106;type 2;PlugShare
+1974;SHARZ - Çantaköy Energy;Seymen, İstanbul Çorlu Yolu, 34580 Silivri/İstanbul, Türkiye;41.084446;28.037189;type 2;PlugShare
+1975;ZES - Göcek D-Marin;Göcek Mahallesi, Camtaş Cad Göcek No:12, 48310 Fethiye/Muğla;36.745979;28.943147;type 2;PlugShare
+1976;Lula Bar Vuno;4MRV+6V3, Vuno, Albania;40.140465;19.694955;type 2;PlugShare
+1977;Aegean Wave Hotel;Loutraki - Port Of Glossa, Loutraki 370 03, Ελλάδα;39.16647;23.618278;type 2;PlugShare
+1978;Revoil Gas Station (Coming Soon);40.6308525, 23.2123060;40.631011;23.212374;type 2;PlugShare
+1979;AVIN Vasilika;40.480176, 23.156078;40.48001;23.156175;type 2;PlugShare
+1980;EVN - Ohrid ;Kej Makedonija, 6000 Ohrid, North Macedonia;41.112456;20.799435;type 2;PlugShare
+1981;SHELL 756;Αθηνών 26, Κόρινθος 201 00, Ελλάδα;37.938517;22.94017;type 2;PlugShare
+1982;PERDEKOR TEKSTIL;TURANKÖY SANAYİ BÖLGESİ TURAN CADDE NO 23, Turanköy, 16450 Kestel/Bursa, Türkiye;40.20472472351158;29.35542858044496;type 2;PlugShare
+1983;SHARZ - Korudağı Energy;Edirne Çanakkale Yolu, 22880 Mahmutköy/Keşan/Edirne, Türkiye;40.752754;26.714642;type 2;PlugShare
+1984;Chargespot - Kalavrita Ski Center;Σαλέ χιονοδρομικού Καλαβρύτων, Αιγιάλεια 250 06, Ελλάδα;38.006371;22.197342;type 2;PlugShare
+1985;Sole Italia Soc. Agricola Srl;73020‎ Nociglia‎ Pouilles, Italie;40.035219;18.314193;type 2;PlugShare
+1986;ZES - Ali Alhan Et Lokantası -2;VM6H+VR İncirliova/Aydın, Turkey;37.862129;27.679581;type 2;PlugShare
+1987;Lazar Winery;GXWC+HW5 Palikura, North Macedonia;41.546456;21.972471;type 2;PlugShare
+1988;ΣΕΑ Αμφιλοχίας (Amphilochia);38.863549, 21.183924;38.863529;21.183971;type 2;PlugShare
+1989;ΣΕΑ Αμβρακίας / Amvrakia Northbound;38.746500, 21.204847;38.746501;21.204857;type 2;PlugShare
+1990;Rhodoland Nurseries;Diakopto 251 00, Greece;38.196297;22.156578;type 2;PlugShare
+1991;ZES - Pınar Otel;9VP4+WF Erdek/Balıkesir, Turkey;40.387343;27.856202;type 2;PlugShare
+1992;Sklavenitis Argos;MP4G+JR Koutsopodi, Greece;37.65654487924464;22.727122025579934;type 2;PlugShare
+1993;ZES - Teos Marina;Sığacık Mah. Seferihisar/İzmir;38.190729;26.783359;type 2;PlugShare
+1994;Belite skali Eco Complex;местност Свети Петър, Гайтаниново;41.450929;23.741381;type 2;PlugShare
+1995;DEI blue - Xalkiadakis Tympaki;Λεωφ. Κόκκινου Πύργου, Τυμπάκι 702 00;35.069167;24.77425;type 2;PlugShare
+1996;ZES - TP İmza Akaryakıt;Altıeylül Mah. Ahmetli/Manisa;38.515465;27.955676;type 2;PlugShare
+1997;ZES - Turgutreis D-Marin;Turgutreis Mahallesi, Gazi Mustafa Kemal Blv. No:24, 48960 Bodrum/Muğla;37.005066;27.256543;type 2;PlugShare
+1998;ZES - YDA Dalaman Havalimanı;YDA Dalaman Havalimanı, Dalaman/Muğla;36.712441;28.790053;type 2;PlugShare
+1999;ESARJ - Mengerler, Nilüfer, Bursa;Dokuz Eylül, Akçay Cd. NO:233 Gaziemir, 35410 İzmir / Türkiye;40.21509;28.893171;type 2;PlugShare
+2000;ESARJ - Aytemiz İzmir Otoyolu;İzmir Otoyolu OHT-4 Aytemiz Akaryakıt İstasyonu İstanbul Yönü, Nilüfer, 16110 Bursa / Türkiye;40.232905;28.781508;type 2;PlugShare
+2001;Palma Nova Resort ;Autostrada e re Tiranë - Elbasan, km 6, Bërzhitë, Albania;41.247757;19.905178;type 2;PlugShare
+2002;"Kalavrita Canyon Hotel &amp; Spa";"Εθνικής Αντιστάσεως &amp; Σκαλτσά, Καλάβρυτα";38.0307635;22.1112101;a;InCharge
+2003;AVIN 4048_MAKRAION;Θέση Σπηλιά Ζεζα, Λεωφ. Λαυρίου, Κερατέα;37.7864129;24.0575456;a;InCharge
+2004;My market - Οινόφυτα (2);Π.Ο. Οινοφύτων, Οινόφυτα;38.3105862;23.6339191;a;InCharge
+2005;My market - Ωρωπός (2);2ο ΧΛΜ Λεωφ. Σκάλας Ωρωπού, Ωρωπός;38.3252757;23.7571693;a;InCharge
+2006;My market - Μάνδρα (2);Π.Ε.Ο. Αθηνών - Θηβών, Θέση Πήλιζα, Μάνδρα;38.0815623;23.4921648;a;InCharge
+2007;My market - Ελευσίνα Εθνικής Οδού (2);Παρακαμπτήρια Οδός Εθνικής Οδού, Ε.Ο Αθηνών-Κορίνθου, Ελευσίνα;38.05466;23.5212491;a;InCharge
+2008;My market - Βάρη (2);Λ. Αναργυρούντος 14 (πρώην Βάρης-Κορωπίου), Βάρη;37.8334159;23.7993236;a;InCharge
+2009;AVIN 4050_MAKRAION;Λεωφ. Ευελπίδων 6, Βάρη;37.8346558;23.8054611;d;InCharge
+2010;My market - Ελευσίνα Νέζη (2);"Επισμηναγού Νέζη, Γράμμου &amp; Σπετσών, Ελευσίνα";38.0405154;23.5475362;a;InCharge
+2011;Shell 121_MYRTEA (2);"Βασ. Γεωργίου 1 &amp; Ευρυάλης 4, Γλυφάδα";37.8752319;23.7334254;a;InCharge
+2012;Shell 120_MYRTEA (1);8ο ΧΛΜ. Βάρης - Κορωπίου, Κορωπί;37.8772052;23.8673657;a;InCharge
+2013;Shell 483_ERMIS;Παράδρομος Λεωφ. Βάρης-Κορωπίου 37, Κορωπί;37.8834725;23.876157;a;InCharge
+2014;My market - Λούτσα (2);Λεωφ. Βραβρώνος 15, Λούτσα;37.965443;24.0058513;a;InCharge
+2015;My market - Σχηματάρι (2);62Ο ΧΛΜ. Αθηνών - Λαμίας, Σχηματάρι;38.3491034;23.5847742;a;InCharge
+2016;Shell 335_ERMIS;Ε.Ο. προς Παραλία Αυλίδος θέση Πηγάδι Ιατρού, Σχηματάρι;38.3509429;23.5839226;a;InCharge
+2017;AVIN 4074_MAKRAION;"Χαϊνα 44 &amp; Λίμνης, Εύβοια";38.4688792;23.6037952;a;InCharge
+2018;My market - Τρίπολη Ο.Η.Ε (2);Λεωφ. Ο.Η.Ε, Τρίπολη;37.5017814;22.3661606;a;InCharge
+2019;My market - Ιστιαία (2);Περιφερειακή Οδός Γ. Σκαρίμπα, θέση Αμμούδες, Ιστιαία;38.9585608;23.1517469;a;InCharge
+2020;AVIN Άργος_DO (2);Τέρμα Κορίνθου, Άργος;37.6585405;22.7259856;a;InCharge
+2021;My market - Ξυλόκαστρο (2);37ο ΧΛΜ Π.Ε.Ο Κορίνθου-Πατρών, Ξυλόκαστρο;38.0794092;22.6167457;a;InCharge
+2022;My market - Κρανίδι (2);2Ο ΧΛΜ Ε.Ο Κρανιδίου - Πορτοχελίου, Κρανίδι;37.3612186;23.1623857;a;InCharge
+2023;Shell Διμηνιό_DO;Διμηνιό, Κιάτο;38.0258449;22.7323458;a;InCharge
+2024;My market - Κιάτο (2);Επαρχιακή Οδός Κιάτου-Στυμφαλίας, Κιάτο;38.0098962;22.7397551;a;InCharge
+2025;ΓΑΛΑΝΑ ΕΠΕ;Ρούμελης, Λιβαδειά, 32100, Λιβαδειά;38.4434157;22.8760775;a;InCharge
+2026;"METRO Cash &amp; Carry - Λιβαδειά (2)";Ε.Ο Λιβαδειάς-Λαμίας, θέση Κουρούπι, Λιβαδειά;38.4584805;22.8944756;a;InCharge
+2027;Shell Άσσος_DO;"Παλαιά Εθνική Οδός Κορίνθου-Παστρών, &#039;Ασσος";37.9462974;22.8169666;a;InCharge
+2028;My market - Αγιοι Θεόδωροι (2);Παλαιά Ε.Ο. Αθηνών-Κορίνθου, Μέγαρα;37.9246105;23.1331768;a;InCharge
+2029;My market - Θήβα (2);"Σ. Καραμαγκιώλη &amp; Αυλίδος, Αγ. Θεοδώρων, Θήβα";38.3244583;23.3233414;a;InCharge
+2030;My market - Κορωπί (2);"Λεωφ. Βάρης &amp; Λεωφ. Μαρκόπουλου, Κορωπί";37.892738;23.88174;a;InCharge
+2031;My market - Γλυφάδα Αθανάτου (2);"Κλ. Αθανάτου 5 &amp; Σπερχειάδος, Γλυφάδα";37.8912989;23.7618317;a;InCharge
+2032;Shell 201_ERMIS;Μαρίνου Αντύπα 19-21, Ηλιούπολη;37.9441167;23.7485042;a;InCharge
+2033;My market - Σπάτα (2);"Λ. Αθηνών &amp; Διαδόχου Κωνσταντίνου, Σπάτα";37.9677816;23.9063184;a;InCharge
+2034;AVIN 4093_MAKRAION;21Ο ΧΛΜ, Λεωφόρου Μαραθώνος, Πικέρμι;38.0007359;23.9379002;a;InCharge
+2035;My market - Μεταξουργείο (2);"Πλαταιών 51 &amp; Παραμυθιάς, Αθήνα";37.982586;23.7151477;a;InCharge
+2036;Shell 229_ERMIS;Λένορμαν 187-191, Αθήνα;37.9976;23.7098198;a;InCharge
+2037;My market - Ανοιξη (2);"Λεωφ. Μαραθώνα 61-63 &amp; Ροδοδάφνης, Άνοιξη";38.132946;23.8587896;a;InCharge
+2038;AVIN 4125_MAKRAION;Λεωφ. Θρακομακεδόνων 224, Θρακομακεδόνες;38.1198157;23.7469084;a;InCharge
+2039;My market - Μενίδι Αγ. Διονύσιος (2);Εθν. Αντιστάσεως 99-101, Αχαρνές ;38.0850293;23.7246752;a;InCharge
+2040;Troufa Daily Drosia;Λεωφόρος Θησέως 4, Δροσιά;38.1187818;23.8569726;a;InCharge
+2041;My market - Ολυμπιακό Χωριό (2);Λεωφ. Κύμης Έναντι της Εισόδου Α Ολ. Χωριό, Θρακομακεδόνες ;38.1044138;23.7631114;a;InCharge
+2042;My market - Αγ. Παρασκευή (2);Χαλανδρίου 17, Αγ. Παρασκευή;38.0143231;23.8180151;a;InCharge
+2043;AVIN 4064_MAKRAION;Π. Τσαλδάρη 57,Ταύρος;37.967696;23.7008522;a;InCharge
+2044;Shell 106_MYRTEA;Όλγας 125, Αγ. Δημήτριος;37.9445843;23.7404721;a;InCharge
+2045;Shell 249_ERMIS;Λεωφ. Βουλιαγμένης 274, Αγ. Δημήτριος;37.9403634;23.7403553;a;InCharge
+2046;My market - Πειραιάς Αγία Σοφία (2);Παλαμηδίου 13, Πειραιάς;37.9542761;23.6442856;a;InCharge
+2047;Shell 135_MYRTEA;Λεωφ. Αθηνών-Πειραιώς 75, Πειραιάς;37.950124;23.6591248;a;InCharge
+2048;AVIN 4116_MAKRAION;Λεωφ. Αλίμου 72, Άλιμος;37.9077561;23.7359726;d;InCharge
+2049;My market - Μαραθώνας (2);Προφήτη Ηλία 32, Μαραθώνας;38.1598557;23.9613567;a;InCharge
+2050;My market - Καπανδρίτι (2);Παλαιά Εθνική Οδός Αθηνών- Καπανδριτίου, Καπανδρίτη;38.2059455;23.8648511;a;InCharge
+2051;Shell 165_MYRTEA;"Αγ. Ιωάννη Ρέντη 130 &amp; Ήρας, Πειραιάς";37.9577095;23.6643783;a;InCharge
+2052;"METRO Cash &amp; Carry - Πειραιώς (2)";Πειραιώς 35, Αθήνα;37.9571158;23.6798931;a;InCharge
+2053;AVIN 4120_MAKRAION;Λεωφόρο Νάτο 151, Ασπρόπυργος;38.0644102;23.6357088;a;InCharge
+2054;My market - Χαϊδάρι Δάσος (2);"Λεωφ. Καβάλας 364 &amp; Αγ. Παρασκευής, Χαϊδάρι";38.0114587;23.6473653;a;InCharge
+2055;My market - Νέα Μάκρη (2);Λεωφ. Μαραθώνος 160, Νέα Μάκρη;38.0902935;23.9756641;a;InCharge
+2056;My market - Αγ. Βαρβάρα (2);"Ελ.Βενιζέλου 42 &amp; Ψηλορείτη, Αγία Βαρβάρα";37.9960294;23.6611259;a;InCharge
+2057;"METRO Cash &amp; Carry - Πέτρου Ράλλη (2)";Πέτρου Ράλλη 75, Αγ. Ιωάννης Ρέντης;37.976082;23.6804532;a;InCharge
+2058;"METRO Cash &amp; Carry - Εθνική (2)";Σωρού 1, Μεταμόρφωση ;38.0724584;23.7670713;a;InCharge
+2059;ΤΣΙΝΟΥΚΑΣ ΚΡΕΟΠΩΛΕΙΑ;Κορίνθου 82, Αίγιο;38.2417627;22.0934941;a;InCharge
+2060;Shell 168_MYRTEA;2ο ΧΛΜ Κομοτηνής- Ξάνθης, Κομοτηνή;41.1141415;25.3784755;a;InCharge
+2061;My market - Ιωάννινα Ανατολή (2);Ιωαννίνων 4, Ιωάννινα, Ανατολή;39.6400153;20.8629494;a;InCharge
+2062;"METRO Cash &amp; Carry - Ιωάννινα (2)";Π.Ο Ιωαννίνων Κόμβος Νοσοκομείου, περιοχή Πεδινης, Ιωάννινα;39.624282;20.8511402;a;InCharge
+2063;Korali House;Παραλία Βράχου, Πρέβεζα;39.1751397;20.5492341;a;InCharge
+2064;"F&amp;B";8ο χλμ. Ε.Ο. Ιωαννίνων-Αθηνών, Κόμβος Εγνατίας Οδού, Ιωάννινα;39.5940482;20.8617697;a;InCharge
+2065;Shell 193_MYRTEA;12Ο ΧΛΜ Ε.Ο. Θεσσαλονίκης-Εδέσσης, Θεσσαλονίκη;40.7050161;22.8110686;a;InCharge
+2066;"METRO Cash &amp; Carry - Ρέθυμνο (2)";1ο ΧΛΜ Ν.Ε.Ο Ρεθύμνης-Χανίων, Ρέθυμνο;35.3652321;24.4395693;a;InCharge
+2067;"METRO Cash &amp; Carry - Ωραιόκαστρο (2)";8Ο ΧΛΜ. ΕΟ Θεσσαλονίκης-Καβάλας, Ωραιόκαστρο;40.71035;22.9558118;a;InCharge
+2068;AVIN 4021_MAKRAION;4,5 ΧΛΜ. Οδού Λαγκαδά 377, Θεσσαλονίκη;40.679392;22.9385897;a;InCharge
+2069;"METRO Cash &amp; Carry - Καλοχώρι (2)";6ο ΧΛΜ Ε.Ο. Θεσ/νίκης-Κατερίνης, Καλοχώρι;40.6562322;22.8702815;a;InCharge
+2070;AVIN Μάλγαρα_DO;Λεωφ. Θεσσαλονίκης 46, Θεσσαλονίκη;40.6053158;22.6807241;a;InCharge
+2071;AUTOVISION KTEO ΠΟΛΙΧΝΗ;"Περιοχή Νοσοκομείων Παπαγεωργίου &amp; Γ.Σ.Ν.Θ. 424, Πολίχνη Θεσσαλονίκης";40.6691627;22.9660185;a;InCharge
+2072;AVIN 4001_MAKRAION;Λεωφ. Γ. Παπανικολάου 13, Πεύκα Θεσσαλονίκης;40.6596085;22.9716204;d;InCharge
+2073;My market - Ιωάννινα Βελισσσαρίου (2);2Ο ΧΛΜ Ιωαννίνων-Άρτας, Ιωάννινα, Βελισσαρίου;39.6434391;20.8503922;a;InCharge
+2074;My market - Ιωάννινα Νέα Ζωή (2);Ε.Ο. Ηγουμενίτσας-Ιωαννίνων, Ιωάννινα, Νέα Ζωή;39.6840705;20.8199672;a;InCharge
+2075;Shell 112_MYRTEA (1);Τενέδου 124, Καβάλα;40.922429;24.384624;a;InCharge
+2076;Shell Ξάνθης - Κομοτηνής_DO (2);ΕΟ Ξάνθης-Κομοτηνής, Ξάνθη;41.1272599;24.90166;a;InCharge
+2077;Shell Ξάνθης - Καβάλας_DO (1);1 ΧΛΜ. Ξάνθης-Καβάλας (δεξιά), Ξάνθη;41.1239906;24.8820066;a;InCharge
+2078;Shell Δράμα_DO;Οδυσσέως 3, Δράμα;41.1513149;24.1332264;a;InCharge
+2079;Shell Χωριστή_DO;4 ΧΛΜ Ε.Ο. Δράμας-Καβάλας, Χωριστή;41.1343371;24.1925077;a;InCharge
+2080;ZEN OUTLET;ΕΟ Θεσσαλονίκης-Σερρών, Σέρρες;41.0942153;23.470337;a;InCharge
+2081;"METRO Cash &amp; Carry - Κιλκίς (2)";Επαρχιακή Οδός Κιλκίς-Πολυκάστρου, Κιλκίς;40.9978128;22.8565669;a;InCharge
+2082;"METRO Cash &amp; Carry - Σέρρες (2)";1Ο ΧΛΜ. Ε.Ο. Σερρών- Νιγρίτας, Σέρρες;41.0648121;23.5396245;a;InCharge
+2083;Shell 418_ERMIS (2);Επαρχιακή Οδός ΚΩ-Κεφαλου, Κως;36.88536;27.2512674;a;InCharge
+2084;Shell 456_ERMIS (1);"Κλεάνθους &amp; Κων/νου Αστρινάκη, Ηράκλειο Κρήτης";35.32444;25.1439592;a;InCharge
+2085;AVIN 4137_MAKRAION;Νυρεμβέργης 200 θέση Περιγιάλι, Καβάλα;40.9475012;24.4424274;a;InCharge
+2086;"METRO Cash &amp; Carry - Ηράκλειο (2)";Λεωφ. Ικάρου, Έναντι ΣΕΑΠ, Νέα Αλικαρνασσός;35.337893;25.1665745;a;InCharge
+2087;Shell 124_MYRTEA (2);Λεωφ. Ικάρου 42, Ηράκλειο Κρήτης;35.338674;25.141214;a;InCharge
+2088;PARKING ALEXANDROS (2);Πτολεμαίων 14, Θεσσαλονίκη;40.6396087;22.9383586;a;InCharge
+2089;"METRO Cash &amp; Carry - Χανιά (2)";Βοακ 27, Μουρνιές, Χανιά;35.4926819;24.0038019;a;InCharge
+2090;"METRO Cash &amp; Carry - Λάρισα Κόμβος (2)";Ε.Ο Λαρίσης-Τρικάλων, Λάρισα;39.5998872;22.4366709;a;InCharge
+2091;AVIN Πελόπιο_DO;14 ΧΛΜ Ε.Ο Πύργου-Αρχαίας Ολυμπίας, Πελόπιο;37.6615628;21.5884686;a;InCharge
+2092;AVIN Πλατανιάς_DO;Χρυσής Κατσάμπα, Πλατανιάς;38.9041703;21.788328;a;InCharge
+2093;AVIN 4005_MAKRAION;"Φαρων 129 &amp; Βασ. Αμαλίας, Καλαμάτα";37.0351353;22.1140391;a;InCharge
+2094;"My Way Hotel &amp; Events - Δεξιά";Λεωφ. Όθονως- Αμαλίας 15, Πάτρα;38.2513144;21.7369116;a;InCharge
+2095;ΜΥΣΤΡΑΣ GRAND PALACE2;ΕΟ Σπάρτης- Μυστρά, Σπάρτη;37.0700069;22.3914252;a;InCharge
+2096;Shell 210_ERMIS;Λαρίσης 212, Βόλος;39.3694331;22.9185867;a;InCharge
+2097;AVIN 4166_MAKRAION;Καμπι Αεροδρόμιο Αγκαιρια, Πάρος;37.0063596;25.1311168;a;InCharge
+2098;My market - Βόλος (2);"Λαρίσσης 99 &amp; Νεαπόλεως, Βόλος";39.3632727;22.9300497;a;InCharge
+2099;Shell 389_ERMIS (2);1 ΧΛΜ Ε.Ο. Σπάρτης-Τρίπολης, Σπάρτη;37.0927267;22.431816;a;InCharge
+2100;Shell 430_ERMIS (1);Επαρχιακή Οδός Παροικιάς-Αλυκής, θέση Κήπος Πάρου, Πάρος;37.0643419;25.1220984;a;InCharge
+2101;My market - Λάρισα Φαρσάλων (2);"Φαρσάλων, Ατλαντίδος &amp; Ιφιγενείας, Λάρισα";39.6242536;22.4241734;a;InCharge
+2102;Mirabilia Boutique Hotel;Κρυοπηγή, 63077, Χαλκιδική;40.0398996;23.4801836;a;InCharge
+2103;AVIN Σιθωνία_DO;Επαρχιακή Οδός Νικητή Σαρτης, Σιθωνία;40.0907129;23.7992064;a;InCharge
+2104;"Express Market &amp; Κωτσόβολος";1ο ΧΛΜ Λευκάδας - Νυδρίου, Λευκάδα;38.8232141;20.7020153;a;InCharge
+2105;Shell 411_ERMIS;Α.Παπαναστασίου 129-131, Λενταριανά Χανίων, Χανιά;35.5089279;24.0455129;a;InCharge
+2106;Shell 443_ERMIS;Αυτοκινητόδρομος Ιονίας Οδού Χ.Θ. 154+130 δεξιός Κλάδος (προς Ιωάννινα), Φιλιππιάδα;39.2205726;20.9094726;d;InCharge
+2107;AVIN Βασιλικά_DO;22ο χλμ Θεσσαλονίκης-Πολύγυρου, Θεσσαλονίκη;40.480035;23.156175;a;InCharge
+2108;My market - Άρτα (2);Αλεξάνδρου Ζάρρα 57, Άρτα;39.1547695;20.9803054;a;InCharge
+2109;"METRO Cash &amp; Carry - Κατερίνη (2)";3ΧΛΜ Παλαιάς Ε.Ο Κατερίνης-Θεσσαλονίκης, Κατερίνη;40.3031841;22.5323808;a;InCharge
+2110;AVIN Μεσημέρι_DO;29ο ΧΛΜ. Θεσσαλονίκης-Μουδανίων, Μεσημέρι;40.4129426;23.0214049;a;InCharge
+2111;Shell 472_ERMIS;Επαρχιακή Οδός Μυτιλήνης-Καλλονής, Μυτιλήνη;39.1093505;26.5058725;a;InCharge
+2112;AVIN 4147_MAKRAION;Καρδίτσης 54, Τρίκαλα;39.5477234;21.7726669;a;InCharge
+2113;My market - Τρίκαλα Νοσοκομείο (2);"Καρδίτσης &amp; Θήρας, Τρίκαλα";39.5462042;21.7741396;a;InCharge
+2114;AVIN 4103_MAKRAION;Εμπόρειο Θήρας, Σαντορίνη;36.3582621;25.439016;a;InCharge
+2115;"METRO Cash &amp; Carry - Τρίκαλα (2)";6Ο ΧΛΜ Τρικάλων-Καρδίτσας, Τρίκαλα;39.515849;21.8206474;a;InCharge
+2116;My market - Λαμία Παγκράτι (2);"Ναυπάκτου &amp; Φραντζή, Λαμία";38.8886245;22.4226683;a;InCharge
+2117;My market - Νέο Ηράκλειο Τρία Αστέρια (2);"Κουντουριώτου &amp; Μουσών, Νέο Ηράκλειο ";38.0497211;23.7660297;a;InCharge
+2118;My market - Πυλαία (2);"Δημητρίου Φωκά &amp; Θεμιστοκλή Σοφούλη, Πυλαία";40.6004992;22.996345;a;InCharge
+2119;nrg store;"Λ. Κηφισίας 168 &amp; Σοφοκλέους, Μαρούσι";38.0559192;23.8122002;a;InCharge
+2120;My market - Κηφισιά (2);Αχαρνών 80, Κηφισιά ;38.0748128;23.7953577;a;InCharge
+2121;Shell 251_ERMIS;Αναπαύσεως 41, Βριλήσσια;38.0436058;23.8449189;a;InCharge
+2122;Shell 221_ERMIS_Mykinon (1);"Κηφισίας 356 &amp; Πλαταιών, Χαλάνδρι ";38.0294214;23.7923668;a;InCharge
+2123;AVIN 4102_MAKRAION;"Τατοΐου 76 &amp; Χ.Τρικούπη, Νέα Ερυθραία";38.0876433;23.809661;d;InCharge
+2124;Shell 394_ERMIS;Τατοΐου 92, Κηφισιά;38.0908383;23.8090534;a;InCharge
+2125;My market - Δραπετσώνα (2);"Αγ. Δημητρίου 82-84 &amp; Μήλου 80, Δραπετσώνα";37.9541229;23.6352543;a;InCharge
+2126;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ Λ.ΑΜΦΙΘΕΑΣ;Λεωφ. Αμφιθέας 46, Παλαιό Φάληρο ;37.9361719;23.7009601;a;InCharge
+2127;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΡΟΔΟΥ;Αυστραλίας 58, Ρόδος;36.4404971;28.2366584;a;InCharge
+2128;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΑΓ. ΙΩΑΝΝΗ ΡΕΝΤΗ;ΑΓ. Ιωάννης Ρέντης;37.9577319;23.6643778;a;InCharge
+2129;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΠΥΛΑΙΑΣ;Πλαστήρα 46, 54250, Θεσσαλονίκη;40.6026008;22.9760519;a;InCharge
+2130;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΤΡΙΠΟΛΗΣ;Ναυπλίου 56, Τρίπολη;37.5080788;22.3867551;a;InCharge
+2131;ΠΡΑΤΗΡΙΟ SHELL  - ΥΠ/ΜΑ ΧΑΙΔΑΡΙΟΥ;Λ. Αθηνών (Καβάλας) 292, Χαϊδάρι;38.0126123;23.6552087;a;InCharge
+2132;"ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ Λ. ΚΗΦΙΣΙΑΣ 356 &amp; ΠΛΑΤΑΙΩΝ ΧΑΛΑΝΔΡΙ";"Λ. Κηφισίας 356 &amp; Πλαταιών, Χαλάνδρι (2)";38.0294017;23.7920602;a;InCharge
+2133;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΧΑΛΑΝΔΡΙΟΥ;Ζαω Μωρέας και Παπανικολή, Χαλάνδρι;38.0207978;23.7933522;a;InCharge
+2134;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΣΟΦΑΔΩΝ 1;Αυτοκινητόδρομος Κεντρικής Ελλάδος  Ε65, Αριστερός Κλάδος (προς Λαμία), Χ.Θ. 70+340;39.2933488;22.0795138;d;InCharge
+2135;ΠΡΑΤΗΡΙΟ AVIN - ΜΟΝΑΣΤΗΡΙΟΥ;Βόλου 22-24, Λάρισα;39.633764;22.432445;a;InCharge
+2176;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΚΑΤΕΡΙΝΗΣ 1;55 ΧΛΜ Ν.Ε.Ο. Θεσ/νίκης - Αθηνών;40.3308232;22.5810395;d;InCharge
+2136;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΣΟΦΑΔΩΝ;Αυτοκινητόδρομος Κεντρικής Ελλάδος Ε65, Δεξιός Κλάδος (προς Εγνατία), Χ.Θ. 70+340;39.2922704;22.0808542;d;InCharge
+2137;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΑΜΑΡΟΥΣΙΟΥ;Λ. Κηφησίας 156, Μαρούσι;38.0545509;23.8117699;a;InCharge
+2138;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΒΡΙΛΗΣΣΙΩΝ;"Αναπαύσεως 14 &amp; Μητροπούλου, Βριλήσσια";38.0439518;23.8435676;a;InCharge
+2139;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΨΥΧΙΚΟΥ;Ολυμπιονικών 270, Νέο Ψυχικό ;38.0058555;23.7765988;a;InCharge
+2140;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ Π. ΡΑΛΛΗ;"Π.Ράλλη 20 &amp; Σαλαμινίας, Ταύρος";37.9759719;23.6948998;a;InCharge
+2141;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΣΤΑΥΡΟΥΠΟΛΗΣ ΘΕΣ/ΝΙΚΗΣ;Λαγκαδά 291, Σταυρούπολη Θεσ/νίκη;40.6707724;22.9383527;d;InCharge
+2142;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΟΡΙΝΘΟΥ;Αθηνών 26, Κόρινθος;37.9385008;22.9402002;a;InCharge
+2143;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΝΕΑ ΑΡΤΑΚΗ;Νέα Αρτάκη;38.5197542;23.6374773;a;InCharge
+2144;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ θΕΣΣΑΛΟΝΙΚΗ;Εθν. Αντιστάσεως 118, Θεσσαλονίκη;40.5749009;22.9704614;a;InCharge
+2145;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΡΕΤΖΙΚΙΟΥ;4,5 ΧΛΜ Θεσ/νίκης - Ασβεστοχωρίου;40.6591514;22.9710726;a;InCharge
+2146;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΠΑΤΡΑΣ 4;Εθνική Οδός Πατρών-Αθηνών 20;38.260109;21.7492755;d;InCharge
+2147;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΛΑΡΙΣΑΣ 1;4 ΧΛΜ Ε.Ο. Λαρίσης-Θεσ/νίκης;39.6639191;22.4435887;a;InCharge
+2148;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΜΟΝΑΣΤΗΡΙΟΥ;Μοναστηρίου 358 Εύοσμος, Θεσσαλονίκη;40.6599476;22.9004567;d;InCharge
+2149;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΒΕΡΟΙΑΣ;Στρατού 44, 59100, Βέροια ;40.5281149;22.2092228;a;InCharge
+2150;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ Ν. ΗΡΑΚΛΕΙΟΥ;Λεωφ. Ηρακλείου 442,  Νέο Ηράκλειο;38.0552074;23.7697523;a;InCharge
+2151;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΜΕΛΙΣΣΙΩΝ;Δημοκρατίας 3, Μελίσσια;38.0526784;23.8276487;a;InCharge
+2152;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΑΜΦΙΛΟΧΙΑΣ;Αυτοκινητόδρομος Ιονίας Οδού Χ.Θ. 100+560 Αριστερός Κλάδος (προς Αντίρριο);38.8639531;21.1883201;d;InCharge
+2153;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΑΜΒΡΑΚΙΑΣ;Αυτοκινητόδρομος Ιονίας Οδού Χ.Θ. 86+215 Δεξιός Κλάδος (προς Ιωάννινα);38.7467039;21.204644;d;InCharge
+2154;ΠΡΑΤΗΡΙΟ AVIN - ΦΙΛΟΛΑΟΥ 181;Φιλολάου 181, Παγκράτι;37.95991638;23.74039705;a;InCharge
+2155;"ΠΡΑΤΗΡΙΟ AVIN - Λ.ΣΠΑΤΩΝ 123 &amp; ΚΑΠΟΔΙΣΤΡΙΟΥ ΠΑΛΛΗΝΗ";"Λ.Σπάτων 123 &amp; Καποδιστρίου, Παλλήνη";37.997086;23.868317;d;InCharge
+2156;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΕΠΙΣΚΟΠΙΚΟΥ (Αριστερός);Ιονία Οδός ΧΘ 194+870 Προς Αντίρριο Επισκοπικό ;39.545458;20.851328;d;InCharge
+2157;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΕΠΙΣΚΟΠΙΚΟΥ (Δεξιός) ;Ιονία Οδός ΧΘ 194+865 Προς Ιωάννινα Επισκοπικό ;39.54612;20.8518;d;InCharge
+2158;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΕΥΗΝΟΧΩΡΙΟΥ (Αριστερός);Ιονία Οδός ΧΘ 27+220 Προς Αντίρριο Ευηνοχώρι ;38.386922;21.543861;d;InCharge
+2159;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΕΥΗΝΟΧΩΡΙΟΥ (Δεξιός) ;Ιονία Οδός ΧΘ 27+190 Προς Ιωάννινα Ευηνοχώρι ;38.386585;21.544869;d;InCharge
+2160;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΛΕΠΤΟΚΑΡΥΑΣ;406 ΧΛΜ.Αυτοκ.Αθήνα-Μαλλιακός-Κλειδί (Α);40.026341;22.573136;d;InCharge
+2161;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΛΕΠΤΟΚΑΡΥΑΣ;406 ΧΛΜ.Αυτοκ.Αθήνα-Μαλλιακός-Κλειδί (Δ);40.028067;22.573245;d;InCharge
+2162;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΜΕΓΑΡΩΝ;40,5ο ΧΛΜ. Ν.Ε.Ο. Αθηνών-Κορίνθου, Μέγαρα;37.995961;23.36584;d;InCharge
+2163;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΜΕΓΑΡΩΝ;40,5ο ΧΛΜ. Ν.Ε.Ο. Αθηνών-Κορίνθου, Μέγαρα ;37.995158;23.366355;d;InCharge
+2164;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΠΛΑΤΑΝΟΥ (Δεξιός) ;Θέση Πλάτανος 283,5 ΧΛΜ Εγνατίας Οδού Ηγουμενίτσας-Κήπων Έβρου  ;40.555456741781;22.54180844;d;InCharge
+2165;ΠΡΑΤΗΡΙΟ AVIN - 62 ΜΑΡΤΥΡΩΝ;Λεωφόρος 62 Μαρτύρων 56, Ηράκλειο;35.33749911;25.12097806;a;InCharge
+2166;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΠΕΛΛΑΝΑΣ;ΣΕΑ Πελλάνας, Αυτοκινητόδρομος Κόρινθος-Τρίπολη-Καλαμάτα, Αριστερός Κλάδος Λύκτρο Σπάρτης 30ο ΧΛΜ;37.198201;22.341581;d;InCharge
+2167;ΠΡΑΤΗΡΙΟ AVIN - ΠΕΥΚΑ;Λεωφόρος Παπανικολάου 13, Πεύκα Θεσσαλονίκης;40.659609;22.97162;d;InCharge
+2168;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΦΙΛΙΠΠΙΑΔΑΣ 1;Αυτοκινητόδρομος Ιονίας Οδού Χ.Θ. 154+130 Αριστερός Κλάδος (προς Αντίρριο);39.2209588;20.9086657;d;InCharge
+2169;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΦΙΛΙΠΠΙΑΔΑΣ;Αυτοκινητόδρομος Ιονίας Οδού Χ.Θ. 154+130 Δεξιός Κλάδος (προς Ιωάννινα);39.2206749;20.909417;d;InCharge
+2170;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΑΤΑΛΑΝΤΗΣ 1;Αυτοκινητόδρομος ΠΑ.ΘΕ Χ.Θ.  144+050 Αριστερός Κλάδος (προς Αθήνα);38.6583055;23.072427;d;InCharge
+2171;Shell 437_ERMIS;Αυτοκινητόδρομος ΠΑ.ΘΕ Χ.Θ. 144+250 Δεξιός Κλάδος (προς Λαμία), Αταλάντη;38.6609351;23.0719626;d;InCharge
+2172;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΠΕΛΛΑΝΑΣ;30 ΧΛΜ από τον Κόμβο Λεύκτρου προς Σπάρτη, Πελλάνα;37.1965104;22.3426732;d;InCharge
+2173;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΑΡΦΑΡΩΝ;Αυτοκινητόδρομος Κορίνθου - Τριπόλεως - Καλαμάτας ΧΙΛ.Θέση 219;37.1785778;22.0122457;d;InCharge
+2174;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΣΠΑΘΟΒΟΥΝΙΟΥ;Αυτοκινητόδρομος Κορίνθου - Τριπόλεως, ΧΙΛ. Θέση 10+400 Αριστερά;37.862726;22.8419783;d;InCharge
+2175;ΠΡΑΤΗΡΙΟ SHELL - ΣΕΑ ΚΑΤΕΡΙΝΗΣ 2;447 ΧΛΜ Ν.Ε.Ο. Αθηνών - Θεσ/νίκης;40.3293898;22.5815732;d;InCharge
+2177;ΠΡΑΤΗΡΙΟ AVIN - ΛΑΡΙΣΣΑ;Νέου Μοναστηρίου 136 Ελευθερίου Θεσσαλονίκης;40.67398;22.87948;a;InCharge
+2178;ΠΡΑΤΗΡΙΟ AVIN - ΜΕΤΑΜΟΡΦΩΣΗ;Αναγεννήσεως 32, Μεταμόρφωση;38.053166;23.747778;a;InCharge
+2179;ΠΡΑΤΗΡΙΟ AVIN - ΣΕΑ ΠΛΑΤΑΝΟΥ (Αριστερός);Θέση Πλάτανος 283,5 ΧΛΜ Εγνατίας Οδού Ηγουμενίτσας-Κήπων Έβρου ;40.55529524;22.54356713;d;InCharge
+2180;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ Ν. ΕΡΥΘΡΑΙΑΣ (ΝΑ ΒΓΕΙ ΑΥΤΟ);ΤΑΤΟΙΟΥ 92Α (ΘΕΣΗ ΑΔΑΜΕΣ);38.0908456;23.8090741;d;InCharge
+2181;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΞΑΝΘΗΣ - ΚΑΒΑΛΑΣ;1 ΧΛΜ. Ξάνθης - Καβάλας (Δεξιά), Ξάνθη;41.123991;24.882007;a;InCharge
+2182;ΓΑΛΑΝΑ ΕΠΕ;Ρούμελης, 32100, Λιβαδειά ;38.443395;22.875858;a;InCharge
+2183;ΠΡΑΤΗΡΙΟ AVIN- ΥΠ/ΜΑ ΕΥΒΟΙΑΣ;"Λεωφ. Χαϊνά 44 &amp; Λίμνης, Χαλκίδα";38.468879;23.603795;a;InCharge
+2184;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΓΛΥΦΑΔΑ (1);"ΒΑΣ. Γεωργίου 1 &amp; Ευρυάλης 4, Γλυφάδα";37.875232;23.733425;a;InCharge
+2185;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ;Όλγας 125, ΑΓ. Δημήτριος;37.944584;23.740472;a;InCharge
+2186;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΤΑΤΟΙΟΥ;Τατοΐου 92,  Κηφισιά;38.090838;23.809053;a;InCharge
+2187;nrg Store Μαρούσι;"Λ. Κηφησίας 168 &amp; Σοφοκλέους, Μαρούσι";38.055919;23.8122;a;InCharge
+2188;ΠΡΑΤΗΡΙΟ AVIN- ΥΠ/ΜΑ ΘΡΑΚΟΜΑΚΕΔΟΝΕΣ;Λεωφόρος Θρακομακεδόνων 125, Θρακομακεδόνες;38.119816;23.746908;a;InCharge
+2189;ΠΡΑΤΗΡΙΟ AVIN - ΡΟΔΟΣ;Δημόσια Ρόδου 9, Ιαλυσός, Ρόδος;36.4161303;28.1599264;a;InCharge
+2190;ΜΥΣΤΡΑΣ GRAND PALACE2;ΕΟ Σπάρτης-Μυστρά, Σπάρτη;37.070007;22.391425;a;InCharge
+2191;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΔΡΑΜΑΣ-ΚΑΒΑΛΑΣ;4 ΧΛΜ Εθνικής Οδού Δράμας-Καβάλας, Δράμα;41.134337;24.192508;a;InCharge
+2192;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΩΣ ;Επαρχιακή Οδός ΚΩ-Κέφαλου, Κώς;36.88536;27.251267;a;InCharge
+2193;ΠΡΑΤΗΡΙΟ AVIN- ΥΠ/ΜΑ ΗΡΑΚΛΕΙΟ ΚΡΗΤΗΣ;62 Μαρτύρων, Ηράκλειο;35.3361;25.12073;a;InCharge
+2194;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΛΑΓΚΑΔΑ ΘΕΣΣΑΛΟΝΙΚΗΣ;Λαγκαδά 291, Θεσσαλονίκη;40.670825;22.938326;a;InCharge
+2195;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΜΟΝΑΣΤΗΡΙΟΥ ΘΕΣΣΑΛΟΝΙΚΗΣ;Μοναστηρίου 358, Θεσσαλονίκη;40.660006;22.90046;a;InCharge
+2196;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΜΥΤΙΛΗΝΗΣ;Επαρχιακή Οδός Μυτιλήνης Καλλονής, Μυτιλήνη;39.109351;26.505873;a;InCharge
+2197;"My Way Hotel &amp; Events - right";Λεωφόρος Όθωνος- Αμαλίας 15, Πάτρα (Δεξιά);38.251314;21.736912;a;InCharge
+2198;"My Way Hotel &amp; Events - left";Λεωφόρος Όθωνος- Αμαλίας 15, Πάτρα (Αριστερά);38.251518;21.736962;a;InCharge
+2199;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΠΑΡΟΥ;Επαρχιακή Οδός Παροικιάς Αλυκής, Θέση Κήπος Πάρου, Πάρος;37.064342;25.122098;a;InCharge
+2200;ΠΡΑΤΗΡΙΟ AVIN - ΕΘΝΙΚΗΣ ΠΑΛΑΙΟΚΑΣΤΡΙΤΣΑΣ;ΕΟ Παλαιοκαστριτσης, 49100, Κέρκυρα;39.6306897;19.8848962;a;InCharge
+2201;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΟΜΟΤΗΝΗΣ;Κωνσταντινουπόλεως 112, Κομοτηνή;41.1081127;25.4160952;a;InCharge
+2202;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΒΕΡΟΙΑΣ;Σταδίου 188, Βέροια;40.5481526;22.1971678;a;InCharge
+2203;ΠΡΑΤΗΡΙΟ AVIN - ΛΕΩΦΟΡΟΣ ΠΟΡΤΟ ΡΑΦΤΗ 60;Λεωφόρος Πόρτο Ράφτη 60, Πόρτο Ράφτη;37.8878484;23.9435865;a;InCharge
+2204;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΑΛΙΜΟΥ;"Κυθηρίων 2 &amp; Ιωνίας 105, &#039;Αλιμος";37.9171158;23.7341439;a;InCharge
+2205;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΠΕΙΡΑΙΑ;"Παλαμηδίου &amp; Στενιμάχου 3, Πειραιάς";37.954678;23.6434097;a;InCharge
+2206;ΠΡΑΤΗΡΙΟ AVIN - ΣΤΡΑΤΗΓΟΥ ΜΑΚΡΥΓΙΑΝΝΗ 51;Στρατηγού Μακρυγίαννη 51, Άγιος Ιωάννης Ρέντης;37.9673772;23.6710136;a;InCharge
+2207;ΠΡΑΤΗΡΙΟ AVIN - ΛΕΩΦΟΡΟΣ ΑΘΗΝΩΝ 400;Λεωφόρος Αθηνών 400 Δαφνί, Χαϊδάρι;38.0136906;23.6328599;a;InCharge
+2208;ΠΡΑΤΗΡΙΟ AVIN - ΘΗΒΩΝ 325;Λεωφόρος Θηβών 325, Αιγάλεω;37.9865772;23.6744085;a;InCharge
+2209;Parking - ΟΜΟΝΟΙΑ;Γαμβέτα 1, Ομόνοια, Αθήνα;37.9837697;23.7309986;a;InCharge
+2210;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΑΜΑΡΟΥΣΙΟΥ ;Λεωφόρος Κηφισίας, Μαρούσι;38.06388;23.809126;a;InCharge
+2211;Shell 154_MYRTEA;Αχαρνών 397, Αθήνα;38.0206507;23.7293018;a;InCharge
+2212;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΠΙΚΕΡΜΙΟΥ;"Λωφόρος Μαραθώνος 35 &amp; Δωρίδος, Πικέρμι";38.0004036;23.9363706;a;InCharge
+2213;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΑΛΟΧΩΡΙΟΥ;"Καλοχωρίου 9-11, Θέση &quot;ΣΦΑΓΕΙΑ&quot;, Νέα Μενεμένη, Αμπελόκηποι";40.6507152;22.8885668;a;InCharge
+2214;ΠΡΑΤΗΡΙΟ AVIN - ΠΑΝΕΠΙΣΤΗΜΙΟΥ 38;Πανεπιστημίου 38, Αγρίνιο;38.6141837;21.4176676;a;InCharge
+2215;MIKEL DRIVE CAFÉ;7Ο ΧΛΜ Π.Ε.Ο. Λάρισας-Θεσσαλονίκης, Λάρισα;39.7038138;22.4592166;a;InCharge
+2216;ΠΡΑΤΗΡΙΟ AVIN -  ΧΑΛΚΙΔΙΚΗ;Οδός Καλλιθέας-Κασσανδριας (θέση Μαρούσα), Χαλκιδική;40.054059;23.420169;a;InCharge
+2217;ΠΡΑΤΗΡΙΟ AVIN -    ΙΩΑΝΝΙΝΑ;Nικοπόλεως 1, Ιωάννινα;39.6526042;20.8588516;a;InCharge
+2218;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΑΛΟΧΩΡΙΟΥ;Πόντου 59, Καλοχώρι;40.6612884;22.8648534;a;InCharge
+2219;ΠΡΑΤΗΡΙΟ AVIN -    Θεσσαλονίκης - Χορτιάτη;Ε.Ο Θεσσαλονίκης - Χορτιάτη, Θεσσαλονίκη;40.6185185;23.0882284;a;InCharge
+2220;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ  ΣΑΜΟΥ;Βαρελλά, 83100, Σάμος;37.7373649;26.9852644;a;InCharge
+2221;ΠΡΑΤΗΡΙΟ AVIN -   ΘΕΣΣΑΛΟΝΙΚΗΣ-ΜΟΥΔΑΝΙΩΝ;10 ΧΛΜ. ΕΟ Θεσσαλονίκης-Μουδανίων, Θέρμη;40.5631072;22.9935083;d;InCharge
+2222;ΠΡΑΤΗΡΙΟ AVIN -   ΘΕΡΜΗΣ ΠΑΝΟΡΑΜΑΤΟΣ;Δημοτική Οδός Θέρμης Πανοράματος, Θεσσαλονίκη;40.56248;23.024152;d;InCharge
+2223;ΠΡΑΤΗΡΙΟ AVIN -   ΔΑΡΑΤΣΟΣ;Δαράτσος, 73100, Χανιά;35.5067767;23.9839017;a;InCharge
+2224;ΠΡΑΤΗΡΙΟ AVIN -  ΚΕΦΑΛΟΝΙΑ;Ε.Ο. Πόρου-Αργοστολίου, Κεφαλονιά;38.1420073;20.543352;a;InCharge
+2225;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ  ΠΡΕΒΕΖΑΣ;Ιωαννίνων 158, Πρέβεζα ;38.9696919;20.7488231;a;InCharge
+2226;ΠΡΑΤΗΡΙΟ AVIN - 1 ΧΛΜ. Π.Ε.Ο ΚΑΤΕΡΙΝΗΣ-ΘΕΣ/ΝΙΚΗΣ;1 ΧΛΜ. Π.Ε.Ο Κατερίνης-Θεσ/νίκης, Κατερίνη;40.2817744;22.518422;a;InCharge
+2227;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ  ΑΡΤΑ;4ο ΧΛΜ Εθνικής Οδού Άρτας, Άρτα;39.1447955;21.0193135;a;InCharge
+2228;ΠΡΑΤΗΡΙΟ SHELL - ΥΠ/ΜΑ ΚΟΖΑΝΗΣ;Κων.Καραμανλή 30 (Ο.Τ 992) Κόμβος Πανόραμα;40.3030568;21.8046324;a;InCharge
+2229;BP Mesogeion Katechaki;Mesogeion 110;37.991800;23.773546;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2230;EKO Papanikoli Chalandri;Papanikoli 40;38.020430;23.793710;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2231;EKO Glyfada;Saki Karagiorga 3;37.865340;23.744740;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2232;EKO SEA Aspropyrgou E;Attiki Odos to AIA 10.2;38.092370;23.605930;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2233;EKO Nea Manolada;National Road Patron-Pyrgou 42.5km;38.045910;21.385137;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2234;EKO Marathonos Pallini;Marathonos 124;38.003757;23.886823;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2235;BP SEA Velou tow. Patras;NR Athinon Patron 103km;37.974655;22.741692;2X 120kW DC CCS2;ElpeFuture
+2236;BP Metamorfosi;Tatoiou  10;38.051750;23.751360;1X 43kW AC Type2, 1X 50kW DC CHAdeMO, 1X 50kW DC CCS2;ElpeFuture
+2237;BP Kerkyra;Palaiokastritsa NR;39.658386;19.838464;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2238;EKO SEA Schimatariou S;NR Athinon Lamias towards Athens 65;38.366570;23.537830;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2239;BP Peiraias Tzavella;Tzavella 96;37.944030;23.661620;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2240;EKO Nafplio;Argous 56;37.572750;22.807190;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2241;EKO Mplanis Lamia;Larisis;38.925967;22.420430;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2242;EKO Thessaloniki W;Anagenniseos 32;40.641530;22.928600;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2243;EKO Kos;Ethnikis Antistaseos kai Mpoumpoulinas;36.895847;27.280714;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2244;EKO Kifissias Maroussi;Kifissias 170;38.056110;23.812050;1X 22kW AC Type2;ElpeFuture
+2245;BP Arta;NR Artas Ioanninon;39.156414;20.957211;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2246;EKO SEA Evangelismou N;376km NR Athens Thessaloniki tow. Thes-niki;39.814740;22.508560;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2247;EKO Kalamaria;Themistokli Sofouli  98;40.589190;22.944680;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2248;BP Palio Kavalas;M. Merkouri;40.902233;24.345384;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2249;EKO Aghios Nikolaos;2nd km NR Aghios Nikolaos Chania;35.205036;25.695202;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2250;BP SEA Varympompis;NR Athinon Lamias towards Athens 19;38.113017;23.823900;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2251;EKO Larisa;Farsalon  44;39.625990;22.422752;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2252;BP Veria;Stadiou 67;40.537939;22.201958;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2253;BP Kilkis;Terma El. Venizelou;40.998156;22.862250;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2254;EKO Nikopoulos Karpenisi;Karpenisiou-Proussou 3km;38.900000;21.771700;1X 22kW AC Type2;ElpeFuture
+2255;BP Chania;L. Kazantzaki  38;35.501380;23.998690;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2256;EKO Thessaloniki E;Dekatis Evdomis Noemvriou  20;40.608540;22.991760;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2257;EKO SEA Aspropyrgou W;Attiki Odos to EI. 10.2;38.093400;23.604290;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2258;EKO SEA Spathovouniou;Korinthou - Tripoleos 10;37.862375;22.839326;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2259;BP Aspropyrgos;NR Athinon Corinthou 16th km ;38.035039;23.594554;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2260;EKO SEA Nestanis;Korinthou - Tripoleos 66;37.579340;22.432205;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2261;BP Trikala;Karditsis 58;39.544590;21.776040;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2262;BP Volos;Larissis 202;39.367860;22.921570;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2263;BP Nea Smyrni;Leoforos Eleftheriou Venizelou  & Eratous 190;37.930479;23.709785;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2264;EKO SEA Schimatariou N;NR Athinon Lamias towards Lamia 65;38.367700;23.536950;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2265;BP Iraklio Ikarou;Leoforos Ikarou  15;35.338472;25.143496;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2266;EKO SEA Evangelismou S;376km NR Athens Thessaloniki tow. Athens;39.814600;22.507220;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2267;EKO Pylaia Thessaloniki;Georgikis Scholis  128;40.541040;22.988550;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2268;BP SEA Kapandritiou;NR Athinon Lamias 31st;38.213050;23.855000;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2269;EKO Glyfada R002;Leof. Poseidonos 36;37.870160;23.738590;2X 43kW AC Type2, 2X 50kW DC CCS2, 2X 50kW DC CHAdeMO;ElpeFuture
+2270;EKO Kapodistriou Maroussi;Kapodistriou 54;38.028220;23.782830;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2271;BP SEA Velou tow. Athens;NR Patron Athinon 103km;37.973965;22.741206;2X 120kW DC CCS2;ElpeFuture
+2272;BP Patra;Korinthou 129 & Astingos;38.251381;21.744365;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2273;EKO Xanthi;4th km NR Xanthi Komotini;41.104914;24.930778;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2274;EKO SEA Psathopyrgou W;NR Corinthou Patron towards Patra 110;38.325060;21.866550;1X 43kW AC Type2, 1X 50kW DC CHAdeMO, 1X 50kW DC CCS2;ElpeFuture
+2275;BP Amfitheas Palaio Faliro;Leoforos Amfitheas 69;37.935243;23.701576;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2276;EKO SEA Psathopyrgou E;NR Corinthou Patron towards Corinth 110;38.324410;21.871240;1X 43kW AC Type2, 1X 50kW DC CHAdeMO, 1X 50kW DC CCS2;ElpeFuture
+2277;EKO Kifissia;L. Kifissias  264;38.077454;23.812966;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2278;Megaro Mousikis Athinon P-2;Petrou Kokkali;37.981950;23.754070;10X 22kW AC Type2;ElpeFuture
+2279;BP Karditsa;Trikalon 196;39.373685;21.915191;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2280;Mediterranean Cosmos P4;Thessalonikis - Kassandreias;40.554300;22.993200;4X 22kW AC Type2;ElpeFuture
+2281;EKO Pyrgos;Erythrou Stavrou & Kandylieri;37.672047;21.428428;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2282;EKO Kastoria;NR Dispiliou Kastorias;40.466400;21.301697;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2283;BP Ilioupoli;Marinou Antypa 32;37.943685;23.748201;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2284;EKO Archangelos Rodos;NR Rodos-Lindos 31km;36.220403;28.112972;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2285;Golden Hall;Leoforos Kifisias 37;38.033279;23.793658;3X 22kW AC Type2;ElpeFuture
+2286;BP Ioannina;Leoforos Dodonis;39.649794;20.847017;1X 43kW AC Type2, 1X 50kW DC CCS2, 1X 50kW DC CHAdeMO;ElpeFuture
+2287;BP Ioannina Parko Pyrsinella;EO Ioanninon - Athinon;39.642994;20.851206;1X 22kW AC Type2;ElpeFuture
+2288;BP Sidiropoulou Veria;Verias & Agias Varvaras 1;40.507206;22.225936;2X 22kW AC Type2, 2X 120kW DC CCS2;ElpeFuture
+2289;SMART PRICE ;Κοζάνης 1, Μακροχώρι Βέροιας, 59033, Ελλάδα ;40.5584953;22.2610119;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2290;ΙKTEO ;Γρανικού 2 151 25 Μαρούσι, Αθήνα, Ελλάδα;38.0412291;23.8041757;Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2291;LAZARETO HOTEL;Κάστρο Μονεμβασιάς, 23070, Ελλάδα;36.6874833;23.0434425;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2292;KOSMOPLUS;Γ. Κονδύλη & Α. Πιαλόγλου, Ξάνθη, 67100, Ελλάδα;41.1283563;24.891173;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2293;SMART PRICE;Λεωφ. Παπανικολάου 21, Θεσσαλονίκη, 57010, Ελλάδα;40.6595967;22.9755239;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2294;IKTEO ;Λεωφ. Γεννηματά, Μαγούλα, 19018, Ελλάδα;38.0697761;23.531682;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2295;NIKOY JUMBO;5ο Χλμ Νάουσας-Βέροιας, Νάουσα, 59200, Ελλάδα;40.6294406;22.0688549;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2296;PATRIKO GUEST HOUSE;Κωνσταντίνου Κατσαρη 1, Ιωάννινα 454 44 Ελλάδα;39.670289;20.8550273;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2297;ΕΚΑΒ;Υγείας, 11527 Αθήνα, Ελλάδα;37.9970495;23.7854664;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2298;IKTEO ΒΕΡΟΙΑΣ;Περιφερειακή Βέροιας, 59132, Βέροια, Ελλάδα;40.510564;22.2178;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2299;Thalassa Hotel & Spa;Πάλαιρος 300 12 Αιτωλοακαρνανία;38.7834023;20.8827176;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2300;ΓΕΦΥΡΑ ΑΕ;Σταθμός Διοδίων Ριο - Αντίρριο, 30020, Αντίρριο, Ελλάδα (WEST Parking);38.3338165;21.765929;2x Mode 3 Chargers, 2x22kW AC, Type 2;BlinkCharging
+2301;KAPSIOHAS VW-Audi;3ο Χλμ. Άρτας – Ιωαννίνων, Άρτα 47100, Ελλάδα;39.1559289;20.9973603;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2302;EUNICE WIND;Ευνίκης 10, Μάνδρα 19600, Αττική, Ελλάδα;38.0739646;23.5134662;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2303;Castella Beach Hotel;Παραλία Αλισσού,30012,Πάτρα,Ελλάδα;38.1442587;21.5934462;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2304;KAOIL;Σεβενίδη 1, Πυλαία, Θεσσαλονίκη, 55434, Ελλάδα;40.6008565;22.9891271;1 x Mode 3 Charger, 2x11kW AC, Type 2;BlinkCharging
+2305;Varko Luxury Suites;Βαρκό,30012,Πάλαιρος,Ελλάδα;38.7676067;20.8038684;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2306;Grand Hyatt Athens 2;Λεωφ. Ανδρέα Συγγρού 115,11745,Αθήνα,Ελλάδα;37.9574326;23.7182377;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2307;Athens Auto Parking 2;Μάγερ 35,10438,Αθήνα,Ελλάδα;37.9887544;23.7261639;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2308;Iasis Medical Center;Υπολοχαγού Νίκου Κυρούδη,57014,Βόλβη,Ελλάδα;40.6636209;23.705525;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2309;Gioldasis Bakery;9ο χλμ, Ε.Ο. Άρτας Ιωαννίνων,48200,Φιλιππιάδα,Ελλάδα;39.2055676;20.880797;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2310;Mesogeios Nephrology Center;Ελληνίδων 18,17564,Παλαιό Φάληρο,Ελλάδα;37.9390863;23.6982474;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2311;Avis Thessaloniki Airport;18o χλμ Θεσσαλονίκης - Περαία,57001,Θέρμη,Ελλάδα;40.5485201;23.019646;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2312;Μαζαράκη Guesthouse;Πικουλιάνικα,23150,Μυστράς,Ελλάδα;37.0798463;22.3565889;1 x Mode 3 Charger, 1x13.1kW AC, Type 2;BlinkCharging
+2313;Poreia SA;2 χλμ Σερρών-Νιγρίτας,62101,Σέρρες,Ελλάδα;40.9115274;23.5012852;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2314;Bmw G Energy;Λεωφ. Ελευθερίας 34-38,17455,Άλιμος,Ελλάδα;37.9197615;23.7071713;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2315;BMW QS Service;Λεωφόρος Βουλιαγμένης 399,16346,Ηλιούπολη,Ελλάδα;37.9357421;23.7436987;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2316;Praktiker Garden Center;Τιτάνων 2,16777,Ελληνικό,Ελλάδα;37.9065709;23.7442815;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2317;Kastro Maistro;Φρύνι,31100,Λευκάδα,Ελλάδα;38.8267516;20.6849502;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2318;Candia Maris;Λεωφ. Ανδρέα Παπανδρέου 72,71414,Ηράκλειο,Ελλάδα;35.335744;25.08419;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2319;Sports Park;Λεωφόρος Πικερμίου,19004,Σπάτα,Ελλάδα;37.9676711;23.9249009;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2320;VW Kapageridis;Πατρών 160,20100,Κόρινθος,Ελλάδα;37.9336096;22.9091625;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2321;Atlantica;Πλημμύρι,85109,Ρόδος,Ελλάδα;35.9284721;27.850954;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2322;Elounda Mare;Σχίσμα Ελούντας,72053,Ελούντα,Ελλάδα;35.2613505;25.7234164;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2323;Santo Maris;Οία,84700,Σαντορίνη,Ελλάδα;36.4618199;25.3753101;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2324;Σκοπευτήριο;Μήλεσι Αττικής,19011,Μαλακάσα,Ελλάδα;38.2806644;23.7944248;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2325;Carrefour;Χαλκιδικής,63074,Αρναία,Ελλάδα;40.4875808;23.5927461;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2326;Ραδιομέγαρο;Σταυροπούλου 31,30200,Μεσολόγγι,Ελλάδα;38.3657961;21.4311561;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2327;Ρέτας ΑΕ;Λεωφ. Κηφισίας 284,15232,Χαλάνδρι,Ελλάδα;38.0205059;23.7891798;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2328;Blink;Αιγάλεω 8,18545,Πειραιάς,Ελλάδα;37.9505219;23.6389232;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2329;Lamda Development 5;Ελληνικού 2,16778,Ελληνικό,Ελλάδα;37.8801072;23.7313937;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2330;Nostos Beach Bar;Κρυονέρι,30014,Μεσολόγγι,Ελλάδα;38.3452782;21.5939774;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2331;Τεχνόπολις;ΒΕ.ΠΕ. Τεχνόπολη Θεσσαλονίκης,55535,Πυλαία,Ελλάδα;40.5743516;22.9953106;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2332;Cavo Spada;ΕΟ Κισσάμου Χανίων,73006,Χανιά,Ελλάδα;35.5282071;23.7603736;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2333;Patisserie Lyros;Χαλδείας 49,16777,Ελληνικό,Ελλάδα;37.8923536;23.7487563;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2334;Alterlife;Λεωφ. Ελ. Βενιζέλου 5,17123,Νέα Σμύρνη,Ελλάδα;37.9506416;23.7200321;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2335;Apollonion Bakery;Λεωφ. Μαρκόπουλου,19003,Μαρκόπουλο Μεσογαίας,Ελλάδα;37.8813996;23.9268459;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2336;Apollonion Bakery;Αδελιανός Κάμπος,74100,Ρέθυμνο,Ελλάδα;35.3720998;24.5413992;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2337;Patisserie Lyros;Ηρ. Πολυτεχνείου 41,30200,Μεσολόγγι,Ελλάδα;38.3727832;21.4299875;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2338;Intersport;Λεωφ. Βουλιαγμένης 100,16674,Γλυφάδα,Ελλάδα;37.8690113;23.7594362;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2339;Alterlife;Λεωφ. Βεΐκου 12,11146,Γαλάτσι,Ελλάδα;38.0143413;23.754023;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2340;Alterlife;Λεωφ. Πεντέλης 107,15234,Χαλάνδρι,Ελλάδα;38.0300946;23.8162024;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2341;Alterlife;Λεωφ. Μαραθώνος 12,15344,Σταυρός,Ελλάδα;38.0097716;23.8469941;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2342;Kreopolio Roussis;Διονύσου 1,15234,Χαλάνδρι,Ελλάδα;38.019295;23.8071327;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2343;Kreopolio Roussis;Λεωφ. Μαραθώνος 68,14569,Άνοιξη,Ελλάδα;38.1340005;23.8591476;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2344;Alterlife;Φιλαδελφέως και Χαρ. Τρικούπη,14562,Κεφαλάρι,Ελλάδα;38.0743021;23.82111;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2345;Port of Santorini (Athinios);Φηρά Σαντορίνης,84700,Σαντορίνη,Ελλάδα;36.4166485;25.432447;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2346;Power Team;Παρ. Λεωφ. Βουλιαγμένης 600,16452,Αργυρούπολη,Ελλάδα;37.9103433;23.7445726;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2347;Kreopolio Roussis;3ο χλμ Αθηνών Καπανδριτίου,19014,Καπανδρίτι,Ελλάδα;38.2074647;23.8689608;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2348;Alterlife;Λεωφ. Μεσογείων 483,15343,Αγία Παρασκευή,Ελλάδα;38.014084;23.82676;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2349;Alterlife;Διονύσου 136,15124,Μαρούσι,Ελλάδα;38.0437109;23.8013692;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2350;Alterlife;Λεωφ. Αμαρουσίου 14,14123,Λυκόβρυση,Ελλάδα;38.0633696;23.7783667;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2351;Alterlife;Δαβάκη 15,15124,Πεύκη,Ελλάδα;37.9529907;23.7052638;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2352;Alterlife Warehouse 7;Αποθήκη 7 Λιμάνι Θεσσαλονίκης,54625,Θεσσαλονίκη,Ελλάδα;40.6335997;22.9363562;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2353;Athens Medical Group;Κεφαλαρίου 1 & Φιλαδελφέως,14562,Κηφισιά,Ελλάδα;38.07391399999999;23.8202461;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2354;Ambassador Hotel;18ο χλμ Θεσσαλονίκης - Επανομής,57500,Θεσσαλονίκη,Ελλάδα;40.4289764;22.9304174;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2355;Elpida Resort & Spa;Έξοχων 12,62122,Σέρρες,Ελλάδα;41.1032427;23.5481812;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2356;Ψαροκόκκαλο;Ελ. Βενιζέλου 19,15127,Μελίσσια,Ελλάδα;38.0540662;23.8388585;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2357;Πάρκινγκ_Φιλοτίου;Φιλοτίου 10,11362,Κυψέλη,Ελλάδα;37.9973581;23.7433281;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2358;Πάρκινγκ_Γρανίτης;Λεωφ. Ευελπίδων 52,16673,Βούλα,Ελλάδα;37.8329163;23.7792964;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2359;IKEA_Αεροδρόμιο 2;Διεθνής Αερολιμένας Αθηνών,19019,Σπάτα,Ελλάδα;37.96464080000001;23.9070776;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2360;Apollonion Bakery;38ο χλμ Αθηνών - Σουνίου,19001,Λαγονήσι,Ελλάδα;37.7363244;23.9060374;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2361;Hyades Mountain Resort;Κάτω Τρίκαλα Κορινθίας,20400,Τρίκαλα,Ελλάδα;37.99713260000001;22.4811378;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2362;Πάρκινγκ Πέντας;Μεγάλου Αλεξάνδρου 2,62124,Σέρρες,Ελλάδα;41.0899235;23.5537382;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2363;Mr France 2;Μαρκόνι 3,10447,Αθήνα,Ελλάδα;37.9883968;23.6946633;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2364;Λεύκιππος Τεχνολογικό Πάρκο;Νεαπόλεως 27 & Πατριάρχου Γρηγορίου Ε.,15341,Αγ. Παρασκευή,Ελλάδα;37.9992769;23.8179567;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2365;Sea Side Resort & Spa;Αγία Πελαγία,71500,Ηράκλειο Κρήτης,Ελλάδα;35.4072951;25.0181002;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2366;Secada Beach & Resto Bar;Ναυαρίνου 232,24100,Καλαμάτα,Ελλάδα;37.0216709;22.1395575;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2367;Nefeli Hotel;Λεωφ. Μάχης Κρήτης 161,74100,Ρέθυμνο,Ελλάδα;35.36868;24.5323616;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2368;Kallisto Studios;Μαυροβούνι Γυθείου,23200,Γύθειο,Ελλάδα;36.7393485;22.5680911;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2369;Ambassador Hotel;18ο χλμ Θεσσαλονίκης Επανομής,Οδός Μιαούλη,57500,Πλαγιάρι,Ελλάδα;40.4731996;22.9569374;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2370;BMW Sittas;Λεωφ. Μαραθώνος 81,15344,Γέρακας,Ελλάδα;38.00915510000001;23.8538726;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2371;Papapolitis;Γράμμου 9,16673,Βούλα,Ελλάδα;37.8421701;23.7711618;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2372;Dart;Αγίας Βαρβάρας 2,15231,Χαλάνδρι,Ελλάδα;38.0111946;23.7820853;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2373;St George Lycabettus 2;Κλεομένους 2,10675,Αθήνα,Ελλάδα;37.9794342;23.7424304;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2374;Infoworx;Εθνάρχου Μακαρίου 27,12131,Περιστέρι,Ελλάδα;38.0044206;23.7015142;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2375;Περιφερειακή Ενότητα Θεσσαλονίκης;Βασ. Όλγας 198,54655,Θεσσαλονίκη,Ελλάδα;40.5929295;22.9557284;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2376;Ίδρυμα Τεχνολογίας και Έρευνας_3;Νίκου Πλαστήρα 100,70013,Ηράκλειο Κρήτης,Ελλάδα;35.305074;25.0724805;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2377;Bomo Rethymno Mare Royal & Water Park;Σκαλέτα,74100,Ρέθυμνο,Ελλάδα;35.3886179;24.6151998;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2378;Ιατρικό Κέντρο;Άντερσεν 1,11525,Ψυχικό,Ελλάδα;37.9964586;23.7695928;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2379;Ελληνογερμανική Αγωγή;Δημ. Παναγέα,15351,Παλλήνη,Ελλάδα;37.9978229;23.8937856;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2380;Βόλος_EnerNETMob;Ελ. Βενιζέλου & Αναλήψεως,38221,Βόλος,Ελλάδα;39.3665491;22.9506411;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2381;Τρίκαλα_EnerNETMob;Αγροτίας Σωτήρα,42100,Τρίκαλα,Ελλάδα;39.5860708;21.7558149;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2382;Ιατρικό Κέντρο;Εθνάρχου Μακαρίου 60,12132,Περιστέρι,Ελλάδα;38.0054021;23.7011298;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2383;Praktiker Hellas;Ηλία Βενέζη,85100,Ρόδος,Ελλάδα;36.42133;28.208687;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2384;Λάρισα_EnerNETMob;Καλλισθένους & Θεόφραστου,41335,Λάρισα,Ελλάδα;39.6118541;22.4277537;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2385;MountGrace Suites & Spa;Μονοδένδρι Ζαγορίου,45500,Ελλάδα;39.8824329;20.7478029;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2386;Praktiker Hellas;Καρτερού 22,71601,Νέα Αλικαρνασσός,Ηράκλειο Κρήτης,Ελλάδα;35.3340632;25.1647376;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2387;Port of Kavala ;Αβέρωφ 1,65403,Καβάλα,Ελλάδα;40.9356103;24.4090232;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2388;Karmar Quarries (Stone Group);4ο χλμ Δράμας-Καβάλας,66100,Χωριστή Δράμας,Ελλάδα;41.1247104;24.2014555;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2389;Marmor (Stone Group) ;Καβαλλάρι,57200,Καβαλλάρι,Ελλάδα;40.7174599;23.044765;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2390;Περιφερειακή Ενότητα Κατερίνης;28ης Οκτωβρίου 40,60132,Κατερίνη,Ελλάδα;40.2678411;22.5200445;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2391;Ioannidis S.A. ;Βερμίου 21,50100,Κοζάνη,Ελλάδα;40.3045245;21.8060786;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2392;Kymata Hotel;Πλαταμώνας Πιερίας,60065,Πιερία,Ελλάδα;39.9901304;22.6238625;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2393;Melegos INN Hotel;4ο χλμ Καρπενησίου - Λαμίας,36100,Καρπενήσι,Ελλάδα;38.9075702;21.8184171;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2394;Iris Hotel;Σίβηρη Κασσάνδρα,63077,Χαλκιδική,Ελλάδα;40.0356063;23.3608325;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2395;Δήμος Καλαμάτας ;Καλαμάτα,24100,Καλαμάτα,Ελλάδα;37.0366386;22.1143716;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2396;Electrical Roumeliotis;28ης Οκτωβρίου 50,34300,Λουτρά Αιδηψού,Ελλάδα;38.8602841;23.0409661;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2397;Papapolitis;31ο χλμ Αθηνών - Λαυρίου,19003,Μαρκόπουλο Αττικής,Ελλάδα;37.8610001;23.9317544;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2398;Ταβέρνα 'Ο Χρήστος';Δουκίσσης Πλακεντίας 34,15234,Χαλάνδρι,Ελλάδα;38.0202913;23.8147615;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2399;Δήμος Σερβίων ;Νεράιδα,50100,Νεράιδα,Ελλάδα;40.2404048;21.9674213;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2400;Cosmos Air Park;Λεωφ. Κορωπίου Αεροδρομίου,19400,Κορωπί,Ελλάδα;37.893689;23.8830821;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2401;Praktiker Hellas;Λαρίσης Τρικάλων και Φαρσάλων,41500,Λάρισα,Ελλάδα;39.6159101;22.4297779;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2402;Gruppo Cucine;Λεωφ. Μεσογείων 511,15343,Αγ. Παρασκευή,Ελλάδα;38.0134478;23.8333995;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2403;Gruppo Cucine;Λεωφ. Κηφισίας 244,15231,Χαλάνδρι,Ελλάδα;38.01586;23.7858076;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2404;Gruppo Cucine;Λεωφ. Βουλιαγμένης 101,16674,Γλυφάδα,Ελλάδα;37.868134;23.7601491;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2405;Gruppo Cucine;Λεωφ. Αθηνών 423,12243,Αιγάλεω,Ελλάδα;38.0075856;23.6722357;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2406;Unismack;ΒΙ. ΠΕ. Κιλκίς,61100,Σταυροχώρι,Ελλάδα;41.0499158;22.7891441;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2407;Gruppo Cucine;Λεωφ. Ανδρέα Συγγρού 151,17121,Νέα Σμύρνη,Ελλάδα;37.9534744;23.7130507;1 x Mode 3 Charger, 1x11kW AC, Type 2;BlinkCharging
+2408;ATT Center;Σωρού 35,15125,Μαρούσι,Ελλάδα;38.0443608;23.8119263;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2409;iMob;Λεωφ. Πεντέλης 54,15238,Βριλήσσια,Ελλάδα;38.0381947;23.8282536;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2410;Home Market;Λεωφ. Κομνηνών 20,55236,Πανόραμα,Ελλάδα;40.5908156;23.0376387;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2411;Super Market Natali ;Πόντου 206 (Βρυούλων),55132,Καλαμαριά,Ελλάδα;40.5724822;22.9601965;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2412;Περιφερειακή Ενότητα Σερρών;29ης Ιουνίου 4,62123,Σέρρες,Ελλάδα;41.0882258;23.547983;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2413;Welcome Stores ;1ο χλμ Π.Ο. Πτολεμαΐδας - Κοζάνης,50200,Πτολεμαΐδα,Ελλάδα;40.5129968;21.6784663;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2414;Bad Habit;Κολοκοτρώνη 18-20,56430,Σταυρούπολη,Ελλάδα;40.65791309999999;22.9320148;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2415;Dalakoglou AE_Mercedes Benz;Πειραιώς 52 & Κατσουλάκου 2,18547,Νέο Φάληρο,Ελλάδα;37.947425;23.6602755;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2416;Zanzibar;Πλατεία Πέλεκα,46100,Πλαταριά,Ελλάδα;39.4530556;20.2767293;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2417;Kastro Maini Hotel;Επαρ. Οδ. Αρεόπολης-Κότρωνα,23062,Αρεόπολη,Ελλάδα;36.6519973;22.4325637;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2418;Globalsat S.A.;Πλουτάρχου 21,15351,Παλλήνη,Ελλάδα;37.9986264;23.9040293;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2419;Praktiker Hellas;7ο Ε.Ο. Καλαμάτας - Τρίπολης,24009,Θουρία,Ελλάδα;37.08344930000001;22.0486318;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2420;Pelonis Bakery;10ο χλμ Κάστρου Ορχομενού,32300,Ορχομενός Βοιωτίας, Ελλάδα;38.4937481;23.1602932;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2421;Praktiker Hellas;Ακτή Δυμαίων 56-58,26333,Πάτρα,Ελλάδα;38.2164283;21.7190751;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2422;ΔΗΜΟΣ ΙΛΙΟΥ ;Χρυσηίδος 49,131 22,Ίλιον, Ελλάδα;38.0301134;23.7061984;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2423;Starwest Cafe;Λατζιμάς - Ρέθυμνο,74100,Ρέθυμνο, Ελλάδα;35.36555450000001;24.4919838;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2424;RIMONDI GRAND HOTEL & SPA RESORT;Παλαιά Ε.Ο. Ρεθύμνου-Ηρακλείου, Νέα Μαγνησία, 74052, Ελλάδα;35.3387352;25.1442126;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2425;Praktiker Hellas;6ο χλμ Ε.Ο. Ιωαννίνων - Άρτας,45500,Ιωάννινα,Ελλάδα;39.1582421;20.9876839;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2426;Nissan Φρονιμάκης;2ο χλμ Εθνικης Οδού Αγίου Νικολάου - Ηρακλείου,72100,Αγ. Νικόλαος, Ελλάδα;35.1850469;25.7066235;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2427;Praktiker Hellas;Flamingo Retail Park,5ο χλμ Ε.Ο. Ξάνθης - Κομοτηνής,67100,Ξάνθη,Ελλάδα;41.10984819999999;24.9261189;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2428;Praktiker Hellas;Μαρίνου Αντύπα 34,55535,Θεσσαλονίκη,Ελλάδα;40.5689654;22.9806139;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2429;Praktiker Hellas;4ο χλμ Ε.Ο. Αλεξανδρούπολης - Συνόρων Αγρόκτημα,68100,Μαϊστρος,Ελλάδα;40.854841;25.8867069;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2430;Δημαρχείο ;Βερνάρδου 23,15235,Βριλήσσια, Ελλάδα;38.034107;23.8295418;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2431;Περιφερειακή Ενότητα Χαλκιδικής ;Παπαγεωργάκη 1,63100,Χαλκιδική, Ελλάδα;40.3023916;23.4208353;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2432;Kresten Palace Hotel;6χλμ. Λεωφόρος Ρόδου-Καλλιθέας,85100,Ρόδος, Ελλάδα;36.4349631;28.2174829;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2433;ToyWorld Jumbo;Νέα Δυτική Περιφερειακή Οδός,61100,Κιλκίς, Ελλάδα;40.9957012;22.884349;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2434;Portareto;Κοτζιά 2-4,17455,Άλιμος, Ελλάδα;37.9043156;23.7263563;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2435;Kiosky's;Θερμοπυλών 29,35132,Λαμία, Ελλάδα;38.8982874;22.4391347;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2436;Δήμος Αμυνταίου;Πλατεία Αγίου Κωνσταντίνου, 53200,Αμύνταιο Φλώρινας, Ελλάδα;40.6926731;21.6802378;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2437;VW-Audi Καψιώχας;5ο χλμ Ε.Ο. Πρέβεζας - Ηγουμενίτσας, 48100,Πρέβεζα, Ελλάδα;38.9934273;20.7420464;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2438;"ΠΑΡΚΟ '"ΑΝΤΩΝΗΣ ΤΡΙΤΣΗΣ'"";Σπύρου Μουστακλή 21, 13122, Ίλιον Αθήνα, Ελλάδα;38.0452089;23.7241184;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2439;Ιντερσαλόνικα_Γ. Καφιέρης ;Επαρχιακή Οδός Φηρών-Πύργου, 84700,Θήρα, Ελλάδα;36.383038;25.4478176;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2440;Κατσαντώνης Ταξί ;Λιοσίων 164 ,10445,Αθήνα,Ελλάδα;38.00335219999999;23.7220265;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2441;ΤΑΞΙ ΜΑΚΡΥΝΙΩΤΗΣ;Λιοσίων 54-56, Αθήνα 104 39 (Ιδιωτικό);37.9910301;23.7239673;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2442;Parking Σύνταγμα;Ξενοφώντος 4, Αθήνα 105 57, Ελλάδα;37.9742487;23.7344386;1 x Mode 3 Charger, 2x11kW or 1x22kW AC, Type 2;BlinkCharging
+2443;ΠΛΑΤΕΙΑ ΕΛΕΥΘΕΡΙΑΣ;Αθηνάς 79, 18129 Κορυδαλλός, Αθήνα, Ελλάδα;37.9774223;23.6495472;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2444;ΣΠΑΝΟΣ ΑΕ;Λεωφ. Αμφιθέας 2, 171 22 Παλαιό Φάληρο, Αθήνα, Ελλάδα  (Ιδιωτικό) ;37.9432927;23.7006142;1 x Mode 3 Charger, 2x11kW or 1x22kW AC, Type 2;BlinkCharging
+2445;Nissan Alpha Auto Team;Ανδρέα Παπανδρέου 96, 16674, Γλυφάδα, Ελλάδα;37.8761126;23.7576582;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2446;Golden Star City Resort;Π. Κουντουριώτου 73, 57019, Περαία, Ελλάδα;40.5086346;22.9235902;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2447;Εθνική Τράπεζα της Ελλάδος;Λεωφόρος Αθηνών 128,10442,Αθήνα,Ελλάδα;37.9921779;23.7008231;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2448;Ιατρικό Διαβαλκανικό Θεσσαλονίκης;Ασκληπιού 10, 55535, Πυλαία, Ελλάδα;40.5477806;22.9872742;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2449;Technomat SA-Πάτρα;Ν.Ε.Ο. Πατρών-Αθηνών 181,26443,Πάτρα,Ελλάδα;38.2796382;21.7655984;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2450;Nissan Καλλή Γιάννα;5ο χλμ Ε.Ο. Ιωαννίνων-Αθηνών, 45500, Ιωάννινα, Ελλάδα;39.6309446;20.8637319;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2451;FATA MORGANA STUDIOS & APARTMENTS;Φραγκοκάστελλο, 730 11 Χανιά, Κρήτη, Ελλάδα;35.1817316;24.2315394;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2452;Praktiker Hellas;Μυκηνών, 23ο χλμ Ν.Ε.Ο. Αθηνών Κορίνθου,19600,Μάνδρα,Ελλάδα;38.0431833;23.5842894;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2453;Praktiker Hellas;Πειραιώς 176,17778,Ταύρος,Ελλάδα;37.9710331;23.7019096;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2454;Praktiker Hellas;Τατοΐου 14,14451,Μεταμόρφωση,Ελλάδα;38.0529527;23.7526843;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2455;ΑΒ Shop & Go ;Σουλίου 94,17342,Άγιος Δημήτριος Αττικής,Ελλάδα;37.9294902;23.7370614;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2456;Praktiker Hellas;Ιερά Οδός 339,12351,Αγία Βαρβάρα,Ελλάδα;37.9977482;23.6656571;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2457;ΑΒ Food Market - Zacharo;Ε.Ο. Πύργου-Κυπαρισσίας,27054,Ζαχάρω Ηλείας,Ελλάδα;37.6718487;21.4432257;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2458;Technomat SA-Rhodes;3ο χλμ Ρόδου-Λίνδου,85100,Ρόδος,Ελλάδα;36.2957367;28.1626071;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2459;ΑΒ Food Market - Kyparissia ;Ε.Ο. Κυπαρισσίας-Πύλου,24500,Κυπαρισσία,Ελλάδα;37.2512312;21.6694441;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2460;Nissan Skouloudis Deligiannis;6ο χλμ Ηρακλείου-Μοιρών, 71039, Ηράκλειο Κρήτης, Ελλάδα;35.3091827;25.1573304;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2461;Praktiker Hellas;Λεωφόρος Ανθούσας,15349,Emporium Plaza,Παλλήνη,Ελλάδα;38.0236045;23.8726912;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2462;Εθνική Τράπεζα της Ελλάδος;Μενελάου 2 & Λεωφ. Πεντέλης 11-13,15235,Βριλήσσια,Ελλάδα;38.0346486;23.8239179;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2463;Εθνική Τράπεζα της Ελλάδος;Ασκληπιού 3,55535,Πυλαία,Ελλάδα;40.5484882;22.9858872;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2464;Εθνική Τράπεζα της Ελλάδος;Πειραιώς 74,18346,Μοσχάτο,Ελλάδα;37.9588759;23.6869958;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2465;Technomat SA-Rysio;18ο χλμ Θεσσαλονίκης-Μουδανίων ,57001,Νέο Ρύσιο,Ελλάδα;40.5521599;23.0004664;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2466;Evora Cafe Restaurant;Παναγίτσα,58002,Πέλλα,Ελλάδα;40.8519756;21.8481334;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2467;Sarantis G. Aegean;Ελ. Βενιζέλου Τέρμα,61100,Κιλκίς,Ελλάδα;40.9954015;22.8698903;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2468;Technomat SA-Sindos;Βι.Πε. Θ Σίνδου,57022,Θεσσαλονίκη,Ελλάδα;40.68966229999999;22.7801044;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2469;Technomat SA-Nea Erythraia ;Λεωφόρος Νέας Ερυθραίας,14671,Νέα Ερυθραία,Ελλάδα;38.1082351;23.8202349;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2470;Nissan A. Sidiropoulos;4ο χλμ Σκύδρας-Αριδαίας, 58500, Σκύδρα, Ελλάδα;40.7673908;22.1539417;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2471;Nissan N. Ananiadis;Λεωφόρος Κρυονερίου 30, 14565, Άγιος Στέφανος, Ελλάδα;38.1397641;23.8476448;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2472;KAOIL;8ο Χλμ Θεσσαλονίκης-Καβάλας, Θεσσαλονίκη, 54500, Ελλάδα;40.6400629;22.9444191;1 x Mode 3 Charger, 2x11kW AC, Type 2;BlinkCharging
+2473;Nissan I. Tsioris;2ο χλμ Πύργου-Πατρών ,27131,Πύργος,Ελλάδα;37.6735744;21.436771;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2474;Technomat SA;Φυλλίρας 31,Παύλος Μελάς,56429,Ωραιόκαστρο,Ελλάδα;40.6940765;22.9409509;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2475;ΣΤΑΔΙΟ ΟΑΚΑ 2 (Κολυμβητήριο);Λεωφόρος Ολυμπιονίκου Σπύρου Λούη, Μαρούσι, Τ.Κ. 15123, Αθήνα, Ελλάδα;38.0345272;23.7846414;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2476;PARKING ΠΑΡΑΛΙΑΣ ΚΑΛΑΜΑΚΙΟΥ;Λεωφ. Ποσειδώνος 10, Άλιμος 17455, Αθήνα, Ελλάδα;37.9162688;23.7058157;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2477;ΞΕΝΟΔΟΧΕΙΟ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ;Βασ. Γεωργίου Α 1, Σύνταγμα 105 64, Αθήνα Ελλάδα;37.9762214;23.73532;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2478;KING GEORGE HOTEL;Βασ. Γεωργίου Ά 3, Σύνταγμα 105 64 Αθήνα, Ελλάδα;37.9762648;23.7349213;1 x Mode 3 Charger, 1x22kW AC, Type 2;BlinkCharging
+2479;SUPER MARKET Δ. ΘΑΝΟΠΟΥΛΟΣ;Χαριλάου Τρικούπη 164 & Αίαντος, 14671, Ν. Ερυθραία, Αθήνα, Ελλάδα;38.0885256;23.8132277;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2480;SUPER MARKET Δ. ΘΑΝΟΠΟΥΛΟΣ;Αδριανού & Δραγούμη 6, ΗΣΑΠ, 14561, Κηφισιά, Αθήνα, Ελλάδα;38.0742513;23.8085967;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2481;ΟΡΕΣΤΙΑΔΑ;Ορέστου 9, 68200 Πάρκο Ορεστιάδας, Ελλάδα;41.5041654;26.5356526;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2482;SUPER MARKET Δ. ΘΑΝΟΠΟΥΛΟΣ;Ελαιών 38, 145 64, N. Κηφισιά, Αθήνα, Ελλάδα;38.0917279;23.7968201;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2483;ΙΚΤΕΟ ΚΟΡΙΝΘΟΥ ΕΠΕ;Παλαιά Ε.Ο. Κορίνθου – Πατρών, 20 100 Λουτράκι, Ελλάδα;38.1518455;22.3487142;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2484;ΔΗΜΑΡΧΕΙΟ;Πλατεία Ηρώων, Φυλή 133 41, Αθήνα, Ελλάδα;37.9783502;23.7249072;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2485;KAPSIOHAS VW-Audi;5ο Χλμ. Αγρινίου – Αντιρρίου, 30100, Αγρίνιο;38.5712584;21.4225785;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2486;CYCLON;Ναυπάκτου 43-45, 35100, Λαμία;38.8883672;22.4306132;1 x Mode 3 Charger, 2x11kW or 1x22kW AC, Type 2;BlinkCharging
+2487;ΕΝΩΣΗ ΑΓΡΟΤΙΚΩΝ ΣΥΝΕΤΑΙΡΙΣΜΩΝ;Ναυπάκτου 35, 302 00 Μεσολόγγι, Ελλάδα;38.3739342;21.4353503;1 x Mode 3 Charger, 2x11kW or 1x22kW AC, Type 2;BlinkCharging
+2488;PARKING ΠΛΑΤΕΙΑ;Κύπρου 81, 41222, Λάρισα, Ελλάδα;39.6385884;22.4147777;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2489;SERVICELAND;1ο χλμ ΕΟ Τρίπολη - Σπάρτη, 221 00 Τρίπολη, Ελλάδα;37.4993905;22.3775189;1 x Mode 3 Charger, 2x11kW or 1x22kW AC, Type 2;BlinkCharging
+2490;PARKING ΣΑΒ;Αλμυρού 1-7, 38334, Βόλος, Ελλάδα;39.3606601;22.9330626;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2491;ΝΙΚΗΤΕΑΣ BAKERY;2ο χλμ Ε.Ο Σπάρτης - Γερακίου, Σπάρτη 23100, Ελλάδα;37.0786733;22.4234121;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2492;KOSMOPLUS;Ι. Σισμάνογλου 41, Κομοτηνή 691 00;41.1138593;25.410246;1x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
+2493;BARCELO HYDRA BEACH RESORT;Πλέπι-Θερμησία, 21051, Ερμιόνη, Ελλάδα;37.4145848;23.3558337;1 x Mode 3 Charger, 2x22kW AC, Type 2;BlinkCharging
