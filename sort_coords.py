@@ -114,8 +114,7 @@ for i in range(0,stations.shape[0]):
             data[dhmos]['sum']+=1 
             data[dhmos]['coords'].append([stations['lat'][i],stations['long'][i]])
         else:
-            data[dhmos] = {'sum':1, 'coords':[[stations['lat'][i],stations['long'][i]]]}
-    print(i)        
+            data[dhmos] = {'sum':1, 'coords':[[stations['lat'][i],stations['long'][i]]]}       
 
 dataa = pd.DataFrame.from_dict(data, orient="index")
 dataa.to_csv("stations_sum.csv",sep=';')

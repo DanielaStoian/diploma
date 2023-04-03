@@ -7,6 +7,8 @@ import seaborn as sns
 from scipy import stats
 from scipy.special import boxcox, inv_boxcox
 
+from arch.bootstrap import MovingBlockBootstrap
+
 def invboxcox(y,ld):
    if ld == 0:
       return(np.exp(y))
@@ -45,36 +47,64 @@ def bootstrap(arrivals,num,mu):
 
     # Bootstrap
     # TODO window_size = block_size = 2*freq
+    # pd.DataFrame(stl.resid).plot()
     mbb = MBB(stl.resid, window_size=2*168)
     # pd.DataFrame(mbb).plot()
     for i in range(0,len(mbb)):
         mbb[i] += stl.trend[i] + stl.seasonal[i] * mu
     xs = []
     xs.append(arrivals)
+    # pd.DataFrame(mbb).plot()
     for i in range(1,num):  
     # this is not working properly 
         xs.append(invboxcox(mbb,1))    
-        pd.DataFrame(invboxcox(mbb,1)).plot()
     return xs
 
-num_boots = 4
-boots = bootstrap(arrivals=arrivals,num=num_boots,mu=3)
-new_series =  np.zeros(arrivals.shape[0])
-for i in range(0, num_boots):
-    for j in range(0,len(new_series)):
-        if len(boots[i])>j :
-            if i==0 :
-                new_series[j] += boots[i]['days'][j]
-            else:
-                new_series[j] += boots[i][j]   
-for i in range(0,len(new_series)):   
-    if new_series[i]<0:
-        new_series[i] = 0            
-for i in range(0,len(new_series)):
-    new_series[i] = np.round(new_series[i] / num_boots, 0)
+multi = 1
+mu = 1
+while(multi<3):
+    num_boots = 4
+    boots = bootstrap(arrivals=arrivals,num=num_boots,mu=mu)
+    new_series =  np.zeros(arrivals.shape[0])
+    for i in range(0, num_boots):
+        for j in range(0,len(new_series)):
+            if len(boots[i])>j :
+                if i==0 :
+                    new_series[j] += boots[i]['days'][j]
+                else:
+                    new_series[j] += boots[i][j]   
+    for i in range(0,len(new_series)):   
+        if new_series[i]<0:
+            new_series[i] = 0               
+    for i in range(0,len(new_series)):
+        new_series[i] = np.round(new_series[i] / num_boots, 0)
+    new_series = np.nan_to_num(new_series)
+    # pd.DataFrame(new_series).plot()
+    mu+=1
+    multi = np.ceil(sum(new_series)/sum(arrivals['days']))
+    print(multi)
+
+medians = []
+for i in range(0,len(new_series),168):
+    tmp = []
+    for j in range(0,168):
+        try:
+            tmp.append(new_series[j+i])
+        except:
+            break    
+    medians.append(tmp)
+medians.pop()
+nd_medians = np.array(medians)
+true_medians = []
+for column in nd_medians.T:
+    true_medians.append(np.median(column))
+ 
+# printing the column
+pd.DataFrame(true_medians).plot()
+
 arrivals['Demand'] = new_series
 fig, axes = plt.subplots(nrows=2, ncols=1)
 
-arrivals['Demand'].plot(ax=axes[0])
-arrivals['days'].plot(ax=axes[1])
+arrivals['Demand'][168:168*2].plot(ax=axes[0])
+arrivals['days'][168:168*2].plot(ax=axes[1])
 plt.show()

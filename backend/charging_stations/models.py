@@ -8,3 +8,5 @@ class Station(models.Model):
     long = models.CharField(max_length=50)
     type = models.CharField(max_length=500,null=True)
     origin = models.CharField(max_length=50)
+    dhmos = models.CharField(max_length=50,null=True)
+    category = models.CharField(max_length=50,null=True)

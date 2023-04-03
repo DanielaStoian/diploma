@@ -42,7 +42,9 @@ class StationsScrapperPipeline:
             lat Char(50),
             long Char(50),
             type Char(500),
-            origin Char(50)
+            origin Char(50),
+            dhmos Char(50),
+            category Char(50)
         )
         """)
 
@@ -59,13 +61,15 @@ class StationsScrapperPipeline:
         else:
 
             ## Define insert statement
-            self.cur.execute(""" insert into charging_stations_station (name, address, lat, long, type, origin) values (%s,%s,%s,%s,%s,%s)""", (
+            self.cur.execute(""" insert into charging_stations_station (name, address, lat, long, type, origin, dhmos, category) values (%s,%s,%s,%s,%s,%s,%s,%s)""", (
                 item["name"],
                 item["address"],
                 item["lat"],
                 item["long"],
                 item["type"],
                 item["origin"],
+                item["dhmos"],
+                item["category"],
             ))
 
             ## Execute insert of data into database

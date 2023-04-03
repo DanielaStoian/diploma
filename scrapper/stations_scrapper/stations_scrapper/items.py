@@ -7,4 +7,6 @@ class StationItem(scrapy.Item):
     address = scrapy.Field()
     type = scrapy.Field()
     origin = scrapy.Field()
+    dhmos = scrapy.Field()
+    category = scrapy.Field()
 
