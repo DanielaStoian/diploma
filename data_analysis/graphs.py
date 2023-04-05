@@ -22,8 +22,8 @@ def invboxcox(y,ld):
       return t_list
 
 def MBB(x, window_size):
-    bx = np.zeros(((len(x) // window_size + 2) * window_size))
-    for i in range(1, len(x) // window_size + 2):
+    bx = np.zeros(int(np.floor(len(x) / window_size + 2) * window_size))
+    for i in range(1, int(np.floor(len(x) / window_size)) + 2):
         c = np.random.randint(1, len(x) - window_size + 1)
         bx[(i - 1) * window_size + 1:i * window_size] = x[c:c + window_size - 1]
     start_from = np.random.randint(0, window_size-1) + 1
@@ -62,7 +62,7 @@ def bootstrap(arrivals,num,mu):
 
 multi = 1
 mu = 1
-while(multi<3):
+while(multi<2):
     num_boots = 4
     boots = bootstrap(arrivals=arrivals,num=num_boots,mu=mu)
     new_series =  np.zeros(arrivals.shape[0])
@@ -73,16 +73,16 @@ while(multi<3):
                     new_series[j] += boots[i]['days'][j]
                 else:
                     new_series[j] += boots[i][j]   
+    # pd.DataFrame(new_series).plot()
     for i in range(0,len(new_series)):   
         if new_series[i]<0:
             new_series[i] = 0               
     for i in range(0,len(new_series)):
         new_series[i] = np.round(new_series[i] / num_boots, 0)
     new_series = np.nan_to_num(new_series)
-    # pd.DataFrame(new_series).plot()
     mu+=1
-    multi = np.ceil(sum(new_series)/sum(arrivals['days']))
-    print(multi)
+    multi = int(np.round(sum(new_series)/sum(arrivals['days'])))
+    # print(multi)
 
 medians = []
 for i in range(0,len(new_series),168):
@@ -105,6 +105,6 @@ pd.DataFrame(true_medians).plot()
 arrivals['Demand'] = new_series
 fig, axes = plt.subplots(nrows=2, ncols=1)
 
-arrivals['Demand'][168:168*2].plot(ax=axes[0])
-arrivals['days'][168:168*2].plot(ax=axes[1])
+arrivals['Demand'].plot(ax=axes[0])
+arrivals['days'].plot(ax=axes[1])
 plt.show()

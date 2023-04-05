@@ -5,33 +5,42 @@ import random
 import math
 from statsmodels.tsa.seasonal import seasonal_decompose as sm
 
-def resample(data, percentage):
-    length = int(len(data)*percentage)
-    indexes = np.zeros(length)
-    for i in range(0,length-1):
-        indexes[i] = np.random.randint(0,len(data))
-    return indexes
-
 data = pd.read_csv('data_analysis\cluster_A.csv')
 
 arrivals = {'days': data[data.columns[3]]}
 arrivals = pd.DataFrame(arrivals)
 
+# pd.DataFrame(arrivals['days']).plot(title="start data")
+
+
 stl=sm(arrivals, model='additive', period=168) 
+# pd.DataFrame(stl.seasonal).plot()
+seasonal = stl.seasonal
+seasonal = np.nan_to_num(seasonal)
 
-trend = stl.trend
-trend = np.nan_to_num(trend)
-# indexes = resample(trend, percentage=0.5)
-
-indexes = random.sample(range(0, len(trend)), int(len(trend)*0.5))
-rs_trend = np.zeros(len(trend))
+indexes = np.random.choice(range(0, len(seasonal)), int(len(seasonal)*1),replace=True)
+rs_seas = np.zeros(len(seasonal))
 for i in indexes:
-    rs_trend[i] = math.ceil(trend[i])
+    if seasonal[i] < 0:
+        seasonal[i] = abs(seasonal[i])
+    rs_seas[i] = 8*seasonal[i] 
 new_data = np.zeros(len(arrivals))
-for i in range(0,arrivals.shape[0]):
-    new_data[i] = arrivals['days'][i] + rs_trend[i]
-    # print(arrivals)
+noise = np.random.normal(loc=0.1, scale=0.8, size=len(new_data))
+# pd.DataFrame(stl.trend).plot(title="trend")
+# pd.DataFrame(rs_seas).plot(title="season")
+for i in range(len(noise)):
+    new_data[i] = noise[i] 
+    if noise[i] < 0:
+        noise[i] = 0
 
+# pd.DataFrame(noise).plot(title="noise")
+for i in range(0,arrivals.shape[0]):
+    # if rs_seas[i] + noise[i] < 0.5:
+    #     print(i)
+    new_data[i] = arrivals['days'][i] + (rs_seas[i] + noise[i])
+    # print(arrivals)
+for i in range(0,len(new_data)):
+        new_data[i] = np.round(new_data[i] / 2.1, 0)
 medians = []
 for i in range(0,len(new_data),168):
     tmp = []
@@ -46,9 +55,18 @@ nd_medians = np.array(medians)
 true_medians = []
 for column in nd_medians.T:
     true_medians.append(np.median(column))
- 
-# printing the column
-pd.DataFrame(true_medians).plot()
 
-pd.DataFrame(new_data).plot()
+multi = np.round(sum(new_data)/sum(arrivals['days']))
+# print(multi) 
+# printing the column
+pd.DataFrame(true_medians).plot(title="true medians")
+
+results1 = pd.DataFrame({'finally': new_data, 'first': arrivals['days']})
+
+results1.plot()
+# plt.legend(loc='lower right')
+# plt.xlabel("Episode")
+# plt.ylabel("Rewards")
+
+# pd.DataFrame(new_data).plot(title="final data",)
 plt.show()

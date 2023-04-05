@@ -123,7 +123,7 @@ def add_category(lat,long):
                     return res
                 else:
                     return [0,0]
-    return 0   
+    return [0,0]   
 
 class ChargeSpot(scrapy.Spider): 
     name = "ChargeSpot"
@@ -190,24 +190,27 @@ class Fortisis(scrapy.Spider):
             if len(address) < 1:
               continue
             else:
-              lat,long = address_to_coords(address[0])
+                lat,long = address_to_coords(address[0])
+                if lat is None or long is None:
+                    continue
+                else:
 
-              dhmos = add_category(lat,long)
-            if dhmos[0]!=0:
-                items['dhmos'] = dhmos[0]
-                items['category'] = str(dhmos[1])
-            else: 
-              items['dhmos'] = ""  
-              items['category'] = "" 
+                    dhmos = add_category(lat,long)
+                    if dhmos[0]!=0:
+                        items['dhmos'] = dhmos[0]
+                        items['category'] = str(dhmos[1])
+                    else: 
+                        items['dhmos'] = ""  
+                        items['category'] = "" 
 
-              items["name"] = name[0]
-              items["address"] = address[0]
-              if len(connectors) >=1:
-                items["type"] = connectors[0]
-              items["lat"] = str(lat)
-              items["long"] = str(long)
-              items["origin"] = origin
-              yield items
+                    items["name"] = name[0]
+                    items["address"] = address[0]
+                    if len(connectors) >=1:
+                        items["type"] = connectors[0]
+                    items["lat"] = str(lat)
+                    items["long"] = str(long)
+                    items["origin"] = origin
+                    yield items
 
 class ProtergiaCharge(scrapy.Spider): 
     name = "ProtergiaCharge"
@@ -269,6 +272,7 @@ class PlugShare(scrapy.Spider):
         for station in data:
 
             dhmos = add_category(station["lat"],station["long"])
+            print(dhmos)
             if dhmos[0]!=0:
                 items['dhmos'] = dhmos[0]
                 items['category'] = str(dhmos[1])
