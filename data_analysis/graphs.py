@@ -25,15 +25,20 @@ def MBB(x, window_size):
     bx = np.zeros(int(np.floor(len(x) / window_size + 2) * window_size))
     for i in range(1, int(np.floor(len(x) / window_size)) + 2):
         c = np.random.randint(1, len(x) - window_size + 1)
-        bx[(i - 1) * window_size + 1:i * window_size] = x[c:c + window_size - 1]
+        bx[((i - 1) * window_size + 1):(i * window_size)] = x[c:c + window_size - 1]
     start_from = np.random.randint(0, window_size-1) + 1
     return bx[start_from :start_from - 1 + len(x)]
 
 def bootstrap(arrivals,num,mu):
     # Box-Cox transformation
     # TODO lamda parameter check
-    box_cox = stats.boxcox(arrivals, lmbda=1)
-    box_cox = pd.DataFrame(box_cox)
+    if np.min(arrivals['days']) > 1e-6:
+        box_cox, lambda_ = stats.boxcox(arrivals['days'], lmbda=None)
+        box_cox = pd.DataFrame(box_cox)
+    else:
+        box_cox, lambda_ = arrivals['days'], 1
+        box_cox = pd.DataFrame(box_cox)
+    
     
     # Decomposition
     # TODO frequency check
@@ -48,22 +53,23 @@ def bootstrap(arrivals,num,mu):
     for i in range(0,len(mbb)):
         mbb[i] += stl.trend[i] + stl.seasonal[i] * mu
     xs = []
-    xs.append(arrivals)
+    xs.append(arrivals['days'])
     # pd.DataFrame(mbb).plot()
     for i in range(1,num):  
     # this is not working properly 
-        xs.append(invboxcox(mbb,1))    
+        xs.append(invboxcox(mbb,lambda_))  
+        # pd.DataFrame(xs[i]).plot()  
     return xs
 
 def bt_augm(dataframe):
     # data = pd.read_csv('data_analysis\cluster_A.csv')
     data = dataframe
-    arrivals = {'days': data[data.columns[3]]}
+    arrivals = {'days': data}
     arrivals = pd.DataFrame(arrivals)
 
     multi = 1
     mu = 1
-    while(multi<2):
+    while(multi<3):
         num_boots = 4
         boots = bootstrap(arrivals=arrivals,num=num_boots,mu=mu)
         new_series =  np.zeros(len(arrivals))
@@ -71,19 +77,19 @@ def bt_augm(dataframe):
             for j in range(0,len(new_series)):
                 if len(boots[i])>j :
                     if i==0 :
-                        new_series[j] += boots[i]['days'][j]
+                        new_series[j] += boots[i][j]
                     else:
                         new_series[j] += boots[i][j]   
         # pd.DataFrame(new_series).plot()
         for i in range(0,len(new_series)):   
             if new_series[i]<0:
-                new_series[i] = 0               
+                new_series[i] = 0                      
         for i in range(0,len(new_series)):
-            new_series[i] = np.round(new_series[i] / num_boots, 0)
+            new_series[i] = np.round(new_series[i] / (num_boots*2), 0)
         new_series = np.nan_to_num(new_series)
         mu+=1
         multi = int(np.round(sum(new_series)/sum(arrivals['days'])))
-        # print(multi)
+        print(multi,mu)
 
     medians = []
     for i in range(0,len(new_series),168):
