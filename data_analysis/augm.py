@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from my_augm import my_augm
 from graphs import bt_augm
 from matplotlib import style
+from datetime import timezone, datetime
+import pytz
 plt.style.use('ggplot')
 datac = pd.read_csv('data_analysis\cluster_A.csv')
 
@@ -37,39 +39,21 @@ def naive_augm(dataframe):
 
     return [new_data, true_medians]    
 
-# for i in range(1):
-
-
-#     res1 = my_augm(data[data.columns[3]])
-#     res2 = bt_augm(data)
-#     res3 = naive_augm(data)
-#     pd.DataFrame(res1[0])[:168].plot(title="my_augm")
-#     pd.DataFrame(res2[0]).plot(title="bt_augm")
-#     pd.DataFrame(res3[0]).plot(title="naive")
-#     pd.DataFrame(res1[1]).plot(title="med 1")
-#     pd.DataFrame(res2[1]).plot(title="med 2")
-#     pd.DataFrame(res3[1]).plot(title="med 3")
-    # final_series = pd.DataFrame({'my': res1[0][168:168*2], 'bt': res2[0][168:168*2],'naive': res3[0][168:168*2]})
-    # final_series.plot(title=str(i))
-
-    # final_medians = pd.DataFrame({'1': res1[1], '2': res2[1], "3": res3[1]})
-    # final_medians.plot()
-
 
 def extract_data(file_name,column_name,format):
     data = pd.read_csv('data_analysis'+file_name, sep=';')
     # stations = data.stationID.unique()
-    data[column_name] = pd.to_datetime(data[column_name], errors='coerce',format=format, exact=False)
+    data[column_name] = pd.to_datetime(data[column_name], errors='coerce',format=format, exact=False, utc=True)
     data = data.sort_values(by=[column_name]) 
     data = data.dropna().reset_index(drop=True)
-
-    # st_data = {i:[] for i in stations}
-    # for i in range(len(data)):
-    #     st_data[data['stationID'][i]].append(data['connectionTime'][i])
-
-
+    start = data[column_name].min().date()
+ 
+    # fix timezone gaps
     
-    hours_df = pd.DataFrame({'date':pd.date_range(start=data[column_name].min(), end=data[column_name].max(),freq='H')})
+    timestamp = datetime.combine(start, datetime.min.time())
+    timezone = data[column_name].dt.tz
+    start = timezone.localize(timestamp)
+    hours_df = pd.DataFrame({'date':pd.date_range(start=start, end=data[column_name].max(),freq='H')})
     timed_arrivals = np.zeros((len(hours_df)))  
     idx = 0
     for i in range(0,len(hours_df)):
@@ -133,18 +117,41 @@ def get_minmax(new_data):
         true_max.append([min(column), max(column)])
     return true_max
 
-# pd.DataFrame(get_med(timed_arrivals)).plot(title="medians start")
-timed_arrivals,hours_df = extract_data('\Boulder.csv', 'Start_Date___Time', '%Y/%m/%d %H:%M')
-res1 = bt_augm(timed_arrivals)
-# csv1 = pd.DataFrame(timed_arrivals, columns=['arrivals']).to_csv("before_1.csv")
-# csv2 = pd.DataFrame(res1[0], columns=['arrivals']).to_csv("after_1.csv")
-timed_data = pd.DataFrame({'time':hours_df['date'], 'arrivals':timed_arrivals})
+def get_mean(new_data):
+    arr = []
+    for i in range(0,len(new_data),168):
+        tmp = []
+        for j in range(0,168):
+            try:
+                tmp.append(new_data[j+i])
+            except:
+                break    
+        arr.append(tmp)
+    arr.pop()
+    nd_max = np.array(arr)
+    true_max = []
+    for column in nd_max.T:
+        true_max.append(np.mean(column))
+    return true_max
 
-# timed_data['arrivals'].plot()
-# pd.DataFrame(res1[0]).plot()
-# pd.DataFrame(res1[1]).plot()
-ax = pd.DataFrame(get_minmax(res1[0])).plot.area(title="max",color=('#CCCCCC'),label='minmax')
-pd.DataFrame(get_percentiles(res1[0])).plot.area(title="perc", color=('#87CEEB','#ADD8E6') ,ax=ax)
-pd.DataFrame(res1[1]).plot(title="Augmented_1",ax=ax,color=('#4672E1'))
-plt.legend()
+
+file_names = ['\Boulder.csv', '\London_2.csv', '\potential3_2.csv']
+column_names = ['Start_Date___Time', 'Plug in Date and Time', 'Transaction Start']
+formats = ['%Y/%m/%d %H:%M', '%d/%m/%Y %H:%M', '%d/%m/%Y %H:%M']
+for i in range(0,3):
+    timed_arrivals,hours_df = extract_data(file_names[i], column_names[i], formats[i])
+    res1 = bt_augm(timed_arrivals)
+    csv1 = pd.DataFrame(timed_arrivals, columns=['arrivals']).to_csv("before_"+str(i+1)+".csv")
+    csv2 = pd.DataFrame(res1[0], columns=['arrivals']).to_csv("after_"+str(i+1)+".csv")
+    # timed_data = pd.DataFrame({'time':hours_df['date'], 'arrivals':timed_arrivals})
+
+    ax1 = pd.DataFrame(get_minmax(timed_arrivals),columns=['mix','max']).plot.area(color=('#CCCCCC'), title='Category '+str(i+1)+' Before Augmentation')
+    pd.DataFrame(get_percentiles(timed_arrivals),columns=['75%','90%']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax1 )
+    pd.DataFrame(get_med(timed_arrivals),columns=['median']).plot(color=('#4672E1'),ax=ax1)
+    
+    ax2 = pd.DataFrame(get_minmax(res1[0]),columns=['mix','max']).plot.area(color=('#CCCCCC'), title='Category '+str(i+1)+' After Augmentation')
+    pd.DataFrame(get_percentiles(res1[0]),columns=['75%','90%']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax2 )
+    pd.DataFrame(res1[1],columns=['median']).plot(color=('#4672E1'),ax=ax2)
+    pd.DataFrame(get_mean(res1[0]),columns=['mean']).plot(color=('#4672E1'),title="Mean")
+
 plt.show()    
