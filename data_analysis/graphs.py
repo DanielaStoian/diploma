@@ -3,9 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose as sm
 from statsmodels.tsa.seasonal import STL
+import math
 import seaborn as sns
 from scipy import stats
-from scipy.special import boxcox, inv_boxcox
+# from scipy.special import boxcox, inv_boxcox
 
 from arch.bootstrap import MovingBlockBootstrap
 
@@ -21,6 +22,15 @@ def invboxcox(y,ld):
             t_list.append(np.exp(np.log(ld*i+1)/ld))
       return t_list
 
+def boxcox(y,ld):
+   if ld == 0:
+      return(np.log(y))
+   else:
+      t_list = []
+      for i in y:
+        t_list.append(((i**ld)-1)/ld)
+      return t_list
+
 def MBB(x, window_size):
     bx = np.zeros(int(np.floor(len(x) / window_size + 2) * window_size))
     for i in range(1, int(np.floor(len(x) / window_size)) + 2):
@@ -32,6 +42,7 @@ def MBB(x, window_size):
 def bootstrap(arrivals,num,mu):
     # Box-Cox transformation
     # TODO lamda parameter check
+    # pd.DataFrame(arrivals['days']).plot(title="before box")
     if np.min(arrivals['days']) > 1e-6:
         box_cox, lambda_ = stats.boxcox(arrivals['days'], lmbda=None)
         box_cox = pd.DataFrame(box_cox)
@@ -39,7 +50,7 @@ def bootstrap(arrivals,num,mu):
         box_cox, lambda_ = arrivals['days'], 1
         box_cox = pd.DataFrame(box_cox)
     
-    
+    # pd.DataFrame(box_cox).plot(title="AFTER BOX")
     # Decomposition
     # TODO frequency check
     stl=sm(box_cox, model='additive', period=168)   
@@ -53,15 +64,17 @@ def bootstrap(arrivals,num,mu):
     for i in range(0,len(mbb)):
         mbb[i] += stl.trend[i] + stl.seasonal[i] * mu
     xs = []
+    mbb =  np.nan_to_num(mbb)
     xs.append(arrivals['days'])
     # pd.DataFrame(mbb).plot()
     for i in range(1,num):  
-    # this is not working properly 
-        xs.append(invboxcox(mbb,lambda_))  
+        # tmp = invboxcox(mbb,lambda_)
+        tmp =  np.nan_to_num(mbb)
+        xs.append(tmp)  
         # pd.DataFrame(xs[i]).plot()  
     return xs
 
-def bt_augm(dataframe):
+def bt_augm(dataframe, mul = 3):
     # data = pd.read_csv('data_analysis\cluster_A.csv')
     data = dataframe
     arrivals = {'days': data}
@@ -69,27 +82,24 @@ def bt_augm(dataframe):
 
     multi = 1
     mu = 1
-    while(multi<3):
+    while(multi<mul):
         num_boots = 4
         boots = bootstrap(arrivals=arrivals,num=num_boots,mu=mu)
         new_series =  np.zeros(len(arrivals))
         for i in range(0, num_boots):
             for j in range(0,len(new_series)):
                 if len(boots[i])>j :
-                    if i==0 :
-                        new_series[j] += boots[i][j]
-                    else:
-                        new_series[j] += boots[i][j]   
+                    new_series[j] += boots[i][j]   
         # pd.DataFrame(new_series).plot()
         for i in range(0,len(new_series)):   
             if new_series[i]<0:
                 new_series[i] = 0                      
         for i in range(0,len(new_series)):
-            new_series[i] = np.round(new_series[i] / (num_boots*2), 0)
+            new_series[i] = np.round(new_series[i] / (num_boots), 0)
         new_series = np.nan_to_num(new_series)
         mu+=1
         multi = int(np.round(sum(new_series)/sum(arrivals['days'])))
-        print(multi,mu)
+        # print(multi,mu)
 
     medians = []
     for i in range(0,len(new_series),168):

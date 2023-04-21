@@ -71,7 +71,7 @@ def my_augm(dataframe):
         for column in nd_medians.T:
             true_medians.append(np.median(column))
 
-        multi = sum(new_data)/sum(arrivals['days'])
+        multi = np.round(sum(new_data)/sum(arrivals['days']))
 
         print(multi) 
         inc += 0.1
