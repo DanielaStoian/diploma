@@ -368,6 +368,10 @@ class BlinkCharging(SitemapSpider):
         items["lat"] = str(lat)
         items["long"] = str(long)
         items["origin"] = "BlinkCharging"
-        items["chargers_num"] = type[0][0]
+        types = type[0].split(", ")
+        inc = 0
+        for i in range(len(types)-1):
+            inc += int(types[i][0])
+        items["chargers_num"] = inc
         yield items   
         

@@ -31,6 +31,7 @@ class StationsView(viewsets.ViewSet):
     def get_stations(self, request, *args, **kwargs):
         try:
             stations = Station.objects.all()
+            # st_dhmoi = stations.select_related()
             ser = StationSerializer(stations, many=True).data
             return Response(ser,
                             status=status.HTTP_200_OK)

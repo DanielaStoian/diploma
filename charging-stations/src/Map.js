@@ -7,7 +7,7 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import Plot from "react-plotly.js";
 import Grid from '@mui/material/Grid';
-import { Box, Button, Container, FormControlLabel, FormGroup, Switch } from "@mui/material";
+import { Box, Button, Container, FormControlLabel, FormGroup, Paper, styled, Switch } from "@mui/material";
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -35,7 +35,7 @@ const MyData = () => {
     // These next 3 lines purely for debuggins:
     const geojsonObject = L.geoJSON(data);
     map.fitBounds(geojsonObject.getBounds());
-    console.log(geojsonObject);
+    // console.log(geojsonObject);
     // end debugging
 
     return <GeoJSON data={data}/>;
@@ -49,29 +49,49 @@ const FixGraphData = (props) => {
   const arrOfNum = arrOfStr.map(str => {
     return parseInt(str, 10);
   });
-  let xAxis = Array.from({ length: 168 }, (value, index) => index);
+  let arrOfWeek = arrOfNum.slice(0, 24)  
+  let xAxis = Array.from({ length: 24 }, (value, index) => index);
   const trace = {
     x: xAxis,
-    y: arrOfNum,
-    mode: "lines",
-    type: "scatter",
+    y: arrOfWeek,
+    type: 'bar',
+    text: arrOfWeek.map(String),
+    textposition: 'auto',
+    hoverinfo: 'none',
+    marker: {
+      color: 'rgb(158,202,225)',
+      opacity: 0.6,
+      line: {
+        color: 'rgb(8,48,107)',
+        width: 1.5
+    }
+  }
   };
-  console.log(trace)
   return(
-  <Plot
-        data={[trace]}
-        layout={{
-          title: "Station's Mean",
-          height:230,
-          width:250,
-          margin:{
-            l: 20,
-            r: 5,  
-            b: 30,
-            t: 50,
-          }
-        }}
-      />)
+    // <Paper variant="elevation0">
+      <Plot
+            data={[trace]}
+            layout={{
+              title: "Station's Daily Mean",
+              xaxis: {
+                title: 'Hours',
+              },
+              yaxis: {
+                title: 'Arrivals',
+              },
+              barmode: 'stack',
+              height:230,
+              width:250,
+              margin:{
+                l: 50,
+                r: 20,  
+                b: 40,
+                t: 50,
+              }
+            }}
+          />
+      // </Paper>
+      )
 }
 
 const Map = () => {
@@ -108,19 +128,17 @@ const Map = () => {
 
       <MarkerClusterGroup>
       {markers?markers.map((coord,index) => {return <Marker position={[parseFloat(coord['lat']),parseFloat(coord['long'])]} key={index}>
-      <Popup >
-        <div>
-        <h3>
+      <StyledPop>
+        {/* <h3>
         Διεύθυνση: {coord['address']} {"               "}
-        </h3>
+        </h3> */}
         
         <FixGraphData data={coord['mean']}></FixGraphData>
 
-        <h4>
+        {/* <h4>
         Origin: {coord['origin']}
-        </h4>
-        </div>
-      </Popup>
+        </h4> */}
+      </StyledPop>
 
       </Marker> }):null}
       </MarkerClusterGroup>
@@ -136,3 +154,16 @@ const Map = () => {
 };
 
 export default Map;
+
+const StyledPop = styled(Popup)`
+  border-radius: 0;
+  .leaflet-popup-content-wrapper {
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .leaflet-popup-tip-container {
+    visibility: hidden;
+  }
+`;
