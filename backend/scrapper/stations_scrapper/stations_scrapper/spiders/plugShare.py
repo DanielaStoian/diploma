@@ -36,7 +36,7 @@ def plugShare():
         lat = station['latitude']
         long = station['longitude']
         address = station['address']
-        type = 'type 2'
+        type = 'AC Type 2'
         origin = 'PlugShare'
         chargers_num = 0
         for st in station['stations']:

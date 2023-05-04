@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AppBar, Button, IconButton, Paper, Toolbar, Typography, Card, TextField, Grid, Box, Container, Tabs, Tab } from '@mui/material';
+import { AppBar, Button, IconButton, Paper, Toolbar, Typography, Card, TextField, Grid, Box, Container, Tabs, Tab, Checkbox, Input } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import Autocomplete from "react-google-autocomplete";
 import { usePlacesWidget } from "react-google-autocomplete";
@@ -7,13 +7,18 @@ import MapLocation from "./components/MapLocation";
 import styled from 'styled-components';
 import "./ChooseLocation.css"
 import Map from "./Map";
+import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
+import axios from "axios";
+import ResponsiveTimePickers from "./TimePicker";
+import TypeSelect from "./TypePicker";
 const API_KEY = "AIzaSyCaKPzbKvamce5K7H6-kkP6wRrunpxamLw";
 
-const AutoComplete = () => {
+const AutoComplete = (props) => {
   const { ref } = usePlacesWidget({
     apiKey:API_KEY,
     onPlaceSelected: (place) => {
-      console.log(place.geometry.location.lat());
+      // console.log(place.geometry.location);
+      props.setPosition([place.geometry.location.lat(),place.geometry.location.lng()])
     },
     options: {
       strictBounds: false,
@@ -27,6 +32,24 @@ const AutoComplete = () => {
 
 const ChooseLocation = () => {
   const [tabIndex, setTabIndex] = useState(0);
+  const [radius, setRadius] = useState(1);
+  const [winner, setWinner] = useState();
+  const [center, setCenter] = useState([37.9, 23.7]);
+  const [zoom, setZoom] = useState(7);
+  const [position, setPosition] = useState();
+  const [type, setType] = useState('');
+
+  const fetchStation = async () => {
+    const response = await axios.get(
+      "http://127.0.0.1:8000/api/stations/get_radius/", { params:
+       { radius: radius, lat : position[0], long:position[1], start_time:6, stay_hours:2, type:type } }
+    );
+    console.log(response.data)
+    setWinner([response.data.lat,response.data.long]);
+    setCenter([response.data.lat,response.data.long]);
+
+    setZoom(15);
+  };
 
   const handleTabChange = (event, newTabIndex) => {
     setTabIndex(newTabIndex);
@@ -50,53 +73,63 @@ const ChooseLocation = () => {
             <Button color="inherit">Login</Button>
           </Toolbar>
             </AppBar>
-            <Tabs centered value={tabIndex} onChange={handleTabChange} variant={'fullWidth'}>
-              <Tab label="Choose Location" />
-              <Tab label="Choose Station" />
-              <Tab label="Done" />
-            </Tabs>
-            {tabIndex === 0 && (
-          <Grid container spacing={2} alignContent={'center'}>
-          <Grid item xs={6} align="center">
-          <Container style={{padding : 50}} sx={{height: "100%", display: "flex", width:"100%"}}>
-            <Paper sx={{height: "100%" ,width:"100%"}}>
+          <Grid container spacing={0} alignContent={'center'}>
+          <Grid item xs={2} >
+          <Container style={{padding : "50px 0px 0px 35px"}} sx={{height: "100%",  width:"100%"}}>
               <Title>
                 Type your destination
               </Title>
               <div>
-              <AutoComplete/>
-
+              <AutoComplete setPosition={setPosition}/>
               </div>
-              <div style={{padding:"300px 0px 0px 0px"}}>
-              <Button size="large" variant="contained" onClick={() => setTabIndex(1)}>
-                Next
+              <Title>
+                Radius (km)
+              </Title>
+              <Input
+                value={radius}
+                size="small"
+                onChange={(event) => {
+                  setRadius(event.target.value === '' ? '' : Number(event.target.value));
+                }}
+                onBlur={() => {
+                  if (radius < 0) {
+                    setRadius(0);
+                  } else if (radius > 20) {
+                    setRadius(20);
+                  }}}
+                inputProps={{
+                  step: 1,
+                  min: 0,
+                  max: 20,
+                  type: 'number',
+                  'aria-labelledby': 'input-slider',
+                }}
+              />
+              {/* <Title>
+                What time will you arrive?
+              </Title>
+               <ResponsiveTimePickers/> */}
+               <Title>
+                Select your charger type
+              </Title>
+               <TypeSelect setType={setType}></TypeSelect>
+              <div style={{padding:"200px 0px 0px 0px"}}>
+              <Button size="large" variant="contained" onClick={() => fetchStation()}>
+                Show best Station
               </Button>
               </div>
-              </Paper>
             </Container>
               </Grid>
-              <Grid item xs={6} align="center">
-                <Container style={{padding : 50}} sx={{height: "100%", display: "flex", width:"100%"}}>
-              <Paper sx={{height: "100%" ,width:"100%"}}>
-              <Title>
-                ...or pick it directly on the map
-              </Title>
-              <MapLocation></MapLocation>
-              </Paper>
+              <Grid item xs={10} align="center">
+                <Container style={{padding : 10}} sx={{height: "100%", display: "flex", width:"100%"}}>
+
+              <Map center={center} zoom={zoom} position={position} setPosition={setPosition}></Map>
+
                 </Container>
             </Grid>
 
           </Grid>
-            )}
-            {tabIndex === 1 && (
-              <Grid container spacing={2} alignContent={'center'}>
-                <Grid item xs={12} align="center">
-                  <Paper sx={{height: "50%" ,width:"70%"}}>
-                    <Map></Map>
-                  </Paper>
-                </Grid>
-              </Grid>
-        )}
+
         </div>
       );
   };
@@ -118,8 +151,8 @@ const ChooseLocation = () => {
   color: #bfbfbf;
   min-height: 35px;
   display: initial;
-  width: 50%;
-  outline: none;
+  width: 70%;
+  outline: 1;
   font-size: 25px;
   &:focus {
       background-size: 100% 2px, 100% 1px;
@@ -129,8 +162,8 @@ const ChooseLocation = () => {
     }
 `;
 
-const Title = styled.h1`
+const Title = styled.h3`
 font-weight: 200;
-padding: 50px 0px 70px 0px;
+// padding: 50px 0px 70px 0px;
 color: #13213c
 `

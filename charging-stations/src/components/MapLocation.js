@@ -23,7 +23,7 @@ const MapLocation = () => {
     return icon;
   }
     return (
-     <Paper style={{width:600, height:600}}>
+     <Paper style={{width:1000, height:800}}>
         <MapContainer center={[37.9, 23.7]} zoom={7} style={{width:"100%", height:"100%"}}>
           <MyComponent></MyComponent>
         <TileLayer
@@ -31,7 +31,9 @@ const MapLocation = () => {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
           { position && <Marker position={position} icon={getMarkerIcon()}>
+            
           </Marker>}
+          
         </MapContainer>
      </Paper>
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import L from "leaflet";
-import { MapContainer, TileLayer, GeoJSON, useMap, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, useMap, Marker, Popup, useMapEvents } from "react-leaflet";
 import axios from "axios";
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
@@ -9,6 +9,7 @@ import Plot from "react-plotly.js";
 import Grid from '@mui/material/Grid';
 import { Box, Button, Container, FormControlLabel, FormGroup, Paper, styled, Switch } from "@mui/material";
 
+import iconUrl from "./Red_circle.svg";
 let DefaultIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow
@@ -55,20 +56,28 @@ const FixGraphData = (props) => {
     x: xAxis,
     y: arrOfWeek,
     type: 'bar',
-    text: arrOfWeek.map(String),
     textposition: 'auto',
     hoverinfo: 'none',
     marker: {
-      color: 'rgb(158,202,225)',
+      color: 'rgb(72,143,237)',
       opacity: 0.6,
       line: {
-        color: 'rgb(8,48,107)',
+        color: 'rgb(72,143,237)',
         width: 1.5
     }
-  }
+  },
   };
   return(
-    // <Paper variant="elevation0">
+
+
+    <Paper variant="elevation0">
+      <Box style={{width:'300px',padding:'10px 5px 10px 5px'}} textAlign='center'>
+
+      <h2 style={{fontWeight: '100',display:'inline',textAlign:'center'}}>  Charger types: </h2>
+      <h3 style={{fontWeight: '50',display:'inline',textAlign:'center'}}>{props.type}</h3>
+      </Box>
+
+
       <Plot
             data={[trace]}
             layout={{
@@ -80,8 +89,9 @@ const FixGraphData = (props) => {
                 title: 'Arrivals',
               },
               barmode: 'stack',
+              bargap: 0.2,
               height:230,
-              width:250,
+              width:300,
               margin:{
                 l: 50,
                 r: 20,  
@@ -90,24 +100,65 @@ const FixGraphData = (props) => {
               }
             }}
           />
-      // </Paper>
+            <Box style={{width:'300px'}} textAlign='center'>
+          </Box>
+       </Paper>
       )
 }
 
-const Map = () => {
-    const position = [37.9, 23.7];
+const Map = (props) => {
+    const center = [37.9, 23.7];
+    const [zoom, setZoom] = React.useState(7);
     const [markers, setMarkers] = React.useState();
-    const [dhmoi, setDhmoi] = React.useState(true);
+    // const [dhmoi, setDhmoi] = React.useState(true);
+    const [position, setPosition] = React.useState();
+    const mapRef = React.useRef();
+  
+    function MyComponent() {
+    useMapEvents({
+        click(e){
+          props.setPosition([e.latlng.lat,e.latlng.lng])
+          setPosition(e.latlng)
+        },
+        zoomend(e){
+          setZoom(e.target._animateToZoom)
+        }
+    })
+}
+  function getMarkerIcon() {
+    const icon = new L.Icon({
+      iconSize: [22, 37], // size of the icon
+      iconAnchor: [16, 37], 
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+    });
+    return icon;
+  }
+
+  function getStationIcon() {
+    const icon = new L.Icon({
+      iconSize: [32, 50], // size of the icon
+      iconAnchor: [3, 7], 
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+
+    });
+    return icon;
+  }
+
+  useEffect(() => {
+      const getData = async () => {
+        const response = await axios.get(
+          "http://127.0.0.1:8000/api/stations/get_stations/"
+        );
+        setMarkers(response.data);
+      };
+      getData();
+    }, []);
 
     useEffect(() => {
-        const getData = async () => {
-          const response = await axios.get(
-            "http://127.0.0.1:8000/api/stations/get_stations/"
-          );
-          setMarkers(response.data);
-        };
-        getData();
-      }, []);
+      if (mapRef.current != null){
+        mapRef.current.flyTo(props.center, props.zoom);
+      }
+      }, [props.center]);
 
   return (
     <Grid container spacing={2}>
@@ -119,29 +170,26 @@ const Map = () => {
   <Grid item xs={12}>
     <Box padding={0}>
       <MapContainer
-      center={position}
-      zoom={7}
+      center={props.center}
+      zoom={props.zoom}
       style={{ height: "100vh" }}
       maxZoom={15}
+      ref={mapRef}
       >
       {/* {dhmoi?<MyData />:<div></div>} */}
-
+      { position && <Marker position={position} icon={getMarkerIcon()}>
+          </Marker>}
+      { <Marker position={props.center} icon={getStationIcon()}>
+          </Marker>}
       <MarkerClusterGroup>
       {markers?markers.map((coord,index) => {return <Marker position={[parseFloat(coord['lat']),parseFloat(coord['long'])]} key={index}>
       <StyledPop>
-        {/* <h3>
-        Διεύθυνση: {coord['address']} {"               "}
-        </h3> */}
-        
-        <FixGraphData data={coord['mean']}></FixGraphData>
-
-        {/* <h4>
-        Origin: {coord['origin']}
-        </h4> */}
+        <FixGraphData data={coord['mean']} type={coord['type']}></FixGraphData>
       </StyledPop>
 
       </Marker> }):null}
       </MarkerClusterGroup>
+      <MyComponent></MyComponent>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

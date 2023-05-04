@@ -152,10 +152,17 @@ class ChargeSpot(scrapy.Spider):
             else:  
               type = info[3] 
 
+            form_type = type.split("x")[1]
+            kw = form_type[:2]
+            if 'CCS' in form_type:
+                items['type'] = 'CCS Type 2 ' + kw + ' KW'
+            else:
+                items['type'] = 'AC Type 2 ' + kw + ' KW'
+            form_type = form_type.split("socket")[0]
+
             dhmos = add_category(lat,long)
             if dhmos[0]!=0:
                 items['dhmos'] = Dhmos.objects.get(name=dhmos[0])
-
 
             # count number of chargers in station
             items['chargers_num'] = type[0]
@@ -163,7 +170,6 @@ class ChargeSpot(scrapy.Spider):
             items['address'] = address
             items['lat'] = lat
             items['long'] = long
-            items['type'] = type
             items['origin'] = "ChargeSpot"
             yield items
 
@@ -202,7 +208,7 @@ class Fortisis(scrapy.Spider):
                     items["name"] = name[0]
                     items["address"] = address[0]
                     if len(connectors) >=1:
-                        items["type"] = "-"
+                        items["type"] = "AC Type 2 22 KW"
                         # count number of chargers in station
                         items['chargers_num'] = connectors[0][0]
                     items["lat"] = str(lat)
@@ -247,7 +253,21 @@ class ProtergiaCharge(scrapy.Spider):
         concat_type = ""
         for i in range(len(types)):
             tmp = types[i].split(",")
-            concat_type = concat_type + tmp[0] + ', ' 
+            kw = tmp[0].split("≤ ")[1]
+            if kw[2] == " ":
+                kw = kw[:2]
+            else:
+                kw = kw[:3]    
+            if 'CCS' in tmp[0]:
+                if ('CCS Type 2 ' + kw + ' KW') not in concat_type:
+                    concat_type += 'CCS Type 2 ' + kw + ' KW' + ", "
+            elif 'CHAdeMO' in tmp[0]:
+                if ('CHAdeMO ' + kw + ' KW') not in concat_type:
+                    concat_type += 'CHAdeMO ' + kw + ' KW' + ", "    
+            else:
+                if ('AC Type 2 ' + kw + ' KW') not in concat_type:
+                    concat_type += 'AC Type 2 ' + kw + ' KW' + ", "
+                
         items["type"] = concat_type[:len(concat_type)-2]
         items["lat"] = str(lat)
         items["long"] = str(long)
@@ -362,9 +382,21 @@ class BlinkCharging(SitemapSpider):
         if dhmos[0]!=0:
             items['dhmos'] = Dhmos.objects.get(name=dhmos[0])
 
+        concat_type = ""
+        types = type[0].split("x")
+        for i in range(len(types)):
+            if "kW" in types[i]:
+                kw = types[i][:2]
+                if ('AC Type 2 ' + kw + ' KW') not in concat_type:
+                    concat_type += 'AC Type 2 ' + kw + ' KW' + ', '
+              
+            else:
+                if "Mode 3" not in concat_type:
+                    concat_type += "Mode 3" + ', '
+
         items["name"] = name[0]
         items["address"] = address[0]
-        items["type"] = type[0]
+        items["type"] = concat_type[:len(concat_type)-2]
         items["lat"] = str(lat)
         items["long"] = str(long)
         items["origin"] = "BlinkCharging"
@@ -372,6 +404,8 @@ class BlinkCharging(SitemapSpider):
         inc = 0
         for i in range(len(types)-1):
             inc += int(types[i][0])
+        if "or" in type[0]:
+            inc+=1    
         items["chargers_num"] = inc
         yield items   
         

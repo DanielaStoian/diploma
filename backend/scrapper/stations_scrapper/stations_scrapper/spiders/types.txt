@@ -1,0 +1,4 @@
+AC Type 2 22KW
+CCS Type 2 22KW
+CHAdeMO 22KW
+Mode 3
