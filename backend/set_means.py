@@ -37,6 +37,16 @@ def check_max(data, max_mu):
             data[i] = max_mu
     return data      
 
+def double_hours(data, max_st):
+    doubled_data = []
+    doubled_data.append(data[0])
+    for i in range(1,len(data)):
+        tmp = data[i] + data[i-1]
+        if tmp > max_st:
+            data[i] = max_st - data[i-1]
+            tmp = max_st
+        doubled_data.append(tmp)
+    return doubled_data
 
 try:
     data1 = pd.read_csv('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\initial_1.csv', sep=';')
@@ -63,6 +73,7 @@ try:
             augm_data = bt_augm(data, random_mu)[0]
             augm_data = check_max(augm_data,max_st)
             augm_mean = get_mean(augm_data)
+            augm_mean = double_hours(augm_mean,max_st)
             mean = "".join(map(str, augm_mean))
             # pd.DataFrame(augm_mean).plot(title=str(max_st))
             Station.objects.filter(id=station.id).update(mean=mean)
@@ -79,6 +90,7 @@ try:
             augm_data = bt_augm(data, random_mu)[0]
             augm_data = check_max(augm_data,max_st)
             augm_mean = get_mean(augm_data)
+            augm_mean = double_hours(augm_mean,max_st)
             mean = "".join(map(str, augm_mean))
             # pd.DataFrame(augm_mean).plot()
             Station.objects.filter(id=station.id).update(mean=mean)
@@ -95,6 +107,7 @@ try:
             augm_data = bt_augm(data, random_mu)[0]
             augm_data = check_max(augm_data,max_st)
             augm_mean = get_mean(augm_data)
+            augm_mean = double_hours(augm_mean,max_st)
             mean = "".join(map(str, augm_mean))
             # pd.DataFrame(augm_mean).plot()
             Station.objects.filter(id=station.id).update(mean=mean)

@@ -45,6 +45,13 @@ const MyData = () => {
   }
 };
 
+const saveArrival = async (props) => {
+  const response = await axios.post(
+    "http://127.0.0.1:8000/api/stations/add_arrival/?id=" + props.id + "&start_time=" + props.start_time + "&stay_hours=" + 2, { params:
+     { id: props.id, start_time:props.start_time, stay_hours:2} }
+  );
+};
+
 const FixGraphData = (props) => {
   let arrOfStr = Array.from(props.data)
   const arrOfNum = arrOfStr.map(str => {
@@ -101,6 +108,7 @@ const FixGraphData = (props) => {
             }}
           />
             <Box style={{width:'300px'}} textAlign='center'>
+              <Button onClick={() => saveArrival({id:props.id, start_time:12})}>I'm interested</Button>
           </Box>
        </Paper>
       )
@@ -134,15 +142,15 @@ const Map = (props) => {
     return icon;
   }
 
-  function getStationIcon() {
-    const icon = new L.Icon({
-      iconSize: [32, 50], // size of the icon
-      iconAnchor: [3, 7], 
-      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+  // function getStationIcon() {
+  //   const icon = new L.Icon({
+  //     iconSize: [32, 50], // size of the icon
+  //     iconAnchor: [3, 7], 
+  //     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
 
-    });
-    return icon;
-  }
+  //   });
+  //   return icon;
+  // }
 
   useEffect(() => {
       const getData = async () => {
@@ -173,18 +181,18 @@ const Map = (props) => {
       center={props.center}
       zoom={props.zoom}
       style={{ height: "100vh" }}
-      maxZoom={15}
+      maxZoom={20}
       ref={mapRef}
       >
       {/* {dhmoi?<MyData />:<div></div>} */}
       { position && <Marker position={position} icon={getMarkerIcon()}>
           </Marker>}
-      { <Marker position={props.center} icon={getStationIcon()}>
-          </Marker>}
+      {/* { <Marker position={props.center} icon={getStationIcon()}>
+          </Marker>} */}
       <MarkerClusterGroup>
       {markers?markers.map((coord,index) => {return <Marker position={[parseFloat(coord['lat']),parseFloat(coord['long'])]} key={index}>
       <StyledPop>
-        <FixGraphData data={coord['mean']} type={coord['type']}></FixGraphData>
+        <FixGraphData data={coord['mean']} type={coord['type']} id={coord['id']}></FixGraphData>
       </StyledPop>
 
       </Marker> }):null}

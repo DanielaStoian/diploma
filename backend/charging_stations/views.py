@@ -40,17 +40,24 @@ def optimize(stations,start_time,stay_hours,types):
     wd = dt.weekday()
     for station in stations:
         if (int(station.mean[start_time+24*wd])<int(station.chargers_num)) and (types in station.type):
-            candidates.append(station)
+            accepted = True
+            for i in range(stay_hours):
+                tmp = start_time + 24*wd + i
+                if tmp > 167:
+                    break
+                if int(station.mean[tmp]) >= int(station.chargers_num):
+                    accepted = False
+            if accepted == True:        
+                candidates.append(station)
     if len(candidates) == 0:
         return 0
-    initial_utilization = pd.DataFrame({'HoD': np.arange(0,24,1)})
     # init winner station
     winner_st = []
 
     for st in candidates:    
         mean = [int(i) for i in st.mean]
         mean = pd.DataFrame(mean)
-        tmp_list = (mean[wd*24:(wd+1)*24].shift(0) + mean[wd*24:(wd+1)*24].shift(1, fill_value=0))/int(st.chargers_num)
+        tmp_list = (mean[wd*24:(wd+1)*24].shift(0) + mean[wd*24:(wd+1)*24].shift(1, fill_value=0) + mean[wd*24:(wd+1)*24].shift(2, fill_value=0))/int(st.chargers_num)
         winner_st.append((tmp_list[0][start_time+24*wd],st))
     # print(sorted(winner_st, key=lambda tup: (tup[0])))
     return sorted(winner_st, key=lambda tup: (tup[0]))   
@@ -83,7 +90,7 @@ class StationsView(viewsets.ViewSet):
         except DataError as e:
             return Response(str(e)[:15], status=status.HTTP_403_FORBIDDEN)
         except ObjectDoesNotExist as e:
-            return Response('There is no product with this name.',
+            return Response('No stations found.',
                             status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             print(e)
@@ -101,18 +108,55 @@ class StationsView(viewsets.ViewSet):
                 if distance(float(request.query_params['lat']),float(request.query_params['long']),float(station.lat),float(station.long))<=radius:
                     # TODO remove same station if exists (dist = 0)
                     radius_stations.append(station) 
-            opt = optimize(radius_stations, int(request.query_params['start_time']), request.query_params['stay_hours'],  request.query_params['type'])        
-            ser = StationSerializer(opt[0][1]).data
+            opt = optimize(radius_stations, int(request.query_params['start_time']), int(request.query_params['stay_hours']),  request.query_params['type'])        
+            opt = [x[1] for x in opt]
+            ser = StationSerializer(opt, many=True).data
             return Response(ser,
                             status=status.HTTP_200_OK)
         except DataError as e:
             return Response(str(e)[:15], status=status.HTTP_403_FORBIDDEN)
-        except ObjectDoesNotExist as e:
-            return Response('There is no product with this name.',
-                            status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             print(e)
             return Response('An unexpected error occured.',
                             status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    @action(methods=['post'], detail=False)
+    def set_mean_updating(self, request):
+        try:
+            stations = Station.objects.all()
+            for station in stations:
+                station.mean_updating = station.mean
+                station.save()
+            return Response(status=status.HTTP_200_OK)
+        except DataError as e:
+            return Response(str(e)[:15], status=status.HTTP_403_FORBIDDEN)
+        except Exception as e:
+            print(e)
+            return Response('An unexpected error occured.',
+                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)   
+
+    @action(methods=['post'], detail=False)
+    def add_arrival(self, request):
+        try:
+
+            # print(request.query_params['id'])
+            station = Station.objects.get(id=int(request.query_params['id']))
+            dt = datetime.now()
+            wd = dt.weekday()
+            start = int(request.query_params['start_time']) + 24*wd
+            tmp = list(station.mean_updating)
+            for i in range(int(request.query_params['stay_hours'])):
+                print(str(int(station.mean_updating[start+i]) + 1))
+                tmp[start+i] = str(int(station.mean_updating[start+i]) + 1)
+                # station.mean_updating[start+i] = str(int(station.mean_updating[start+i]) + 1)
+            station.mean_updating = str(tmp)    
+            station.save()
+            return Response(status=status.HTTP_200_OK)
+        except DataError as e:
+            return Response(str(e)[:15], status=status.HTTP_403_FORBIDDEN)
+        except Exception as e:
+            print(e)
+            return Response('An unexpected error occured.',
+                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)                                                     
 
 

@@ -9,6 +9,7 @@ class Station(models.Model):
     type = models.CharField(max_length=500,null=True)
     origin = models.CharField(max_length=50)
     mean = models.CharField(max_length=200,null=True)
+    mean_updating = models.CharField(max_length=200,null=True)
     chargers_num = models.CharField(max_length=50,null=True)
     dhmos = models.ForeignKey("Dhmos", on_delete=models.CASCADE)
     # class Meta:

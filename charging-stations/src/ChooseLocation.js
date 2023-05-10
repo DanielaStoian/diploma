@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { AppBar, Button, IconButton, Paper, Toolbar, Typography, Card, TextField, Grid, Box, Container, Tabs, Tab, Checkbox, Input } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Autocomplete from "react-google-autocomplete";
 import { usePlacesWidget } from "react-google-autocomplete";
-import MapLocation from "./components/MapLocation";
 import styled from 'styled-components';
 import "./ChooseLocation.css"
 import Map from "./Map";
-import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
 import axios from "axios";
+import dayjs from 'dayjs';
 import ResponsiveTimePickers from "./TimePicker";
 import TypeSelect from "./TypePicker";
+import ShowDrawer from "./components/Drawer";
+import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { TimePicker } from '@mui/x-date-pickers/TimePicker';
+
 const API_KEY = "AIzaSyCaKPzbKvamce5K7H6-kkP6wRrunpxamLw";
 
 const AutoComplete = (props) => {
@@ -31,29 +35,28 @@ const AutoComplete = (props) => {
 }
 
 const ChooseLocation = () => {
-  const [tabIndex, setTabIndex] = useState(0);
   const [radius, setRadius] = useState(1);
-  const [winner, setWinner] = useState();
+  const [winner, setWinner] = useState([]);
   const [center, setCenter] = useState([37.9, 23.7]);
   const [zoom, setZoom] = useState(7);
   const [position, setPosition] = useState();
   const [type, setType] = useState('');
+  const [open, setOpen] = useState(false);
+  const [time, setTime] = useState(dayjs('2022-04-17T15:30'));
 
   const fetchStation = async () => {
     const response = await axios.get(
       "http://127.0.0.1:8000/api/stations/get_radius/", { params:
-       { radius: radius, lat : position[0], long:position[1], start_time:6, stay_hours:2, type:type } }
+       { radius: radius, lat : position[0], long:position[1], start_time:time.$H, stay_hours:2, type:type } }
     );
     console.log(response.data)
-    setWinner([response.data.lat,response.data.long]);
-    setCenter([response.data.lat,response.data.long]);
+    setWinner(response.data);
+    // this needs to be moved to the drawer
+    // setCenter([response.data.lat,response.data.long]);
 
-    setZoom(15);
+    setZoom(18);
   };
 
-  const handleTabChange = (event, newTabIndex) => {
-    setTabIndex(newTabIndex);
-  };
       return (
         <div>
             <AppBar position="static">
@@ -73,7 +76,9 @@ const ChooseLocation = () => {
             <Button color="inherit">Login</Button>
           </Toolbar>
             </AppBar>
+
           <Grid container spacing={0} alignContent={'center'}>
+
           <Grid item xs={2} >
           <Container style={{padding : "50px 0px 0px 35px"}} sx={{height: "100%",  width:"100%"}}>
               <Title>
@@ -105,24 +110,29 @@ const ChooseLocation = () => {
                   'aria-labelledby': 'input-slider',
                 }}
               />
-              {/* <Title>
-                What time will you arrive?
-              </Title>
-               <ResponsiveTimePickers/> */}
                <Title>
                 Select your charger type
               </Title>
                <TypeSelect setType={setType}></TypeSelect>
-              <div style={{padding:"200px 0px 0px 0px"}}>
-              <Button size="large" variant="contained" onClick={() => fetchStation()}>
+
+              <Title>
+                What time will you arrive?
+              </Title>
+              <DemoContainer components={['TimePicker']}>
+                <TimePicker label="Time picker" value={time} defaultValue={dayjs('2022-04-17T15:30')}
+                  onChange={(newValue) => setTime(newValue)}/>
+              </DemoContainer>
+              <div style={{padding:"150px 0px 0px 0px"}}>
+              <Button size="large" variant="contained" onClick={() => {fetchStation();setOpen(true)}}>
                 Show best Station
               </Button>
+              <ShowDrawer data={winner} setCenter={setCenter} open={open} setOpen={setOpen}></ShowDrawer>
               </div>
             </Container>
               </Grid>
+
               <Grid item xs={10} align="center">
                 <Container style={{padding : 10}} sx={{height: "100%", display: "flex", width:"100%"}}>
-
               <Map center={center} zoom={zoom} position={position} setPosition={setPosition}></Map>
 
                 </Container>
@@ -153,7 +163,7 @@ const ChooseLocation = () => {
   display: initial;
   width: 70%;
   outline: 1;
-  font-size: 25px;
+  font-size: 15px;
   &:focus {
       background-size: 100% 2px, 100% 1px;
       outline: 0 none;
