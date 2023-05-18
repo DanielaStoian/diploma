@@ -8,6 +8,9 @@ import MarkerClusterGroup from 'react-leaflet-cluster'
 import Plot from "react-plotly.js";
 import Grid from '@mui/material/Grid';
 import { Box, Button, Container, FormControlLabel, FormGroup, Paper, styled, Switch } from "@mui/material";
+import Snackbar from '@mui/material/Snackbar';
+import { useSelector, useDispatch } from 'react-redux'
+import { logIn, logOut } from './redux/loginSlice'
 
 import iconUrl from "./Red_circle.svg";
 let DefaultIcon = L.icon({
@@ -47,21 +50,73 @@ const MyData = () => {
 
 const saveArrival = async (props) => {
   const response = await axios.post(
-    "http://127.0.0.1:8000/api/stations/add_arrival/?id=" + props.id + "&start_time=" + props.start_time + "&stay_hours=" + 2, { params:
-     { id: props.id, start_time:props.start_time, stay_hours:2} }
-  );
+    "http://127.0.0.1:8000/api/stations/add_arrival/", 
+     { id: props.id, start_time:props.start_time, stay_hours:props.stayHours, user_id:props.userId} 
+  ).then(response => {
+    props.setMessage("Your choice is saved.")
+    props.setOpen(true)
+  })
+  .catch(error => {
+   
+      props.setMessage("This station is full or not available at the time.")
+      props.setOpen(true)
+    
+  }
+  )
+};
+
+const getPermission = async (props) => {
+  const response = await axios.get(
+    "http://127.0.0.1:8000/api/profiles/get_check_permission/",{ params:
+     { id: props.id} }
+  ).then(response => {
+      saveArrival({id:props.data.id, start_time:props.data.start_time, setOpen:props.data.setOpen, setMessage:props.data.setMessage, stayHours:props.data.stayHours, userId:props.data.userId})
+      return true
+  })
+  .catch(error => {
+      props.data.setMessage("You should wait before saving again.")
+      props.data.setOpen(true)
+      return false
+  }
+  )
 };
 
 const FixGraphData = (props) => {
+
+  const [open, setOpen] = React.useState(false);
+  const [message, setMessage] = React.useState("");
+  const isLoggedIn = useSelector((state) => state.login.value)
+  const userId = useSelector((state) => state.login.user_id)
+  const dispatch = useDispatch()
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setOpen(false);
+  };
+
   let arrOfStr = Array.from(props.data)
+  let arrOfStr2 = Array.from(props.data2)
+  const d = new Date();
+  let curDay = d.getDay() - 1
   const arrOfNum = arrOfStr.map(str => {
     return parseInt(str, 10);
   });
-  let arrOfWeek = arrOfNum.slice(0, 24)  
+  const arrOfNum2 = arrOfStr2.map(str => {
+    return parseInt(str, 10);
+  });
+  let arrOfWeek = arrOfNum.slice(24*curDay, 24*(curDay+1))  
+  let arrOfWeek2 = arrOfNum2.slice(24*curDay, 24*(curDay+1))  
+  let diff = [];
+  for(var i = 0; i<=arrOfWeek2.length-1; i++){
+    diff.push(arrOfWeek2[i] - arrOfWeek[i]);}
+
   let xAxis = Array.from({ length: 24 }, (value, index) => index);
   const trace = {
     x: xAxis,
     y: arrOfWeek,
+    name: 'Usual traffic',
     type: 'bar',
     textposition: 'auto',
     hoverinfo: 'none',
@@ -74,19 +129,40 @@ const FixGraphData = (props) => {
     }
   },
   };
+  const trace2 = {
+    x: xAxis,
+    y: diff,
+    name: 'Extra traffic',
+    type: 'bar',
+    textposition: 'auto',
+    hoverinfo: 'none',
+    marker: {
+      color: 'rgb(190,42,43)',
+      opacity: 0.6,
+      line: {
+        color: 'rgb(190,42,43)',
+        width: 1.5
+    }
+  },
+};
   return(
 
 
-    <Paper variant="elevation0">
-      <Box style={{width:'300px',padding:'10px 5px 10px 5px'}} textAlign='center'>
-
+    <Paper variant="elevation0" style={{width:'400px',padding:'10px 5px 10px 5px'}} >
+      <Box style={{width:'400px',padding:'10px 5px 10px 5px'}} textAlign='center'>
+        <Box style={{width:'400px',padding:'10px 5px 10px 5px'}} textAlign='center'>
+          <h2 style={{fontWeight: '150',display:'inline',textAlign:'center', color:'#1976D2'}}> {props.name} </h2>
+        </Box>
       <h2 style={{fontWeight: '100',display:'inline',textAlign:'center'}}>  Charger types: </h2>
       <h3 style={{fontWeight: '50',display:'inline',textAlign:'center'}}>{props.type}</h3>
       </Box>
 
 
       <Plot
-            data={[trace]}
+            config = {{
+              displayModeBar: false,
+            }}
+            data={[trace,trace2]}
             layout={{
               title: "Station's Daily Mean",
               xaxis: {
@@ -96,9 +172,9 @@ const FixGraphData = (props) => {
                 title: 'Arrivals',
               },
               barmode: 'stack',
-              bargap: 0.2,
+              bargap: 0.3,
               height:230,
-              width:300,
+              width:400,
               margin:{
                 l: 50,
                 r: 20,  
@@ -107,8 +183,25 @@ const FixGraphData = (props) => {
               }
             }}
           />
-            <Box style={{width:'300px'}} textAlign='center'>
-              <Button onClick={() => saveArrival({id:props.id, start_time:12})}>I'm interested</Button>
+            <Box style={{width:'400px'}} textAlign='center'>
+              <Button onClick={() => {
+                if(isLoggedIn){
+                  getPermission({id:userId, data:{id:props.id, start_time:props.time, setOpen:setOpen, setMessage:setMessage, stayHours:props.stayHours, userId:userId} });
+
+                }
+                  // if(isLoggedIn){
+                  //   saveArrival({id:props.id, start_time:props.time, setOpen:setOpen, setMessage:setMessage, stayHours:props.stayHours, userId:userId})}}
+                    else{
+                      setOpen(true);setMessage("You must sign in to do that.")}}}
+                      >I'm interested</Button>
+              <Snackbar
+                anchorOrigin={{vertical: 'top',
+                horizontal: 'left'}}
+                open={open}
+                autoHideDuration={4000}
+                onClose={handleClose}
+                message={message}
+              />
           </Box>
        </Paper>
       )
@@ -192,7 +285,7 @@ const Map = (props) => {
       <MarkerClusterGroup>
       {markers?markers.map((coord,index) => {return <Marker position={[parseFloat(coord['lat']),parseFloat(coord['long'])]} key={index}>
       <StyledPop>
-        <FixGraphData data={coord['mean']} type={coord['type']} id={coord['id']}></FixGraphData>
+        <FixGraphData data={coord['mean']} data2={coord['mean_updating']} type={coord['type']} id={coord['id']} time={props.time} stayHours={props.stayHours} name={coord.name}></FixGraphData>
       </StyledPop>
 
       </Marker> }):null}

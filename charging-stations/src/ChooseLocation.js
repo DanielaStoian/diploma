@@ -11,9 +11,12 @@ import ResponsiveTimePickers from "./TimePicker";
 import TypeSelect from "./TypePicker";
 import ShowDrawer from "./components/Drawer";
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+import { useNavigate } from "react-router-dom";
+import { useSelector, useDispatch } from 'react-redux'
+import { logIn, logOut } from './redux/loginSlice'
 
 const API_KEY = "AIzaSyCaKPzbKvamce5K7H6-kkP6wRrunpxamLw";
 
@@ -43,14 +46,21 @@ const ChooseLocation = () => {
   const [type, setType] = useState('');
   const [open, setOpen] = useState(false);
   const [time, setTime] = useState(dayjs('2022-04-17T15:30'));
+  const [stayHours, setStayHours] = useState(2);
+  const navigate = useNavigate();
+  const isLoggedIn = useSelector((state) => state.login.value)
+  const dispatch = useDispatch()
 
   const fetchStation = async () => {
     const response = await axios.get(
       "http://127.0.0.1:8000/api/stations/get_radius/", { params:
-       { radius: radius, lat : position[0], long:position[1], start_time:time.$H, stay_hours:2, type:type } }
-    );
-    console.log(response.data)
-    setWinner(response.data);
+       { radius: radius, lat : position[0], long:position[1], start_time:time.$H, stay_hours:stayHours, type:type } }
+    ).then((response => {
+      setWinner(response.data);
+    }))
+    .catch(error => {
+      setWinner([])
+    })
     // this needs to be moved to the drawer
     // setCenter([response.data.lat,response.data.long]);
 
@@ -58,6 +68,7 @@ const ChooseLocation = () => {
   };
 
       return (
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
         <div>
             <AppBar position="static">
               <Toolbar>
@@ -73,7 +84,7 @@ const ChooseLocation = () => {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Choose Your Destination
             </Typography>
-            <Button color="inherit">Login</Button>
+            <Button color="inherit" onClick={() => {dispatch(logOut());navigate('/signin')}}>{isLoggedIn?'Logout':'Login'}</Button>
           </Toolbar>
             </AppBar>
 
@@ -118,10 +129,37 @@ const ChooseLocation = () => {
               <Title>
                 What time will you arrive?
               </Title>
+
               <DemoContainer components={['TimePicker']}>
-                <TimePicker label="Time picker" value={time} defaultValue={dayjs('2022-04-17T15:30')}
-                  onChange={(newValue) => setTime(newValue)}/>
+                <TimePicker label="Time picker" value={time} defaultValue={dayjs('2022-04-17T15:30')} disablePast={true}
+                  onChange={(newValue) => setTime(newValue)} slotProps={{
+                    textField: { error: false,},
+                  }}/>
               </DemoContainer>
+
+              <Title>
+                How many hours will you stay?
+              </Title>
+              <Input
+                value={stayHours}
+                size="small"
+                onChange={(event) => {
+                  setStayHours(event.target.value === '' ? '' : Number(event.target.value));
+                }}
+                onBlur={() => {
+                  if (radius < 0) {
+                    setStayHours(0);
+                  } else if (radius > 24) {
+                    setStayHours(24);
+                  }}}
+                inputProps={{
+                  step: 1,
+                  min: 0,
+                  max: 24,
+                  type: 'number',
+                  'aria-labelledby': 'input-slider',
+                }}
+              />
               <div style={{padding:"150px 0px 0px 0px"}}>
               <Button size="large" variant="contained" onClick={() => {fetchStation();setOpen(true)}}>
                 Show best Station
@@ -133,7 +171,7 @@ const ChooseLocation = () => {
 
               <Grid item xs={10} align="center">
                 <Container style={{padding : 10}} sx={{height: "100%", display: "flex", width:"100%"}}>
-              <Map center={center} zoom={zoom} position={position} setPosition={setPosition}></Map>
+              <Map center={center} zoom={zoom} position={position} setPosition={setPosition} time={time.$H} stayHours={stayHours}></Map>
 
                 </Container>
             </Grid>
@@ -141,6 +179,7 @@ const ChooseLocation = () => {
           </Grid>
 
         </div>
+      </LocalizationProvider>
       );
   };
 
@@ -161,7 +200,7 @@ const ChooseLocation = () => {
   color: #bfbfbf;
   min-height: 35px;
   display: initial;
-  width: 70%;
+  width: 100%;
   outline: 1;
   font-size: 15px;
   &:focus {

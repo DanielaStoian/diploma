@@ -12,6 +12,7 @@ class Station(models.Model):
     mean_updating = models.CharField(max_length=200,null=True)
     chargers_num = models.CharField(max_length=50,null=True)
     dhmos = models.ForeignKey("Dhmos", on_delete=models.CASCADE)
+    price = models.CharField(max_length=10, null=True)
     # class Meta:
     #     unique_together = ('lat', 'long',)
 class Dhmos(models.Model):
@@ -19,3 +20,11 @@ class Dhmos(models.Model):
     name = models.CharField(max_length=200)
     category = models.CharField(max_length=50,null=True)
     category_name = models.CharField(max_length=200,null=True)
+
+class Profile(models.Model):
+    id = models.AutoField(primary_key=True)
+    first_name = models.CharField(max_length=50) 
+    last_name = models.CharField(max_length=50) 
+    email = models.CharField(max_length=200) 
+    password = models.CharField(max_length=200) 
+    last_check = models.DateTimeField(null=True)

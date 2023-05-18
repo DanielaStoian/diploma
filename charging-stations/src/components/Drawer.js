@@ -5,12 +5,17 @@ import styled from 'styled-components';
 
     const getList = () => (
       <div style={{ width: 280 }} onClick={() => props.setOpen(false)}>
-        {props.data.length==0 ?<Title>No matching results found</Title> :props.data.map((item, index) => (
-          <ListItem button key={index} onClick={() => props.setCenter([item.lat,item.long])}>
+        {/* <Button onClick={() => props.setOpen(false)} style={{float: 'right'}}>Back</Button> */}
+        {props.data.length==0 ?<Title>No matching results found</Title> :props.data.map((item,index) => (
+          <ListItem button key={index} onClick={() => props.setCenter([item[0].lat,item[0].long])}>
             <List>
-                <Header>{item.name}</Header>
+                <Header>{item[0].name}</Header>
                 <div>
-                    {item.address}
+                  <Wrtiting>
+                    {item[1]}% matching
+                    <div style={{ width: 10, height:10 }}></div> 
+                    {item[0].price}€/kWh
+                  </Wrtiting>
                 </div>
             </List>
             {/* <ListItemText primary={item.name} /> */}
@@ -38,5 +43,9 @@ import styled from 'styled-components';
 //   padding: 50px 50px 50px 50px;
   color: #13213c
   `
-
+  const Wrtiting = styled.h4`
+  font-weight: 50;
+//   padding: 50px 50px 50px 50px;
+  color: #13213c
+  `
   export default ShowDrawer;

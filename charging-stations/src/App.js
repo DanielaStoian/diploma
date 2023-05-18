@@ -2,12 +2,23 @@ import React from "react";
 import ChooseLocation from "./ChooseLocation";
 // import "./styles.css";
 import Map from "./Map";
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
 
 export default function App() {
   return (
-  <LocalizationProvider dateAdapter={AdapterDayjs}>
-    <ChooseLocation />
-</LocalizationProvider>);
+    <div>
+     <Routes>
+        <Route path="/" element={ <ChooseLocation/> } />
+        <Route path="signin" element={ <SignIn/> } />
+        <Route path="signup" element={ <SignUp/> } />
+      </Routes>
+    </div>
+);
 }
