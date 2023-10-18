@@ -7,7 +7,7 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import Plot from "react-plotly.js";
 import Grid from '@mui/material/Grid';
-import { Box, Button, Container, FormControlLabel, FormGroup, Paper, styled, Switch } from "@mui/material";
+import { Box, Button, Checkbox, Container, FormControlLabel, FormGroup, Paper, styled, Switch } from "@mui/material";
 import Snackbar from '@mui/material/Snackbar';
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
@@ -85,6 +85,7 @@ const FixGraphData = (props) => {
 
   const [open, setOpen] = React.useState(false);
   const [message, setMessage] = React.useState("");
+  const [checked, setChecked] = React.useState(false);
   const isLoggedIn = useSelector((state) => state.login.value)
   const userId = useSelector((state) => state.login.user_id)
   const dispatch = useDispatch()
@@ -94,6 +95,10 @@ const FixGraphData = (props) => {
       return;
     }
     setOpen(false);
+  };
+
+  const handleChange = (event) => {
+    setChecked(event.target.checked);
   };
 
   let arrOfStr = Array.from(props.data)
@@ -121,10 +126,10 @@ const FixGraphData = (props) => {
     textposition: 'auto',
     hoverinfo: 'none',
     marker: {
-      color: 'rgb(72,143,237)',
+      color: 'rgb(0,122,242)',
       opacity: 0.6,
       line: {
-        color: 'rgb(72,143,237)',
+        color: 'rgb(0,122,242)',
         width: 1.5
     }
   },
@@ -137,10 +142,10 @@ const FixGraphData = (props) => {
     textposition: 'auto',
     hoverinfo: 'none',
     marker: {
-      color: 'rgb(190,42,43)',
+      color: 'rgb(72,143,237)',
       opacity: 0.6,
       line: {
-        color: 'rgb(190,42,43)',
+        color: 'rgb(72,143,237)',
         width: 1.5
     }
   },
@@ -184,7 +189,20 @@ const FixGraphData = (props) => {
             }}
           />
             <Box style={{width:'400px'}} textAlign='center'>
-              <Button onClick={() => {
+            <FormControlLabel variant="outlined" size="small"
+              control={
+                <Checkbox
+                  checked={checked} // You are supposed to specify your state here
+                  color="primary"
+                  name={'checkbox'}
+                  onChange={handleChange}
+                />
+              }
+              label={'Interested in visiting?'}
+            />
+              <Button 
+              disabled = {!checked}
+              onClick={() => {
                 if(isLoggedIn){
                   getPermission({id:userId, data:{id:props.id, start_time:props.time, setOpen:setOpen, setMessage:setMessage, stayHours:props.stayHours, userId:userId} });
 
@@ -193,7 +211,7 @@ const FixGraphData = (props) => {
                   //   saveArrival({id:props.id, start_time:props.time, setOpen:setOpen, setMessage:setMessage, stayHours:props.stayHours, userId:userId})}}
                     else{
                       setOpen(true);setMessage("You must sign in to do that.")}}}
-                      >I'm interested</Button>
+                      >Save my arrival</Button>
               <Snackbar
                 anchorOrigin={{vertical: 'top',
                 horizontal: 'left'}}
@@ -292,8 +310,8 @@ const Map = (props) => {
       </MarkerClusterGroup>
       <MyComponent></MyComponent>
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        attribution="Google Maps"
+        url="https://www.google.cn/maps/vt?lyrs=m@189&gl=cn&x={x}&y={y}&z={z}"
       />
     </MapContainer>
     </Box>

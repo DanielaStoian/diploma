@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 import sys
-sys.path.insert(0, 'C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\data_analysis')
+sys.path.insert(0, '../data_analysis')
 from graphs import bt_augm
 from my_augm import my_augm
 os.environ['DJANGO_SETTINGS_MODULE'] = 'backend.settings'
@@ -49,9 +49,9 @@ def double_hours(data, max_st):
     return doubled_data
 
 try:
-    data1 = pd.read_csv('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\initial_1.csv', sep=';')
-    data2 = pd.read_csv('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\initial_2.csv', sep=';')
-    data3 = pd.read_csv('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\initial_3.csv', sep=';')
+    data1 = pd.read_csv('initial_1.csv', sep=';')
+    data2 = pd.read_csv('initial_2.csv', sep=';')
+    data3 = pd.read_csv('initial_3.csv', sep=';')
     stations = Station.objects.all().order_by('id')
     
 

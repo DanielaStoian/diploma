@@ -45,7 +45,7 @@ def optimize(stations, start_time, stay_hours, types, radius):
             candidates.append(station)
     if len(candidates) == 0:
         return 0
-    # init winner station
+    # init winner stations
     winner_st = []
 
     for st in candidates:    
@@ -53,17 +53,24 @@ def optimize(stations, start_time, stay_hours, types, radius):
         mean = pd.DataFrame(mean)
         tmp_list = (mean[wd*24:(wd+1)*24].shift(0) + mean[wd*24:(wd+1)*24].shift(1, fill_value=0))/(int(st[0].chargers_num)*2)
         winner_st.append((tmp_list[0][start_time+24*wd],st[0]))
-
+    
     # make a recomendation percentage
     util_sort = sorted(winner_st, key=lambda tup: (tup[0]))
     dist_sort = sorted(candidates, key=lambda tup: (tup[1]))
+    if ((util_sort[0][0] >= 1.0) or dist_sort[0][1]>=radius):
+        return 0
     util_percent = 50/(1.0 - util_sort[0][0])
     dist_percent = 50/(radius - dist_sort[0][1])
     new_util = [(50.0,util_sort[0][1])]
-    new_dist = [(dist_sort[0][0],50.0)]
+    new_dist = [(0,50.0)]
+    dist_diff = dist_sort[0][1]
+    new_dist.append((dist_sort[1][0], new_dist[0][1]-(dist_diff*dist_percent)))
+    new_dist.pop(0)
     for i in range(1,len(util_sort)):
-        new_util.append((util_sort[i][0]*util_percent, util_sort[i][1]))
-        new_dist.append((dist_sort[i][0], dist_sort[i][1]*dist_percent))
+        util_diff = util_sort[i][0] - util_sort[i-1][0]
+        dist_diff = dist_sort[i][1] - dist_sort[i-1][1]
+        new_util.append((new_util[i-1][0]-(util_diff*util_percent), util_sort[i][1]))
+        new_dist.append((dist_sort[i][0], new_dist[i-1][1]-(dist_diff*dist_percent)))
     final_winner = []
     for i in range(len(new_util)):
         for j in range(len(new_dist)):
@@ -79,7 +86,7 @@ class StationsView(viewsets.ViewSet):
     @action(methods=['get'], detail=False)
     def get_dhm_geojson(self, request):
         try:
-            shp_path = "C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\charging_stations\\dhmoi.geojson"
+            shp_path = "dhmoi.geojson"
             myshp = open(shp_path,'rb')
             data = json.load(myshp)
             return Response(data, status=status.HTTP_200_OK)

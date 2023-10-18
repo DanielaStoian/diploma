@@ -8,10 +8,10 @@ import geopandas
 sns.set(style="whitegrid", palette="pastel", color_codes=True)
 sns.mpl.rc("figure", figsize= (10,6))
 
-shp_path = "C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.shp"
-another_path = 'C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\mgp.shp'
-myshp = open("C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.shp",'rb')
-mydbf = open("C:\\Users\\Daniela\\OneDrive\\Desktop\\Dhmoi\\dhmoi.dbf",'rb')
+shp_path = "/Dhmoi/dhmoi.shp"
+another_path = '/Dhmoi/mgp.shp'
+myshp = open("/Dhmoi/dhmoi.shp",'rb')
+mydbf = open("/Dhmoi/dhmoi.dbf",'rb')
 # sf = shp.Reader(shp_path)
 sf = shp.Reader(shp=myshp, dbf=mydbf, encoding = 'iso8859_7')
 

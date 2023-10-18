@@ -10,7 +10,7 @@
 import sys
 import os
 import django
-sys.path.insert(0, 'C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend')
+sys.path.insert(0, '../../../backend')
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'backend.settings'
 django.setup()

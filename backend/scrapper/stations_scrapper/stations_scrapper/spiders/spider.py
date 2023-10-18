@@ -11,7 +11,7 @@ from shapely.geometry import shape, Point
 import pandas as pd
 from charging_stations.models import *
 
-API_KEY = 'AIzaSyAoNP6N8mFdG3M3vanWtRKty5sPghWPqQ4'
+API_KEY = 'Your google API KEY here'
 
 def address_to_coords(address):
   gmaps = googlemaps.Client(key=API_KEY)
@@ -89,19 +89,17 @@ def add_manually(name):
 
 def add_category(lat,long):
     # load GeoJSON file containing sectors
-    with open('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\scrapper\\stations_scrapper\\stations_scrapper\\spiders\\dhmoi.geojson', encoding = 'utf-8') as f:
+    with open('dhmoi.geojson', encoding = 'utf-8') as f:
         js = json.load(f)
 
-    organized_dhmoi = data = pd.read_csv('C:\\Users\\Daniela\\OneDrive\\Desktop\\git\\diploma\\backend\\scrapper\\stations_scrapper\\stations_scrapper\\spiders\\organized_dhmoi.csv')    
+    organized_dhmoi = data = pd.read_csv('organized_dhmoi.csv')    
 
     # construct point based on lon/lat returned by geocoder
-    # point = Point(23.818465,38.672728)
     point = Point(float(long),float(lat))
 
     # check each polygon to see if it contains the point
     for feature in js['features']:
         polygon = shape(feature['geometry'])
-        # print(polygon.distance(point))
         if polygon.contains(point):
             # print('Found containing polygon:', feature['properties']["LEKTIKO"])
             name = feature['properties']["LEKTIKO"]
@@ -115,7 +113,6 @@ def add_category(lat,long):
             for i in range(0,organized_dhmoi.shape[0]):
                 dhmos = organized_dhmoi[data.columns[1]][i]
                 if dhmos==name:
-                    # return organized_dhmoi[data.columns[3]][i]
                     return [dhmos,organized_dhmoi[data.columns[3]][i]]
                     tmp = 1
             if tmp==0:
@@ -137,9 +134,11 @@ class ChargeSpot(scrapy.Spider):
 
 
     def parse(self, response):
+        # define pipeline
         items = StationItem()
         stations = response.css('.col-lg-3')
         for station in stations:
+            # data extraction with css selector
             info = station.css('::text').extract()
             coords = station.css('a::attr(href)').extract()
             coords = coords[0].split("/")[-1]
@@ -152,6 +151,7 @@ class ChargeSpot(scrapy.Spider):
             else:  
               type = info[3] 
 
+            # data filtering
             form_type = type.split("x")[1]
             kw = form_type[:2]
             if 'CCS' in form_type:
@@ -164,7 +164,7 @@ class ChargeSpot(scrapy.Spider):
             if dhmos[0]!=0:
                 items['dhmos'] = Dhmos.objects.get(name=dhmos[0])
 
-            # count number of chargers in station
+            # sending data to pipeline
             items['chargers_num'] = type[0]
             items['name'] = name
             items['address'] = address

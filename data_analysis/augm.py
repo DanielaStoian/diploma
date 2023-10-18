@@ -159,25 +159,25 @@ def get_mean(new_data):
 file_names = ['\London_2.csv', '\Boulder.csv', '\potential3_2.csv']
 column_names = ['Plug in Date and Time', 'Start_Date___Time', 'Transaction Start']
 formats = ['%d/%m/%Y %H:%M', '%Y/%m/%d %H:%M', '%d/%m/%Y %H:%M']
-for i in range(0,3):
+for i in range(0,1):
     timed_arrivals,hours_df = extract_data(file_names[i], column_names[i], formats[i])
-    pd.DataFrame(timed_arrivals).plot(title="Initial Τime Series")
-    pd.DataFrame(timed_arrivals[168:2*168]).plot(title="Initial Τime Series (1 week)")
-    pd.DataFrame(get_mean(timed_arrivals),columns=['mean']).plot(color=('#4672E1'),title="Initial Mean")
+    pd.DataFrame(timed_arrivals,columns=['Χρονοσειρά']).plot(title="Αρχική χρονοσειρά", ylabel='Αφίξεις ανά ώρα', xlabel='Ώρες')
+    pd.DataFrame(timed_arrivals[168:2*168],columns=['Πρώτη εβδομάδα χρονοσειράς']).plot(title="Πρώτη εβδομάδα αρχικής χρονοσειράς", ylabel='Αφίξεις ανά ώρα', xlabel='Ώρες μιας εβδομάδας')
+    pd.DataFrame(get_mean(timed_arrivals),columns=['Μέσος όρος']).plot(color=('#4672E1'),title="Μέσος όρος αρχικής χρονοσειράς ανά εβδομάδα", ylabel='Μέσος όρος αφίξεων ανά ώρα', xlabel='Ώρες μιας εβδομάδας')
 
     res1 = bt_augm(timed_arrivals)
-    pd.DataFrame(res1[0]).plot(title="Augmented")
-    pd.DataFrame(res1[0][168:2*168]).plot(title="Augmented (1 week)")
-    csv1 = pd.DataFrame(timed_arrivals, columns=['arrivals']).to_csv("initial_"+str(i+1)+".csv",sep=';')
-    csv2 = pd.DataFrame(res1[0], columns=['arrivals']).to_csv("augmented_"+str(i+1)+".csv")
+    pd.DataFrame(res1[0],columns=['Χρονοσειρά']).plot(title="Χρονοσειρά μετά από επαύξηση", ylabel='Αφίξεις ανά ώρα', xlabel='Ώρες')
+    pd.DataFrame(res1[0][168:2*168],columns=['Πρώτη εβδομάδα χρονοσειράς']).plot(title="Πρώτη εβδομάδα χρονοσειράς μετά από επαύξηση", ylabel='Αφίξεις ανά ώρα', xlabel='Ώρες μιας εβδομάδας').legend(loc="upper right")
+    # csv1 = pd.DataFrame(timed_arrivals, columns=['arrivals']).to_csv("initial_"+str(i+1)+".csv",sep=';')
+    # csv2 = pd.DataFrame(res1[0], columns=['arrivals']).to_csv("augmented_"+str(i+1)+".csv")
     # timed_data = pd.DataFrame({'time':hours_df['date'], 'arrivals':timed_arrivals})
-    ax1 = pd.DataFrame(get_minmax(timed_arrivals),columns=['min','max']).plot.area(color=('#CCCCCC'), title='Category '+str(i+1)+' Before Augmentation')
-    pd.DataFrame(get_percentiles(timed_arrivals),columns=['75%','90%']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax1 )
-    pd.DataFrame(get_med(timed_arrivals),columns=['median']).plot(color=('#4672E1'),ax=ax1)
+    ax1 = pd.DataFrame(get_minmax(timed_arrivals),columns=['Ελάχιστη τιμή','Μέγιστη τιμή']).plot.area(color=('#CCCCCC'), title='Στατιστικά χρονοσειράς κατηγορίας '+str(i+1)+' πριν από επαύξηση', ylabel='Στατιστικά αφίξεων ανά ώρα', xlabel='Ώρες μιας εβδομάδας')
+    pd.DataFrame(get_percentiles(timed_arrivals),columns=['75% των συνολικών τιμών','90% των συνολικών τιμών']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax1 )
+    pd.DataFrame(get_med(timed_arrivals),columns=['Διάμεσος']).plot(color=('#4672E1'),ax=ax1)
     
-    ax2 = pd.DataFrame(get_minmax(res1[0]),columns=['min','max']).plot.area(color=('#CCCCCC'), title='Category '+str(i+1)+' After Augmentation')
-    pd.DataFrame(get_percentiles(res1[0]),columns=['75%','90%']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax2 )
-    pd.DataFrame(res1[1],columns=['median']).plot(color=('#4672E1'),ax=ax2)
-    pd.DataFrame(get_mean(res1[0]),columns=['mean']).plot(color=('#4672E1'),title="Mean")
+    ax2 = pd.DataFrame(get_minmax(res1[0]),columns=['Ελάχιστη τιμή','Μέγιστη τιμή']).plot.area(color=('#CCCCCC'), title='Στατιστικά χρονοσειράς κατηγορίας '+str(i+1)+' μετά από επαύξηση', ylabel='Στατιστικά αφίξεων ανά ώρα', xlabel='Ώρες μιας εβδομάδας')
+    pd.DataFrame(get_percentiles(res1[0]),columns=['75% των συνολικών τιμών','90% των συνολικών τιμών']).plot.area( color=('#87CEEB','#ADD8E6'), ax=ax2 )
+    pd.DataFrame(res1[1],columns=['Διάμεσος']).plot(color=('#4672E1'),ax=ax2)
+    pd.DataFrame(get_mean(res1[0]),columns=['Μέσος όρος']).plot(color=('#4672E1'),title="Μέσος όρος χρονοσειράς ανά εβδομάδα μετά απο επαύξηση", ylabel='Μέσος όρος αφίξεων ανά ώρα', xlabel='Ώρες μιας εβδομάδας')
 
 plt.show()    

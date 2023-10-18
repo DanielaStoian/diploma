@@ -41,45 +41,38 @@ def MBB(x, window_size):
 
 def bootstrap(arrivals,num,mu):
     # Box-Cox transformation
-    # TODO lamda parameter check
-    # pd.DataFrame(arrivals['days']).plot(title="before box")
     if np.min(arrivals['days']) > 1e-6:
         box_cox, lambda_ = stats.boxcox(arrivals['days'], lmbda=None)
         box_cox = pd.DataFrame(box_cox)
     else:
         box_cox, lambda_ = arrivals['days'], 1
         box_cox = pd.DataFrame(box_cox)
-    
-    # pd.DataFrame(box_cox).plot(title="AFTER BOX")
-    # Decomposition
-    # TODO frequency check
-    stl=sm(box_cox, model='additive', period=168)   
-    # stl.plot()
 
+    # Decomposition
+    stl=sm(box_cox, model='additive', period=168)   
+
+    stl_print = sm(box_cox, model='additive', period=168)   
+    stl_print.plot()
+    plt.show()
     # Bootstrap
-    # TODO window_size = block_size = 2*freq
-    # pd.DataFrame(stl.resid).plot()
+    # window_size = block_size = 2*freq
     mbb = MBB(stl.resid, window_size=2*168)
-    # pd.DataFrame(mbb).plot()
     for i in range(0,len(mbb)):
         mbb[i] += stl.trend[i] + stl.seasonal[i] * mu
     xs = []
     mbb =  np.nan_to_num(mbb)
     xs.append(arrivals['days'])
-    # pd.DataFrame(mbb).plot()
     for i in range(1,num):  
         # tmp = invboxcox(mbb,lambda_)
         tmp =  np.nan_to_num(mbb)
         xs.append(tmp)  
-        # pd.DataFrame(xs[i]).plot()  
+
     return xs
 
 def bt_augm(dataframe, mul = 3):
-    # data = pd.read_csv('data_analysis\cluster_A.csv')
     data = dataframe
     arrivals = {'days': data}
     arrivals = pd.DataFrame(arrivals)
-
     multi = 1
     mu = 1
     while(multi<mul):
