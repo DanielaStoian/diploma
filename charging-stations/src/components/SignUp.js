@@ -11,6 +11,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux'
+BASE_URL = "web:8001"
 
 export default function SignUp() {
 
@@ -19,7 +20,7 @@ export default function SignUp() {
 
   const addProfile = async (props) => {
     const response = await axios.post(
-      "https://ev-chain.epu.ntua.gr/app2/api" +"/api/profiles/add_profile/",{
+      BASE_URL +"/api/profiles/add_profile/",{
         first_name:props.first_name, last_name:props.last_name, email:props.email, password:props.password
       }
     ).then((response) => {
