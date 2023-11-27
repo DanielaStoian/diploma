@@ -12,7 +12,8 @@ import { useState } from "react";
 import axios from "axios";
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut, setUserId } from '../redux/loginSlice'
-BASE_URL = "http://web:8001"
+
+const BASE_URL = "http://web:8001"
 
 export default function SignIn() {
 

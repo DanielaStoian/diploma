@@ -12,7 +12,7 @@ import Snackbar from '@mui/material/Snackbar';
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
 
-BASE_URL = "http://web:8001"
+const BASE_URL = "http://web:8001"
 
 import iconUrl from "./Red_circle.svg";
 let DefaultIcon = L.icon({

@@ -11,7 +11,8 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux'
-BASE_URL = "http://web:8001"
+
+const BASE_URL = "http://web:8001"
 
 export default function SignUp() {
 
