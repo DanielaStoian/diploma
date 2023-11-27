@@ -12,7 +12,7 @@ then
 fi
 
 # python manage.py flush --no-input
-# python populate_dhmoi.py
+python populate_dhmoi.py
 python manage.py migrate
 cd scrapper/stations_scrapper
 scrapy crawl BlinkCharging

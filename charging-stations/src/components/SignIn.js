@@ -22,7 +22,7 @@ export default function SignIn() {
 
   const getProfile = async (props) => {
     const response = await axios.get(
-      "http://127.0.0.1:8000/api/profiles/get_profile/",{params: {
+      "https://ev-chain.epu.ntua.gr/app2/api" +"/api/profiles/get_profile/",{params: {
         email:props.email, password:props.password
       }}
     ).then((response) => {

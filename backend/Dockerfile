@@ -23,7 +23,7 @@ RUN chmod +x /usr/src/backend/entrypoint.sh
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 8001
 ENTRYPOINT ["/usr/src/backend/entrypoint.sh"]
 
 

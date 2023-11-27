@@ -19,7 +19,7 @@ export default function SignUp() {
 
   const addProfile = async (props) => {
     const response = await axios.post(
-      "http://127.0.0.1:8000/api/profiles/add_profile/",{
+      "https://ev-chain.epu.ntua.gr/app2/api" +"/api/profiles/add_profile/",{
         first_name:props.first_name, last_name:props.last_name, email:props.email, password:props.password
       }
     ).then((response) => {

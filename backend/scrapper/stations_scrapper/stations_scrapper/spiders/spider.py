@@ -11,7 +11,7 @@ from shapely.geometry import shape, Point
 import pandas as pd
 from charging_stations.models import *
 
-API_KEY = 'Your google API KEY here'
+API_KEY = 'AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI'
 
 def address_to_coords(address):
   gmaps = googlemaps.Client(key=API_KEY)
