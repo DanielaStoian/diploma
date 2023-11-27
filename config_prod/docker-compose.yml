@@ -29,11 +29,11 @@ services:
     image: postgres:15
     volumes:
       - .data/postgres_data:/var/lib/postgresql/data/
-    # command: -p 5432
+    command: -p 5433
     ports:
-      - '5432:5432'
+      - '5433:5433'
     # expose:
-    #   - '5432'
+      - '5433'
     environment:
       - POSTGRES_USER=evchainuser
       - POSTGRES_PASSWORD=evchain
