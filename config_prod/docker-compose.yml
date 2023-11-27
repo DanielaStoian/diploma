@@ -8,10 +8,10 @@ services:
     restart: always
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.flask.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2/api`)"
-      - "traefik.http.routers.flask.entrypoints=https"  # Use the HTTPS entrypoint
+      - "traefik.http.routers.web.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2/api`)"
+      - "traefik.http.routers.web.entrypoints=https"  # Use the HTTPS entrypoint
       - "traefik.docker.network=traefik-net"
-      - "traefik.http.routers.flask.tls=true"  # Enable TLS for this route
+      - "traefik.http.routers.web.tls=true"  # Enable TLS for this route
     build: ../backend  
     ports:
       - "8001:8001"
