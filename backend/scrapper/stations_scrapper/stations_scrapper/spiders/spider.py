@@ -93,7 +93,7 @@ def add_category(lat,long):
     
 
     my_path = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(my_path, "/dhmoi.geojson")
+    path = os.path.join(my_path, "dhmoi.geojson")
     # print(my_path)
     with open(path, encoding = 'utf-8') as f:
         js = json.load(f)
