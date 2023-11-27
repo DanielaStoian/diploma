@@ -20,7 +20,7 @@ geos-dev \
 COPY ./entrypoint.sh .
 RUN sed -i 's/\r$//g' /usr/src/backend/entrypoint.sh
 RUN chmod +x /usr/src/backend/entrypoint.sh
-COPY /scrapper .
+COPY ./scrapper/stations_scrapper/stations_scrapper/spiders/dhmoi.geojson /usr/src/backend//scrapper/stations_scrapper/stations_scrapper/spiders/dhmoi.geojson
 COPY . .
 
 EXPOSE 8001
