@@ -10,6 +10,7 @@ import json
 from shapely.geometry import shape, Point
 import pandas as pd
 from charging_stations.models import *
+import os.path
 
 API_KEY = 'AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI'
 
@@ -89,7 +90,11 @@ def add_manually(name):
 
 def add_category(lat,long):
     # load GeoJSON file containing sectors
-    with open('/backend/scrapper/stations_scrapper/stations_scrapper/spiders/dhmoi.geojson', encoding = 'utf-8') as f:
+    
+
+    my_path = os.path.abspath(os.path.dirname(__file__))
+    print(my_path)
+    with open('dhmoi.geojson', encoding = 'utf-8') as f:
         js = json.load(f)
 
     organized_dhmoi = data = pd.read_csv('organized_dhmoi.csv')    
