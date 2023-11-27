@@ -1,5 +1,6 @@
 {
   "name": "charging-stations",
+  "homepage": "https://ev-chain.epu.ntua.gr/app2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
