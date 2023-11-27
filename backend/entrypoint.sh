@@ -15,13 +15,13 @@ fi
 python manage.py makemigrations
 python manage.py migrate
 # python populate_dhmoi.py
-cd scrapper/stations_scrapper
-scrapy crawl BlinkCharging
-scrapy crawl ElpeFuture
-scrapy crawl PlugShare
-scrapy crawl ProtergiaCharge
-scrapy crawl Fortisis
-scrapy crawl ChargeSpot
-cd ../../
+# cd scrapper/stations_scrapper
+# scrapy crawl BlinkCharging
+# scrapy crawl ElpeFuture
+# scrapy crawl PlugShare
+# scrapy crawl ProtergiaCharge
+# scrapy crawl Fortisis
+# scrapy crawl ChargeSpot
+# cd ../../
 
 exec "$@"
