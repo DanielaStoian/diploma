@@ -12,8 +12,9 @@ then
 fi
 
 # python manage.py flush --no-input
-python populate_dhmoi.py
+python manage.py makemigrations
 python manage.py migrate
+python populate_dhmoi.py
 cd scrapper/stations_scrapper
 scrapy crawl BlinkCharging
 scrapy crawl ElpeFuture
