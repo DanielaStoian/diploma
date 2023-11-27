@@ -19,7 +19,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
 
 const API_KEY = "AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI";
-BASE_URL = "web:8001"
+BASE_URL = "http://web:8001"
 
 const AutoComplete = (props) => {
   const { ref } = usePlacesWidget({
