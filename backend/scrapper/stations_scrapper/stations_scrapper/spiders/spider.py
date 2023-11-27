@@ -100,7 +100,7 @@ def add_category(lat,long):
 
     my_path = os.path.abspath(os.path.dirname(__file__))
     path = os.path.join(my_path, "organized_dhmoi.csv")
-    organized_dhmoi = data = pd.read_csv('organized_dhmoi.csv')    
+    organized_dhmoi = data = pd.read_csv(path)    
 
     # construct point based on lon/lat returned by geocoder
     point = Point(float(long),float(lat))
