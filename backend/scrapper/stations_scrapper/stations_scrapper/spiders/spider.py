@@ -89,7 +89,7 @@ def add_manually(name):
 
 def add_category(lat,long):
     # load GeoJSON file containing sectors
-    with open('./dhmoi.geojson', encoding = 'utf-8') as f:
+    with open('dhmoi.geojson', encoding = 'utf-8') as f:
         js = json.load(f)
 
     organized_dhmoi = data = pd.read_csv('organized_dhmoi.csv')    
