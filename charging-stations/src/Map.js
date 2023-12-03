@@ -12,7 +12,7 @@ import Snackbar from '@mui/material/Snackbar';
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
 
-import iconUrl from "./Red_circle.svg";
+// import iconUrl from "./Red_circle.svg";
 let DefaultIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow
@@ -20,6 +20,7 @@ let DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
+BASE_URL=process.env.REACT_APP_BASE_URL
 
 const MyData = () => {
   const [data, setData] = React.useState();
@@ -28,7 +29,7 @@ const MyData = () => {
   useEffect(() => {
     const getData = async () => {
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/stations/get_dhm_geojson/"
+        BASE_URL+"api/stations/get_dhm_geojson/"
       );
       setData(response.data);
     };
@@ -50,7 +51,7 @@ const MyData = () => {
 
 const saveArrival = async (props) => {
   const response = await axios.post(
-    "http://127.0.0.1:8000/api/stations/add_arrival/", 
+    BASE_URL+"api/stations/add_arrival/", 
      { id: props.id, start_time:props.start_time, stay_hours:props.stayHours, user_id:props.userId} 
   ).then(response => {
     props.setMessage("Your choice is saved.")
@@ -67,7 +68,7 @@ const saveArrival = async (props) => {
 
 const getPermission = async (props) => {
   const response = await axios.get(
-    "http://127.0.0.1:8000/api/profiles/get_check_permission/",{ params:
+    BASE_URL+"api/profiles/get_check_permission/",{ params:
      { id: props.id} }
   ).then(response => {
       saveArrival({id:props.data.id, start_time:props.data.start_time, setOpen:props.data.setOpen, setMessage:props.data.setMessage, stayHours:props.data.stayHours, userId:props.data.userId})
@@ -266,7 +267,7 @@ const Map = (props) => {
   useEffect(() => {
       const getData = async () => {
         const response = await axios.get(
-          "http://127.0.0.1:8000/api/stations/get_stations/"
+          BASE_URL+"api/stations/get_stations/"
         );
         setMarkers(response.data);
       };

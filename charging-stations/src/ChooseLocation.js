@@ -19,6 +19,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
 
 const API_KEY = "AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI";
+BASE_URL=process.env.REACT_APP_BASE_URL
 
 const AutoComplete = (props) => {
   const { ref } = usePlacesWidget({
@@ -76,7 +77,7 @@ function toRadians(degrees) {
 
   const fetchStation = async () => {
     const response = await axios.get(
-      "https://ev-chain.epu.ntua.gr/app2/api" +"/api/stations/get_radius/", { params:
+      BASE_URL+ +"api/stations/get_radius/", { params:
        { radius: radius, lat : position[0], long:position[1], start_time:time.$H, stay_hours:stayHours, type:type } }
     ).then((response => {
       var arr = []

@@ -13,6 +13,8 @@ import axios from "axios";
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut, setUserId } from '../redux/loginSlice'
 
+BASE_URL=process.env.REACT_APP_BASE_URL
+
 export default function SignIn() {
 
   const navigate = useNavigate();
@@ -22,7 +24,7 @@ export default function SignIn() {
 
   const getProfile = async (props) => {
     const response = await axios.get(
-      "https://ev-chain.epu.ntua.gr/app2/api" +"/api/profiles/get_profile/",{params: {
+      BASE_URL+"api/profiles/get_profile/",{params: {
         email:props.email, password:props.password
       }}
     ).then((response) => {
