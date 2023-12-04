@@ -111,8 +111,8 @@ CORS_ALLOW_HEADERS = [
     "pragma",
 ]
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
     'https://ev-chain.epu.ntua.gr'
+    'http://localhost:3000',
 )
 
 # Password validation
