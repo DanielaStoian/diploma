@@ -20,7 +20,7 @@ let DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
-BASE_URL=process.env.REACT_APP_BASE_URL
+const BASE_URL=process.env.REACT_APP_BASE_URL
 
 const MyData = () => {
   const [data, setData] = React.useState();

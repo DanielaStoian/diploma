@@ -13,7 +13,7 @@ import axios from "axios";
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut, setUserId } from '../redux/loginSlice'
 
-BASE_URL=process.env.REACT_APP_BASE_URL
+const BASE_URL=process.env.REACT_APP_BASE_URL
 
 export default function SignIn() {
 
