@@ -5,6 +5,8 @@ networks:
 
 services:  
   web:
+    container_name: web
+    hostname: web
     restart: always
     labels:
       - "traefik.enable=true"
@@ -42,6 +44,8 @@ services:
       - traefik-net  
 
   frontend:
+    container_name: frontend
+    hostname: frontend
     build: 
       context: ../charging-stations
       dockerfile: Dockerfile
