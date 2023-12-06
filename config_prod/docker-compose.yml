@@ -57,9 +57,7 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.frontend.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2`)"
       # - "traefik.http.routers.web.rule=Host(`energate.epu.ntua.gr`) && PathPrefix(`/dss`)"
-      - "traefik.http.routers.frontend.entrypoints=https"  # Use the HTTPS entrypoint
-      - "traefik.http.routers.frontendhttp.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2`)"
-      - "traefik.http.routers.frontendhttp.entrypoints=web"  # Use the HTTPS entrypoint
+      - "traefik.http.routers.frontend.entrypoints=https"  # Use the HTTPS entrypoint # Use the HTTPS entrypoint
       - "traefik.docker.network=traefik-net"
       - "traefik.http.routers.frontend.tls=true"  # Enable TLS for this route    
     networks:
