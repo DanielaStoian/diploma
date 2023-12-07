@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.charging_stations'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database

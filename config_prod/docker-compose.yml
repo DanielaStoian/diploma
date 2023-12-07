@@ -19,7 +19,7 @@ services:
     build: ../backend  
     ports:
       - "8001:8001"
-    command: 'gunicorn --bind 0.0.0.0:8001 backend.wsgi:charging_stations'
+    command: python manage.py runserver 0.0.0.0:8001
     volumes:
       - ../backend:/usr/src/backend
     env_file:
