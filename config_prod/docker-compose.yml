@@ -14,6 +14,8 @@ services:
       - "traefik.http.routers.web.entrypoints=https"  # Use the HTTPS entrypoint
       - "traefik.docker.network=traefik-net"
       - "traefik.http.routers.web.tls=true"  # Enable TLS for this route
+      - "traefik.http.routers.web.tls.certresolver=myresolver"
+
     build: ../backend  
     ports:
       - "8001:8001"
@@ -56,12 +58,13 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.frontend.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2`)"
-      # - "traefik.http.routers.web.rule=Host(`energate.epu.ntua.gr`) && PathPrefix(`/dss`)"
       - "traefik.http.routers.frontend.entrypoints=https"  # Use the HTTPS entrypoint
-      - "traefik.http.routers.frontendhttp.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2`)"
-      - "traefik.http.routers.frontendhttp.entrypoints=http"  # Use the HTTPS entrypoint
+      # - "traefik.http.routers.frontendhttp.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2`)"
+      # - "traefik.http.routers.frontendhttp.entrypoints=http"  # Use the HTTPS entrypoint
       - "traefik.docker.network=traefik-net"
-      - "traefik.http.routers.frontend.tls=true"  # Enable TLS for this route    
+      - "traefik.http.routers.frontend.tls=true"  # Enable TLS for this route   
+      - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+
     networks:
       - traefik-net  
       
