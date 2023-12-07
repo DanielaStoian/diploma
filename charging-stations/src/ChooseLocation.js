@@ -77,7 +77,7 @@ function toRadians(degrees) {
 
   const fetchStation = async () => {
     const response = await axios.get(
-      BASE_URL+ +"api/stations/get_radius/", { params:
+      BASE_URL+"api/stations/get_radius/", { params:
        { radius: radius, lat : position[0], long:position[1], start_time:time.$H, stay_hours:stayHours, type:type } }
     ).then((response => {
       var arr = []
