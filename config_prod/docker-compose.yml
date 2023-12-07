@@ -11,6 +11,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.web.rule=Host(`ev-chain.epu.ntua.gr`) && PathPrefix(`/app2/api`)"
+      - "traefik.http.routers.web.middlewares=web-stripprefix"
+      - "traefik.http.middlewares.web-stripprefix.stripprefix.prefixes=/app2/api"
       - "traefik.http.routers.web.entrypoints=https"  # Use the HTTPS entrypoint
       - "traefik.docker.network=traefik-net"
       - "traefik.http.routers.web.tls=true"  # Enable TLS for this route
