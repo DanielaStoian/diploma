@@ -117,7 +117,6 @@ class StationsView(viewsets.ViewSet):
     @action(methods=['get'], detail=False)
     def get_radius(self, request):
         try:
-            print(request.query_params)
             radius = int(request.query_params['radius'][0])
             stations = Station.objects.filter()
             radius_stations = []

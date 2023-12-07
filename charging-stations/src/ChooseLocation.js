@@ -17,7 +17,8 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
-
+import Logo from "static/image.png";
+import Logotipo from "static/ev_chain_logotypa.png";
 const API_KEY = "AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI";
 const BASE_URL=process.env.REACT_APP_BASE_URL
 
@@ -113,9 +114,25 @@ function toRadians(degrees) {
                 >
                   <MenuIcon />
                 </IconButton>
+                <Box
+                  component="img"
+                  sx={{
+                  height: 64,
+                  }}
+                  alt="Your logo."
+                  src={Logo}
+              />    
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Choose Your Destination
             </Typography>
+            <Box
+                  component="img"
+                  sx={{
+                  height: 64,
+                  }}
+                  alt="Your logo."
+                  src={Logotipo}
+              /> 
             <Button color="inherit" onClick={() => {dispatch(logOut());navigate('/signin')}}>{isLoggedIn?'Logout':'Login'}</Button>
           </Toolbar>
             </AppBar>
@@ -125,10 +142,10 @@ function toRadians(degrees) {
           <Grid item xs={2} >
           <Container style={{padding : "50px 0px 0px 35px"}} sx={{height: "100%",  width:"100%"}}>
               <Title>
-                Type your destination
+                Click your destination on the map
               </Title>
               <div>
-              <AutoComplete setPosition={setPosition}/>
+              {/* <AutoComplete setPosition={setPosition}/> */}
               </div>
               <Title>
                 Radius (km)

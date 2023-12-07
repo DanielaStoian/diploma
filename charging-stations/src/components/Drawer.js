@@ -9,7 +9,7 @@ import styled from 'styled-components';
         {props.data.length==0 ?<Title>No matching results found</Title> :props.data.map((item,index) => (
           <ListItem button key={index} onClick={() => props.setCenter([item[1][0].lat,item[1][0].long])}>
             <List>
-              {console.log(item)}
+              {/* {console.log(item)} */}
                 <Header>{item[1][0].name}</Header>
                 <div>
                   <Wrtiting>
