@@ -106,15 +106,6 @@ function toRadians(degrees) {
         <div>
             <AppBar position="static">
               <Toolbar>
-                <IconButton
-                  size="large"
-                  edge="start"
-                  color="inherit"
-                  aria-label="menu"
-                  sx={{ mr: 2 }}
-                >
-                  <MenuIcon />
-                </IconButton>
                 <Box
                   component="img"
                   sx={{
@@ -129,7 +120,7 @@ function toRadians(degrees) {
             <Box
                   component="img"
                   sx={{
-                  height: 64,
+                  height: 70,
                   }}
                   alt="Your logo."
                   src={Logotipo}
