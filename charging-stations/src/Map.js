@@ -101,7 +101,8 @@ const FixGraphData = (props) => {
   const handleChange = (event) => {
     setChecked(event.target.checked);
   };
-
+  console.log(props)
+  if (props.data==null) {return}
   let arrOfStr = Array.from(props.data)
   let arrOfStr2 = Array.from(props.data2)
   const d = new Date();
