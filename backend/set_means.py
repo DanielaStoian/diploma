@@ -136,8 +136,8 @@ def bootstrap(arrivals,num,mu):
     stl=sm(box_cox, model='additive', period=168)   
 
     stl_print = sm(box_cox, model='additive', period=168)   
-    stl_print.plot()
-    plt.show()
+    # stl_print.plot()
+    # plt.show()
     # Bootstrap
     # window_size = block_size = 2*freq
     mbb = MBB(stl.resid, window_size=2*168)

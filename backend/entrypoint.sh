@@ -23,6 +23,6 @@ python manage.py migrate
 # scrapy crawl Fortisis
 # scrapy crawl ChargeSpot
 # cd ../../
-python set_means.py
+# python set_means.py
 
 exec "$@"
