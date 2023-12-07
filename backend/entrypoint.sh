@@ -14,15 +14,15 @@ fi
 # python manage.py flush --no-input
 python manage.py makemigrations
 python manage.py migrate
-python populate_dhmoi.py
-cd scrapper/stations_scrapper
-scrapy crawl BlinkCharging
-scrapy crawl ElpeFuture
-scrapy crawl PlugShare
-scrapy crawl ProtergiaCharge
-scrapy crawl Fortisis
-scrapy crawl ChargeSpot
-cd ../../
+# python populate_dhmoi.py
+# cd scrapper/stations_scrapper
+# scrapy crawl BlinkCharging
+# scrapy crawl ElpeFuture
+# scrapy crawl PlugShare
+# scrapy crawl ProtergiaCharge
+# scrapy crawl Fortisis
+# scrapy crawl ChargeSpot
+# cd ../../
 python set_means.py
 
 exec "$@"
