@@ -8,3 +8,7 @@ django-cors-headers
 djangorestframework
 pandas
 gunicorn
+matplotlib
+statsmodels
+scipy
+seaborn
