@@ -17,8 +17,9 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux'
 import { logIn, logOut } from './redux/loginSlice'
-import Logo from "static/image.png";
-import Logotipo from "static/ev_chain_logotypa.png";
+import Logo from "./static/image.png";
+import Logotipo from "./static/ev_chain_logotypa.png";
+
 const API_KEY = "AIzaSyA7QTg9sKaaDyzNny0k9sr-7r8jEN5DLZI";
 const BASE_URL=process.env.REACT_APP_BASE_URL
 
