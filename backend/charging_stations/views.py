@@ -102,7 +102,6 @@ class StationsView(viewsets.ViewSet):
             stations = Station.objects.all()
             # st_dhmoi = stations.select_related()
             ser = StationSerializer(stations, many=True).data
-            print(ser)
             return Response(ser,
                             status=status.HTTP_200_OK)
         except DataError as e:
