@@ -7,3 +7,4 @@ googlemaps
 django-cors-headers
 djangorestframework
 pandas
+gunicorn
