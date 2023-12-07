@@ -17,7 +17,7 @@ services:
     build: ../backend  
     ports:
       - "8001:8001"
-    command: 'gunicorn --bind 0.0.0.0:8001 backend.wsgi:charging_stations'
+    command: 'gunicorn --bind 0.0.0.0:8001 backend.wsgi'
     volumes:
       - ../backend:/usr/src/backend
     env_file:
